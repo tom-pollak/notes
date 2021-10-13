@@ -10,3 +10,7 @@
 - [[Stack]]: temporary data - func params, local vars
 - Current activity: PC, registers
 - Metadata: process ID, [[scheduling]] info
+
+
+High memory
+

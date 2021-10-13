@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SYS2/Kernel.md",
+            "file": "SYS2/Processes.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SYS2/Kernel.md",
+            "file": "SYS2/Processes.md",
             "mode": "preview"
           }
         },
@@ -89,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SYS2/Kernel.md",
+                "file": "SYS2/Processes.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SYS2/Kernel.md"
+                "file": "SYS2/Processes.md"
               }
             }
           }
@@ -119,15 +119,15 @@
   },
   "active": "2c178069c8353230",
   "lastOpenFiles": [
+    "SYS2/Processes.md",
+    "SYS2/System Calls.md",
     "SYS2/Kernel.md",
     "Processes.md",
     "Untitled.md",
     "SYS2/Operating System.md",
-    "SYS2/System Calls.md",
     "SYS2/User & Kernel Mode.md",
     "Kernel.md",
     "System Calls.md",
-    "OS.md",
-    "SYS2/Untitled.md"
+    "OS.md"
   ]
 }
