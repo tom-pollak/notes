@@ -1,0 +1,117 @@
+{
+  "main": {
+    "id": "96edc31b0266e59a",
+    "type": "split",
+    "children": [
+      {
+        "id": "6d4e7f1d491520b7",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "SYS2/System Calls.md"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1a226c8a131a200c",
+    "type": "split",
+    "children": [
+      {
+        "id": "58cc794e02b9fd38",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4e3540c8edece2d3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "5cb3673bdb36a353",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f1bee60ae71b58da",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 158
+  },
+  "right": {
+    "id": "956d08eff0b9ff22",
+    "type": "split",
+    "children": [
+      {
+        "id": "b50689bd856f3de1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "855f261f29ffd2c1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "SYS2/System Calls.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9a54894ca7cfdb14",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "SYS2/System Calls.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "6d4e7f1d491520b7",
+  "lastOpenFiles": [
+    "SYS2/System Calls.md",
+    "SYS2/Operating System.md",
+    "SYS2/Kernel.md",
+    "Kernel.md",
+    "Untitled.md",
+    "System Calls.md",
+    "OS.md",
+    "SYS2/Untitled.md"
+  ]
+}
