@@ -4,28 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "f54f4b8b3834e2f4",
+        "id": "2c178069c8353230",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SYS2/System Calls.md",
+            "file": "SYS2/Kernel.md",
             "mode": "source"
           }
         },
-        "group": "7269c04024fe8636"
+        "group": "fca230604f278b9d"
       },
       {
-        "id": "3b03be1fe8d27a14",
+        "id": "1af6f8f5c2402d36",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SYS2/System Calls.md",
+            "file": "SYS2/Kernel.md",
             "mode": "preview"
           }
         },
-        "group": "7269c04024fe8636"
+        "group": "fca230604f278b9d"
       }
     ],
     "direction": "vertical"
@@ -89,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SYS2/System Calls.md",
+                "file": "SYS2/Kernel.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SYS2/System Calls.md"
+                "file": "SYS2/Kernel.md"
               }
             }
           }
@@ -117,14 +117,15 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "3b03be1fe8d27a14",
+  "active": "2c178069c8353230",
   "lastOpenFiles": [
-    "SYS2/System Calls.md",
-    "SYS2/Operating System.md",
     "SYS2/Kernel.md",
+    "Processes.md",
+    "Untitled.md",
+    "SYS2/Operating System.md",
+    "SYS2/System Calls.md",
     "SYS2/User & Kernel Mode.md",
     "Kernel.md",
-    "Untitled.md",
     "System Calls.md",
     "OS.md",
     "SYS2/Untitled.md"

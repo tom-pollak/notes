@@ -1,5 +1,13 @@
 {
   "promptDelete": false,
   "spellcheck": true,
-  "vimMode": true
+  "vimMode": true,
+  "spellcheckDictionary": [
+    "sys",
+    "sys",
+    "vars",
+    "func",
+    "params",
+    "vars"
+  ]
 }
