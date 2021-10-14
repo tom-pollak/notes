@@ -1,6 +1,6 @@
 {
   "promptDelete": false,
-  "spellcheck": true,
+  "spellcheck": false,
   "vimMode": true,
   "spellcheckDictionary": [
     "sys",
@@ -8,6 +8,10 @@
     "vars",
     "func",
     "params",
-    "vars"
-  ]
+    "vars",
+    "ULTs"
+  ],
+  "foldHeading": true,
+  "foldIndent": true,
+  "showLineNumber": true
 }

@@ -3,6 +3,8 @@
 > #### Program in execution
 > ##### Program: static file on disk
 
+## Process life-cycle
+
 ## Parts
 - Text section: code
 - Data: global vars
@@ -13,4 +15,6 @@
 
 
 High memory
+
+Low memory
 
