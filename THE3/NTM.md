@@ -1,6 +1,6 @@
 # Nondeterministic Turing Machines
-> Defined simiaryly to [[TM]], except:
-> #### Transition function: m δ : (Q − {ha}) × Γ → 2^(Q×Γ×{L, R, S})
+> Defined simiarly to [[TM]], except:
+> #### Transition function: $δ : (Q − {h_a}) × Γ → 2^{Q×Γ×\{L, R, S\}}$
 > ##### No reject state (as multiple paths)
 
 - Given δ(q, a) = ∅, NTM halts without acceptance or rejection
