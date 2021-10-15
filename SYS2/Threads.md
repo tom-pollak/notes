@@ -27,7 +27,7 @@
 
 ## Kernel level threads (KLT)
 ### Advantages
-- Kernel can simultaneously schedule many threads of the same [[process]] on many processors
+- Kernel can simultaneously schedule many threads of the same [[Processes]] on many processors
 - Blocking is done on a thread level
 - Kernel routines can be multi-threaded
 

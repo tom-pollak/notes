@@ -4,12 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "d251b9a143ed8010",
+        "id": "a82f51ccd8e07360",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
-        }
+          "type": "markdown",
+          "state": {
+            "file": "THE3/Languages.md",
+            "mode": "source"
+          }
+        },
+        "group": "b09f8d0d99df665f"
+      },
+      {
+        "id": "b6841a4a6319dd94",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "THE3/Languages.md",
+            "mode": "preview"
+          }
+        },
+        "group": "b09f8d0d99df665f"
       }
     ],
     "direction": "vertical"
@@ -73,6 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "THE3/Languages.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +105,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "THE3/Languages.md"
+              }
             }
           }
         ]
@@ -98,17 +117,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "d251b9a143ed8010",
+  "active": "a82f51ccd8e07360",
   "lastOpenFiles": [
-    "THE3/NTM.md",
+    "THE3/Languages.md",
     "THE3/MTM.md",
     "THE3/LBA.md",
-    "THE3/TM.md",
-    "Chomsky hierarchy.md",
-    "MTM.md",
-    "Untitled.md",
-    "LBA.md",
-    "Turing Machines.md",
-    "NTM.md"
+    "THE3/FA.md",
+    "THE3/Chomsky hierarchy.md",
+    "THE3/Decidable Languages.md",
+    "THE3/Semidecidable languages.md",
+    "THE3/PDA.md",
+    "THE3/NTM.md",
+    "THE3/TM.md"
   ]
 }

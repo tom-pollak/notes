@@ -11,7 +11,7 @@
 - [[Heap]]: memory dynamically allocated at runtime
 - [[Stack]]: temporary data - func params, local vars
 - Current activity: PC, registers
-- Metadata: process ID, [[scheduling]] info
+- Metadata: process ID, [[Scheduling]] info
 
 
 High memory

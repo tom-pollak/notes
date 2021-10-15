@@ -1,7 +1,7 @@
 {
   "promptDelete": false,
   "spellcheck": false,
-  "vimMode": true,
+  "vimMode": false,
   "spellcheckDictionary": [
     "sys",
     "sys",
@@ -9,9 +9,13 @@
     "func",
     "params",
     "vars",
-    "ULTs"
+    "ULTs",
+    "semidecidable",
+    "Semidecidable",
+    "Multitape",
+    "iff"
   ],
-  "foldHeading": true,
+  "foldHeading": false,
   "foldIndent": true,
-  "showLineNumber": true
+  "showLineNumber": false
 }
