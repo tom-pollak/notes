@@ -9,10 +9,23 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "THE3/Languages.md",
+            "file": "THE3/NFA.md",
             "mode": "source"
           }
-        }
+        },
+        "group": "e55e16ccc779873c"
+      },
+      {
+        "id": "be879df5e40759fa",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "THE3/NFA.md",
+            "mode": "preview"
+          }
+        },
+        "group": "e55e16ccc779873c"
       }
     ],
     "direction": "vertical"
@@ -76,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "THE3/Languages.md",
+                "file": "THE3/NFA.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +106,18 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "THE3/Languages.md"
+                "file": "THE3/NFA.md"
+              }
+            }
+          },
+          {
+            "id": "a93d08443ab1ec2b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
               }
             }
           }
@@ -106,15 +130,15 @@
   },
   "active": "8612cff87747e0dc",
   "lastOpenFiles": [
+    "THE3/NFA.md",
+    "THE3/FA.md",
+    "THE3/MTM.md",
+    "THE3/Chomsky hierarchy.md",
+    "NFA.md",
+    "Untitled.md",
     "THE3/Languages.md",
     "THE3/Formal Languages.md",
-    "THE3/Chomsky hierarchy.md",
-    "THE3/MTM.md",
     "THE3/LBA.md",
-    "THE3/FA.md",
-    "THE3/Decidable Languages.md",
-    "THE3/Semidecidable languages.md",
-    "THE3/PDA.md",
-    "THE3/NTM.md"
+    "THE3/Decidable Languages.md"
   ]
 }

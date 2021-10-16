@@ -4,6 +4,7 @@
   "switcher",
   "graph",
   "backlink",
+  "outgoing-link",
   "page-preview",
   "note-composer",
   "command-palette",
@@ -11,5 +12,6 @@
   "markdown-importer",
   "outline",
   "open-with-default-app",
+  "workspaces",
   "file-recovery"
 ]
