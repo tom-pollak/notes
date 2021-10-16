@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "THE3/LBA.md",
+            "file": "THE3/TM.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "THE3/LBA.md",
+            "file": "THE3/TM.md",
             "mode": "preview"
           }
         },
@@ -54,7 +54,7 @@
               "state": {
                 "query": "",
                 "matchingCase": false,
-                "explainSearch": false,
+                "explainSearch": true,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
@@ -89,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "THE3/LBA.md",
+                "file": "THE3/TM.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "THE3/LBA.md"
+                "file": "THE3/TM.md"
               }
             }
           },
@@ -116,13 +116,22 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "THE3/LBA.md",
+                "file": "THE3/TM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "7decdbee72c8d93e",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -131,15 +140,15 @@
   },
   "active": "8612cff87747e0dc",
   "lastOpenFiles": [
-    "THE3/LBA.md",
-    "THE3/Grammars.md",
-    "Grammars.md",
-    "THE3/FA.md",
-    "Untitled.md",
+    "THE3/TM.md",
+    "THE3/Chomsky hierarchy.md",
+    "THE3/Languages.md",
     "THE3/NFA.md",
     "THE3/MTM.md",
-    "THE3/Languages.md",
-    "THE3/Chomsky hierarchy.md",
-    "THE3/TM.md"
+    "THE3/Grammars.md",
+    "THE3/PDA.md",
+    "THE3/FA.md",
+    "THE3/LBA.md",
+    "Grammars.md"
   ]
 }

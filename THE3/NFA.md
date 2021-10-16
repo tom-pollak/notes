@@ -2,6 +2,7 @@
 
 > Defined like [[FA]], except for transition function:
 > ###### $\delta: Q \times \Sigma \rightarrow 2^Q$ ($2^Q$ is power set)
+> - Have the same [[Chomsky hierarchy]] as [[FA]]
 
 > ##### Extended transition function:
 > ###### 1. $\delta^*(q, \Lambda) = \{q\}$ for $q \in Q$

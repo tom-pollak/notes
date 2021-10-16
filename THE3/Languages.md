@@ -11,7 +11,7 @@
 > 
 > $L_1L_2 = \{uv\ |\ u \in L_1\ and\ v \in L_2\}$
 
-# Regular Languages (RL)
+# Regular Languages
 
 ### Inductive Definition
 
