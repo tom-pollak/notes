@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "THE3/NFA.md",
+            "file": "THE3/LBA.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "THE3/NFA.md",
+            "file": "THE3/LBA.md",
             "mode": "preview"
           }
         },
@@ -89,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "THE3/NFA.md",
+                "file": "THE3/LBA.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "THE3/NFA.md"
+                "file": "THE3/LBA.md"
               }
             }
           },
@@ -116,6 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "THE3/LBA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,15 +131,15 @@
   },
   "active": "8612cff87747e0dc",
   "lastOpenFiles": [
-    "THE3/NFA.md",
-    "THE3/FA.md",
-    "THE3/MTM.md",
-    "THE3/Chomsky hierarchy.md",
-    "NFA.md",
-    "Untitled.md",
-    "THE3/Languages.md",
-    "THE3/Formal Languages.md",
     "THE3/LBA.md",
-    "THE3/Decidable Languages.md"
+    "THE3/Grammars.md",
+    "Grammars.md",
+    "THE3/FA.md",
+    "Untitled.md",
+    "THE3/NFA.md",
+    "THE3/MTM.md",
+    "THE3/Languages.md",
+    "THE3/Chomsky hierarchy.md",
+    "THE3/TM.md"
   ]
 }

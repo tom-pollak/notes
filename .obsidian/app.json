@@ -13,7 +13,8 @@
     "semidecidable",
     "Semidecidable",
     "Multitape",
-    "iff"
+    "iff",
+    "nonterminal"
   ],
   "foldHeading": false,
   "foldIndent": true,

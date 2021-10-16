@@ -11,5 +11,5 @@
 > ###### 1. $\delta^*(q, \Lambda) = q$ for $q \in Q$
 > ###### 2. $\delta^*(q, wa) = \delta(\delta^*(q, w), a)$ for $q \in Q$ and $a \in \Sigma$
 > 
->> A **string** is accepted by M if $\delta^*(q_0,w) \in A$.
+>> A **string** is accepted by $M$ if $\delta^*(q_0,w) \in A$.
 >> The **language** accepted by $M$ is $L(M) = \{w \in \Sigma^*\ |\ w\ is\ accepted\ by\ M\}$
