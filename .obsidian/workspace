@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "DAT2/DBMS.md",
+            "file": "DAT2/Relationships.md",
             "mode": "source"
           }
         },
@@ -19,8 +19,11 @@
         "id": "fd3b64cef6e1cccf",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "DAT2/Relationships.md",
+            "mode": "preview"
+          }
         },
         "group": "7ab8c4a0270fb3e0"
       }
@@ -86,6 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "DAT2/Relationships.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +105,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "DAT2/Relationships.md"
+              }
             }
           },
           {
@@ -110,6 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "DAT2/Relationships.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,15 +131,15 @@
   },
   "active": "fd3b64cef6e1cccf",
   "lastOpenFiles": [
-    "DAT2/DBMS.md",
     "DAT2/Relationships.md",
-    "DAT2/Relational Databases.md",
-    "SYS2/Kernel.md",
     "DAT2/Normalization.md",
     "DAT2/Attributes.md",
-    "DBMS.md",
+    "DAT2/DBMS.md",
+    "HCI2/Computer Supported Cooperatve Work.md",
+    "HCI2/Cognitve Modelling.md",
     "Untitled.md",
-    "SYS2/System Calls.md",
-    "DAT2/Normalisation.md"
+    "HCI2/HCI.md",
+    "DAT2/Relational Databases.md",
+    "SYS2/Kernel.md"
   ]
 }

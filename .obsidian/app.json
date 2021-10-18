@@ -18,7 +18,11 @@
     "&rarr",
     "PKs",
     "PKs",
-    "FK"
+    "FK",
+    "GOMS",
+    "groupwork",
+    "CScw",
+    "csCW"
   ],
   "foldHeading": false,
   "foldIndent": true,

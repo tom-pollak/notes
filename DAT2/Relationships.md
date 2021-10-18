@@ -23,12 +23,12 @@ date updated: 2021-10-18 14:06
 
 ```mermaid
 graph RL
-A --- X{ } --- A
+A[ ] --- X{ } --- A
 
-B --- Y{ } --- C
+B[ ] --- Y{ } --- C[ ]
 
-D --- Z{ } --- E
-F --- Z
+D[ ] --- Z{ } --- E[ ]
+F[ ] --- Z
 ```
 
 ## Cardinality of Binary Relationships
@@ -48,7 +48,7 @@ F --- Z
 ```mermaid
 graph LR
 Student --- Enroll --- Class
-Class == Every class must have a teacher === Teach --- Faculty
+Class === |Every class must<br> have a teacher| Teach --- Faculty
 ```
 
 ### Min, max
