@@ -1,13 +1,13 @@
 # Multitape Turing Machine
 
-> Defined simiarly to [[TM]] except:
+> Defined simiarly to [[Turing Machine | TM]] except:
 > ##### $δ : (Q − {h_a, h_r}) × Γ ^ n → Q × Γ n × \{L, R, S\}^n$
 > where $n \geq 2$
 
 - Configuration is a n-tuple $(u_1qv_1, u_2qv_2, ...)$
 
 ## Enumerating languages
-> Can be used for [[Languages#Semidecidable Languages]]
+> Can be used for [[Languages#Semidecidable Languages | Semidecidable languages]]
 
 ###### Can enumerate language L if:
 1. Computation begins with all tapes blank

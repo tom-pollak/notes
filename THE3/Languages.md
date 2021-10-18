@@ -22,7 +22,7 @@
 # Decidable Languages
 
 ### Language Definition
-> ###### Language L is decidable (recursive) if accepted by some [[TM]] M that on every input eventually reaches a halting configuration
+> ###### Language L is decidable (recursive) if accepted by some [[Turing Machine | TM]] M that on every input eventually reaches a halting configuration
 >>######  M Decides L
 
 ### Machine Definition
@@ -48,7 +48,7 @@ Then $L(\overline{M}) = \overline{L}$. Moreover, $\overline{M}$ halts on every i
 
 # Semidecidable Languages
 
-> ###### Language L is semidecidable (or recursively enumerable) if there exists a [[TM]] that accepts L
+> ###### Language L is semidecidable (or recursively enumerable) if there exists a [[Turing Machine | TM]] that accepts L
 > ###### Type 0
 
 ## Semidecidable → decidable

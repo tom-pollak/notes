@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "THE3/TM.md",
+            "file": "SYS2/Kernel.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "THE3/TM.md",
+            "file": "SYS2/Kernel.md",
             "mode": "preview"
           }
         },
@@ -89,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "THE3/TM.md",
+                "file": "SYS2/Kernel.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "THE3/TM.md"
+                "file": "SYS2/Kernel.md"
               }
             }
           },
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "THE3/TM.md",
+                "file": "SYS2/Kernel.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,15 +140,15 @@
   },
   "active": "8612cff87747e0dc",
   "lastOpenFiles": [
-    "THE3/TM.md",
-    "THE3/Chomsky hierarchy.md",
-    "THE3/Languages.md",
-    "THE3/NFA.md",
-    "THE3/MTM.md",
-    "THE3/Grammars.md",
-    "THE3/PDA.md",
-    "THE3/FA.md",
-    "THE3/LBA.md",
-    "Grammars.md"
+    "SYS2/Kernel.md",
+    "SYS2/System Calls.md",
+    "SYS2/Processes.md",
+    "THE3/Nondeterministic Turing Machine.md",
+    "THE3/Turing Machine.md",
+    "THE3/Pushdown Automata.md",
+    "THE3/Nondeterminstic Finite Automata.md",
+    "THE3/Multitape Turing Machine.md",
+    "THE3/Linear-bounded Automata.md",
+    "THE3/Languages.md"
   ]
 }

@@ -1,8 +1,7 @@
 # Turing Machines
 - Type 1 in [[Chomsky hierarchy]]
 
-
-> ###### 5-tuple $(Q, \Sigma, \Gamma, q_0, \delta)
+> ###### 5-tuple $(Q, \Sigma, \Gamma, q_0, \delta)$
 > - $Q$: Set of finite states
 > $\Sigma$: Input alphabet
 > $\Gamma$: Tape alphabet, including blank symbol $\Delta$ where $\Sigma \subseteq \Gamma - \{\Delta\}$
@@ -23,6 +22,13 @@
 
 - Machine can crash if tape is not infinite in one direction and moves off the end
 	-  In this case it moves to halting reject state
+
+- If there is no transition for some pair $(q,a)$ then $\delta(q,a) = (h_r, a, S)$
+	- It rejects
+
+## Acceptance
+> #### Language is accepted by TM M
+> ###### $L(M) = \{w \in \Sigma^*\ |\ q_0 \Delta w \vdash^* uh_av\ for\ some\ u,v \in \Gamma^*\}$
 
 ### Decision Problem
 > Takes input a formula of first-order logic and decides if formula is universally valid

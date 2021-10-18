@@ -25,5 +25,5 @@
 > - Empty string
 > - Accepting state **or** empty stack
 
-## [[Chomsky hierarchy#context-free]]
+## [[Chomsky hierarchy#context-free | Context-free]]
 > ##### Language context-free iff accepted by some PDA

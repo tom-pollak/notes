@@ -1,12 +1,21 @@
 # System Calls
 
-> #### User Space mode request of a kernel service
+> ##### Programming interfaces to services provided by OS
+> - Accessed by [[API]]s rather than direct sys call use
+> - OS monitors sys calls 
 
-> ##### User mode: does not have direct access to hardware uses System Calls
-CPU in user mode when executing user mode calls
+## User Space
 
-> ##### Kernel mode: complete unrestricted access to hardware
+> ###### Does not have direct access to hardware uses System Calls
+> - CPU in user mode when executing user mode calls
+> - Request of a kernel service
 
-- Programming interfaces provided by [[Operating System]]
-- Accessed by [[API]]s rather than direct sys call use
-- OS monitors sys calls 
+## Kernel Mode
+
+> ###### Complete unrestricted access to hardware
+
+```mermaid
+graph TD
+A(SC Interface) --> |User mode| B(open application) --> A
+A -->|Kernel mode| C(Implemention of system call) --> A
+```
