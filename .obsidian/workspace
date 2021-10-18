@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SYS2/System Calls.md",
+            "file": "DBMS.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SYS2/System Calls.md",
+            "file": "DBMS.md",
             "mode": "preview"
           }
         },
@@ -89,14 +89,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SYS2/System Calls.md",
+                "file": "DBMS.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": true
               }
             }
           },
@@ -106,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SYS2/System Calls.md"
+                "file": "DBMS.md"
               }
             }
           },
@@ -116,22 +116,13 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SYS2/System Calls.md",
+                "file": "DBMS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
-          },
-          {
-            "id": "e7360850be9ac3b5",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -140,15 +131,15 @@
   },
   "active": "88aab493970105c2",
   "lastOpenFiles": [
+    "DBMS.md",
+    "Untitled.md",
+    "DAT2/Relational Databases.md",
+    "DAT2/Attributes.md",
+    "DAT2/Normalization.md",
     "SYS2/System Calls.md",
-    "THE3/Multitape Turing Machine.md",
-    "THE3/Grammars.md",
-    "SYS2/Kernel.md",
-    "SYS2/Processes.md",
-    "SYS2/Threads.md",
-    "THE3/Nondeterministic Turing Machine.md",
-    "THE3/Turing Machine.md",
-    "THE3/Pushdown Automata.md",
-    "THE3/Nondeterminstic Finite Automata.md"
+    "DAT2/Normalisation.md",
+    "DAT2/Entities.md",
+    "DAT2/Relationships.md",
+    "THE3/Grammars.md"
   ]
 }

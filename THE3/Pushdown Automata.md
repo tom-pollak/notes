@@ -1,14 +1,23 @@
+---
+date created: 2021-10-18 13:56
+
+---
+
 # Pushdown Automata
+
 > ###### 6-tuple $M = (Q, \Sigma, \Gamma, q_0, A, \delta)$
+>
 > - Q: Finite set of states (including $q_0$)
 > - $\Sigma$: Input alphabet
 > - $\Gamma$: **Stack alphabet**
 > - $A \subseteq Q$: Set of accepting states
 > - $\delta: Q \times (\Sigma \cup \{\Lambda\}) \times (\Gamma \cup \{\Lambda\}) \rightarrow 2^{Q \times (\Gamma \cup \{\Lambda\})}$
->    - Can make $\Lambda$ transitions
+>   - Can make $\Lambda$ transitions
 
 ## Configuration
+
 ###### Triple tuple $(q, w, s)$
+
 - $q$: State
 - $w \in \Sigma^*$: Remaining input
 - $s \in \Gamma^*$: Stack
@@ -21,9 +30,12 @@
 - Top of stack popped and changes $A \rightarrow B$
 
 ## Acceptance
+
 > ###### $L(M) = \{w \in \Sigma^*\ |\ (q_0, w, \Lambda) \vdash^* (q, \Lambda, \Lambda)\ for\ some\ q \in A\}$
+>
 > - Empty string
 > - Accepting state **or** empty stack
 
 ## [[Chomsky hierarchy#context-free | Context-free]]
+
 > ##### Language context-free iff accepted by some PDA

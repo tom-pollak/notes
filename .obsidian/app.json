@@ -15,7 +15,10 @@
     "Multitape",
     "iff",
     "nonterminal",
-    "&rarr"
+    "&rarr",
+    "PKs",
+    "PKs",
+    "FK"
   ],
   "foldHeading": false,
   "foldIndent": true,
