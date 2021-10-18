@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "DBMS.md",
+            "file": "DAT2/DBMS.md",
             "mode": "source"
           }
         },
@@ -19,11 +19,8 @@
         "id": "fd3b64cef6e1cccf",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "DBMS.md",
-            "mode": "preview"
-          }
+          "type": "graph",
+          "state": {}
         },
         "group": "7ab8c4a0270fb3e0"
       }
@@ -89,7 +86,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DBMS.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,9 +101,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "DBMS.md"
-              }
+              "state": {}
             }
           },
           {
@@ -116,7 +110,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DBMS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,17 +122,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "88aab493970105c2",
+  "active": "fd3b64cef6e1cccf",
   "lastOpenFiles": [
+    "DAT2/DBMS.md",
+    "DAT2/Relationships.md",
+    "DAT2/Relational Databases.md",
+    "SYS2/Kernel.md",
+    "DAT2/Normalization.md",
+    "DAT2/Attributes.md",
     "DBMS.md",
     "Untitled.md",
-    "DAT2/Relational Databases.md",
-    "DAT2/Attributes.md",
-    "DAT2/Normalization.md",
     "SYS2/System Calls.md",
-    "DAT2/Normalisation.md",
-    "DAT2/Entities.md",
-    "DAT2/Relationships.md",
-    "THE3/Grammars.md"
+    "DAT2/Normalisation.md"
   ]
 }
