@@ -4,28 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "8612cff87747e0dc",
+        "id": "88aab493970105c2",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SYS2/Kernel.md",
+            "file": "SYS2/System Calls.md",
             "mode": "source"
           }
         },
-        "group": "e55e16ccc779873c"
+        "group": "7ab8c4a0270fb3e0"
       },
       {
-        "id": "be879df5e40759fa",
+        "id": "fd3b64cef6e1cccf",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SYS2/Kernel.md",
+            "file": "SYS2/System Calls.md",
             "mode": "preview"
           }
         },
-        "group": "e55e16ccc779873c"
+        "group": "7ab8c4a0270fb3e0"
       }
     ],
     "direction": "vertical"
@@ -54,7 +54,7 @@
               "state": {
                 "query": "",
                 "matchingCase": false,
-                "explainSearch": true,
+                "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
@@ -89,14 +89,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SYS2/Kernel.md",
+                "file": "SYS2/System Calls.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": true,
-                "unlinkedCollapsed": true
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -106,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SYS2/Kernel.md"
+                "file": "SYS2/System Calls.md"
               }
             }
           },
@@ -116,14 +116,14 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SYS2/Kernel.md",
+                "file": "SYS2/System Calls.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "7decdbee72c8d93e",
+            "id": "e7360850be9ac3b5",
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
@@ -131,24 +131,24 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "8612cff87747e0dc",
+  "active": "88aab493970105c2",
   "lastOpenFiles": [
-    "SYS2/Kernel.md",
     "SYS2/System Calls.md",
+    "THE3/Multitape Turing Machine.md",
+    "THE3/Grammars.md",
+    "SYS2/Kernel.md",
     "SYS2/Processes.md",
+    "SYS2/Threads.md",
     "THE3/Nondeterministic Turing Machine.md",
     "THE3/Turing Machine.md",
     "THE3/Pushdown Automata.md",
-    "THE3/Nondeterminstic Finite Automata.md",
-    "THE3/Multitape Turing Machine.md",
-    "THE3/Linear-bounded Automata.md",
-    "THE3/Languages.md"
+    "THE3/Nondeterminstic Finite Automata.md"
   ]
 }

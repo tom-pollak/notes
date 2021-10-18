@@ -14,7 +14,8 @@
     "Semidecidable",
     "Multitape",
     "iff",
-    "nonterminal"
+    "nonterminal",
+    "&rarr"
   ],
   "foldHeading": false,
   "foldIndent": true,
