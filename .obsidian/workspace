@@ -4,11 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "a26376c6119ce625",
+        "id": "88aab493970105c2",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "SYS2/Scheduling.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -73,6 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "SYS2/Scheduling.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +92,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "SYS2/Scheduling.md"
+              }
             }
           },
           {
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "SYS2/Scheduling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -109,17 +116,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "a26376c6119ce625",
+  "active": "88aab493970105c2",
   "lastOpenFiles": [
-    "Untitled.md",
-    "DAT2/Relationships.md",
+    "SYS2/Scheduling.md",
+    "SYS2/Threads.md",
+    "SYS2/System Calls.md",
+    "SYS2/Processes.md",
+    "SYS2/Kernel.md",
     "DAT2/Normalization.md",
-    "DAT2/Attributes.md",
-    "DAT2/DBMS.md",
-    "HCI2/Computer Supported Cooperatve Work.md",
-    "HCI2/Cognitve Modelling.md",
-    "HCI2/HCI.md",
-    "DAT2/Relational Databases.md",
-    "SYS2/Kernel.md"
+    "Untitled.md",
+    "INT1/A Search.md",
+    "DAT2/Relationships.md",
+    "DAT2/Attributes.md"
   ]
 }
