@@ -4,28 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "88aab493970105c2",
+        "id": "a26376c6119ce625",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "DAT2/Relationships.md",
-            "mode": "source"
-          }
-        },
-        "group": "7ab8c4a0270fb3e0"
-      },
-      {
-        "id": "fd3b64cef6e1cccf",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "DAT2/Relationships.md",
-            "mode": "preview"
-          }
-        },
-        "group": "7ab8c4a0270fb3e0"
+          "type": "empty",
+          "state": {}
+        }
       }
     ],
     "direction": "vertical"
@@ -89,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DAT2/Relationships.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,9 +88,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "DAT2/Relationships.md"
-              }
+              "state": {}
             }
           },
           {
@@ -116,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DAT2/Relationships.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,15 +109,15 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "fd3b64cef6e1cccf",
+  "active": "a26376c6119ce625",
   "lastOpenFiles": [
+    "Untitled.md",
     "DAT2/Relationships.md",
     "DAT2/Normalization.md",
     "DAT2/Attributes.md",
     "DAT2/DBMS.md",
     "HCI2/Computer Supported Cooperatve Work.md",
     "HCI2/Cognitve Modelling.md",
-    "Untitled.md",
     "HCI2/HCI.md",
     "DAT2/Relational Databases.md",
     "SYS2/Kernel.md"
