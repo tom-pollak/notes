@@ -1,6 +1,6 @@
 ---
 date created: 2021-10-20 16:03
-date updated: 2021-10-20 16:35
+date updated: 2021-10-20 16:58
 
 ---
 
@@ -18,12 +18,14 @@ date updated: 2021-10-20 16:35
 > ##### Only optimal with is **consistent** heuristic
 
 ### Consistency
+
 > Most admissible heuristics are consistent
 
 A heuristic $h(n)$ is consistent if:
 
 For all $n$, every successor of $n'$ of $n$ by action $a$:
-- $h(n) \leq c(n, a, n') + h(n')$ 
+
+- $h(n) \leq c(n, a, n') + h(n')$
 - No way of cheating the heuristic: No shorter path than going directly to the solution
 
 ```mermaid
@@ -31,6 +33,20 @@ graph LR
 n((n)) --> |c: n,a,n'| m((n')) --> |h: n'| g((G))
 n --> |h: n| g
 ```
+
+## Picking a Heuristic
+
+A heuristic $h_2(n)$ is said to **dominate** another heuristic $h_1(n)$ if:
+
+> $\forall{n}, h_2(n) \geq h_1(n)$
+
+- A* with $h_1$ will expand at least every node expanded by A* with $h_2$
+
+### Bounded Relaxation
+
+> Where we don't have an admissible heuristic, we can make a **relaxed** form of the problem where a heuristic is admissible
+
+- By imposing a bound on this relaxation, we know how far from the optimal solution we would be
 
 ## Informed search
 
@@ -46,8 +62,6 @@ n --> |h: n| g
 >
 > - e.g., straight line distance — it is **optimistic**
 > - Proven through certain search functions will always find **optimal**
-
-### Picking a Heuristic
 
 ### Uniform-cost search (UCS)
 
