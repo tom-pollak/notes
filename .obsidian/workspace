@@ -9,10 +9,23 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SYS2/Scheduling.md",
+            "file": "INT1/Heuristic Search.md",
             "mode": "source"
           }
-        }
+        },
+        "group": "7ab8c4a0270fb3e0"
+      },
+      {
+        "id": "fd3b64cef6e1cccf",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "INT1/Heuristic Search.md",
+            "mode": "preview"
+          }
+        },
+        "group": "7ab8c4a0270fb3e0"
       }
     ],
     "direction": "vertical"
@@ -76,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SYS2/Scheduling.md",
+                "file": "INT1/Heuristic Search.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SYS2/Scheduling.md"
+                "file": "INT1/Heuristic Search.md"
               }
             }
           },
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SYS2/Scheduling.md",
+                "file": "INT1/Heuristic Search.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,15 +131,15 @@
   },
   "active": "88aab493970105c2",
   "lastOpenFiles": [
+    "INT1/Heuristic Search.md",
+    "INT1/A-star Search.md",
+    "INT1/Informed Heuristic Search.md",
+    "INT1/A Search.md",
     "SYS2/Scheduling.md",
+    "SYS2/Processes.md",
+    "SYS2/Inter-process communication.md",
     "SYS2/Threads.md",
     "SYS2/System Calls.md",
-    "SYS2/Processes.md",
-    "SYS2/Kernel.md",
-    "DAT2/Normalization.md",
-    "Untitled.md",
-    "INT1/A Search.md",
-    "DAT2/Relationships.md",
-    "DAT2/Attributes.md"
+    "SYS2/Kernel.md"
   ]
 }

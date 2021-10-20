@@ -22,7 +22,9 @@
     "GOMS",
     "groupwork",
     "CScw",
-    "csCW"
+    "csCW",
+    "Preemptive",
+    "Non-Preemptive"
   ],
   "foldHeading": false,
   "foldIndent": true,

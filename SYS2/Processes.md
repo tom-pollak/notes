@@ -11,7 +11,7 @@ date created: 2021-10-18 13:55
 
 ### Process execution flow - need more here?
 
-> ###### Dispatcher: Innermost part of [[Operating System | OS]] that runs on each core. Switches threads through [[Context Switching]]
+> ###### [[Scheduling#Dispatcher | Dispatcher]]: Innermost part of [[Operating System | OS]] that runs on each core. Switch threads through [[Context Switching]]
 
 ## Process life-cycle
 
@@ -44,7 +44,7 @@ waiting -- I/O or event completion --> ready
 
 - Process identifier: process ID, parent ID, group ID
 - Process state: running, waiting
-- PC, CPU registers, [[CPU Scheduling]], memory allocation, I/O status
+- PC, CPU registers,  CPU [[Scheduling]], memory allocation, I/O status
 - Accounting information: CPU used, clock time elapsed, time limit
 
 ## Creating a process

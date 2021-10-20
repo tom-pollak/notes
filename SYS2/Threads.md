@@ -14,6 +14,8 @@ date created: 2021-10-18 13:55
 - Each thread has its own user & kernel stack
 - Multi-threads share [[Processes#Process Control Block | PCB]] and User address space
 
+GRAPH wk_4 slide 2
+
 ### Thread Control Block
 
 > - Contains information similar to [[Processes#Process Control Block | PCB]]
