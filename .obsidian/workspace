@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "INT1/A-star Search.md",
+            "file": "THE3/Languages.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "INT1/A-star Search.md",
+            "file": "THE3/Languages.md",
             "mode": "preview"
           }
         },
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "line:(semideci)",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -89,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "INT1/A-star Search.md",
+                "file": "THE3/Languages.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "INT1/A-star Search.md"
+                "file": "THE3/Languages.md"
               }
             }
           },
@@ -116,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "INT1/A-star Search.md",
+                "file": "THE3/Languages.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,6 +132,8 @@
   },
   "active": "fd3b64cef6e1cccf",
   "lastOpenFiles": [
+    "THE3/Languages.md",
+    "THE3/Turing Machine.md",
     "INT1/A-star Search.md",
     "INT1/Heuristic Search.md",
     "INT1/Informed Heuristic Search.md",
@@ -138,8 +141,6 @@
     "SYS2/Scheduling.md",
     "SYS2/Processes.md",
     "SYS2/Inter-process communication.md",
-    "SYS2/Threads.md",
-    "SYS2/System Calls.md",
-    "SYS2/Kernel.md"
+    "SYS2/Threads.md"
   ]
 }
