@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "THE3/Languages.md",
+            "file": "INT1/Heuristic Search.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "THE3/Languages.md",
+            "file": "INT1/Heuristic Search.md",
             "mode": "preview"
           }
         },
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "line:(semideci)",
+                "query": "line:(Naismith)",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "THE3/Languages.md",
+                "file": "INT1/Heuristic Search.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "THE3/Languages.md"
+                "file": "INT1/Heuristic Search.md"
               }
             }
           },
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "THE3/Languages.md",
+                "file": "INT1/Heuristic Search.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,10 +132,10 @@
   },
   "active": "fd3b64cef6e1cccf",
   "lastOpenFiles": [
+    "INT1/Heuristic Search.md",
+    "INT1/A-star Search.md",
     "THE3/Languages.md",
     "THE3/Turing Machine.md",
-    "INT1/A-star Search.md",
-    "INT1/Heuristic Search.md",
     "INT1/Informed Heuristic Search.md",
     "INT1/A Search.md",
     "SYS2/Scheduling.md",
