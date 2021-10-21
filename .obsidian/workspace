@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "INT1/Heuristic Search.md",
+            "file": "INT1/A-star Search.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "INT1/Heuristic Search.md",
+            "file": "INT1/A-star Search.md",
             "mode": "preview"
           }
         },
@@ -89,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "INT1/Heuristic Search.md",
+                "file": "INT1/A-star Search.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "INT1/Heuristic Search.md"
+                "file": "INT1/A-star Search.md"
               }
             }
           },
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "INT1/Heuristic Search.md",
+                "file": "INT1/A-star Search.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,10 +129,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "88aab493970105c2",
+  "active": "fd3b64cef6e1cccf",
   "lastOpenFiles": [
-    "INT1/Heuristic Search.md",
     "INT1/A-star Search.md",
+    "INT1/Heuristic Search.md",
     "INT1/Informed Heuristic Search.md",
     "INT1/A Search.md",
     "SYS2/Scheduling.md",
