@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "INT1/Heuristic Search.md",
+            "file": "DAT2/XML.md",
             "mode": "source"
           }
         },
@@ -21,8 +21,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "INT1/Heuristic Search.md",
-            "mode": "preview"
+            "file": "DAT2/XML.md",
+            "mode": "source"
           }
         },
         "group": "7ab8c4a0270fb3e0"
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "line:(Naismith)",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,8 +69,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -90,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "INT1/Heuristic Search.md",
+                "file": "DAT2/XML.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "INT1/Heuristic Search.md"
+                "file": "DAT2/XML.md"
               }
             }
           },
@@ -117,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "INT1/Heuristic Search.md",
+                "file": "DAT2/XML.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,15 +131,15 @@
   },
   "active": "fd3b64cef6e1cccf",
   "lastOpenFiles": [
+    "DAT2/XML.md",
+    "DAT2/Relational Databases.md",
+    "DAT2/Relationships.md",
+    "DAT2/DBMS.md",
+    "DAT2/Normalization.md",
+    "DAT2/Attributes.md",
+    "DAT2/JSON.md",
     "INT1/Heuristic Search.md",
     "INT1/A-star Search.md",
-    "THE3/Languages.md",
-    "THE3/Turing Machine.md",
-    "INT1/Informed Heuristic Search.md",
-    "INT1/A Search.md",
-    "SYS2/Scheduling.md",
-    "SYS2/Processes.md",
-    "SYS2/Inter-process communication.md",
-    "SYS2/Threads.md"
+    "THE3/Languages.md"
   ]
 }
