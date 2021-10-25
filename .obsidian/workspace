@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "DAT2/XML.md",
+            "file": "User Experience.md",
             "mode": "source"
           }
         },
@@ -21,8 +21,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "DAT2/XML.md",
-            "mode": "source"
+            "file": "User Experience.md",
+            "mode": "preview"
           }
         },
         "group": "7ab8c4a0270fb3e0"
@@ -89,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DAT2/XML.md",
+                "file": "User Experience.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DAT2/XML.md"
+                "file": "User Experience.md"
               }
             }
           },
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DAT2/XML.md",
+                "file": "User Experience.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,17 +129,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "fd3b64cef6e1cccf",
+  "active": "88aab493970105c2",
   "lastOpenFiles": [
+    "User Experience.md",
+    "HCI2/Computer Supported Cooperatve Work.md",
+    "HCI2/Cognitve Modelling.md",
     "DAT2/XML.md",
     "DAT2/Relational Databases.md",
     "DAT2/Relationships.md",
     "DAT2/DBMS.md",
     "DAT2/Normalization.md",
     "DAT2/Attributes.md",
-    "DAT2/JSON.md",
-    "INT1/Heuristic Search.md",
-    "INT1/A-star Search.md",
-    "THE3/Languages.md"
+    "DAT2/JSON.md"
   ]
 }
