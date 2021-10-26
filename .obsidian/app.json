@@ -24,7 +24,9 @@
     "CScw",
     "csCW",
     "Preemptive",
-    "Non-Preemptive"
+    "Non-Preemptive",
+    "MaxMin",
+    "MinMax"
   ],
   "foldHeading": false,
   "foldIndent": true,
