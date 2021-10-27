@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "INT1/Minimax.md",
+            "file": "DAT2/NoSQL.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "INT1/Minimax.md",
+            "file": "DAT2/NoSQL.md",
             "mode": "preview"
           }
         },
@@ -89,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "INT1/Minimax.md",
+                "file": "DAT2/NoSQL.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "INT1/Minimax.md"
+                "file": "DAT2/NoSQL.md"
               }
             }
           },
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "INT1/Minimax.md",
+                "file": "DAT2/NoSQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,15 +131,15 @@
   },
   "active": "88aab493970105c2",
   "lastOpenFiles": [
+    "DAT2/NoSQL.md",
+    "DAT2/Relational Databases.md",
+    "INT1/Game Theory.md",
+    "DAT2/JSON.md",
+    "DAT2/XML.md",
     "INT1/Minimax.md",
     "INT1/Adversarial Search.md",
-    "INT1/Game Theory.md",
     "HCI2/User Experience.md",
     "HCI2/Computer Supported Cooperatve Work.md",
-    "HCI2/Cognitve Modelling.md",
-    "DAT2/XML.md",
-    "DAT2/Relational Databases.md",
-    "DAT2/Relationships.md",
-    "DAT2/DBMS.md"
+    "HCI2/Cognitve Modelling.md"
   ]
 }

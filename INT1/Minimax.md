@@ -1,5 +1,6 @@
 ---
 date created: 2021-10-26 12:57
+date updated: 2021-10-26 15:23
 
 ---
 
@@ -58,6 +59,7 @@ FUNCTION MinimaxValue(state) {
 >   - e.g. Material value function: each $w_i$ is value of piece $i$ and $f_i(s)$ is number of pieces $i$ available in state $s$
 
 ## Alpha-Beta Pruning
+
 - Retains optimality and completeness
 
 ## Monte Carlo Tree Search

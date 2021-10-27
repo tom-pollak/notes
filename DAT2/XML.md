@@ -16,6 +16,7 @@
 - Simplify creation of HTML for large websitess
 
 ## Attributes
+
 - Specifies a single property of an element
 	- \<car make = "bmw">
 	
@@ -44,6 +45,7 @@
 ### Types
 
 #### Internal
+
 > DTD resides within the XML elements, and must be wrapped in \<!DOCTYPE> definition
 
 \<!DOCTYPE root Element [DTD rules]>
@@ -52,3 +54,6 @@ XML Elements
 #### External
 > DTD rules written in separate document with .DTD extension
 
+Two types:
+- Private
+- Public
