@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "DAT2/NoSQL.md",
+            "file": "Undecidable Languages.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "DAT2/NoSQL.md",
+            "file": "Undecidable Languages.md",
             "mode": "preview"
           }
         },
@@ -89,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DAT2/NoSQL.md",
+                "file": "Undecidable Languages.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DAT2/NoSQL.md"
+                "file": "Undecidable Languages.md"
               }
             }
           },
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DAT2/NoSQL.md",
+                "file": "Undecidable Languages.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,6 +131,7 @@
   },
   "active": "88aab493970105c2",
   "lastOpenFiles": [
+    "Undecidable Languages.md",
     "DAT2/NoSQL.md",
     "DAT2/Relational Databases.md",
     "INT1/Game Theory.md",
@@ -139,7 +140,6 @@
     "INT1/Minimax.md",
     "INT1/Adversarial Search.md",
     "HCI2/User Experience.md",
-    "HCI2/Computer Supported Cooperatve Work.md",
-    "HCI2/Cognitve Modelling.md"
+    "HCI2/Computer Supported Cooperatve Work.md"
   ]
 }
