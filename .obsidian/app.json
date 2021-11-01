@@ -27,7 +27,8 @@
     "Non-Preemptive",
     "MaxMin",
     "MinMax",
-    "bookID"
+    "bookID",
+    "bound"
   ],
   "foldHeading": false,
   "foldIndent": true,

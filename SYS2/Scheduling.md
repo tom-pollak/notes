@@ -6,7 +6,7 @@ date updated: 2021-10-20 15:49
 
 # Scheduling
 
-> **Concurrency:** Concurrent system supports more than one task, allowing all tasks to make progress
+> **[[Synchronization#Concurrency | Concurrency]]:** Concurrent system supports more than one task, allowing all tasks to make progress
 >
 > - Single core splitting tasks — better response time
 
