@@ -63,10 +63,13 @@
 
 	(i) SELECT * FROM tennis_emma
 	    WHERE friends >= 500 AND friends < 1000;
+		
 	(ii) SELECT tweetID, tweet, reTweets FROM tennis_emma
 		 WHERE reTweets = (SELECT min(reTweets) FROM tennis_emma)
+		 
 	(iii) SELECT count(tweetID) as numMinReTweets, reTweets FROM tennis_emma
 		  WHERE reTweets = (SELECT min(reTweets) FROM tennis_emma)
+		  
 	(iv)
 	WITH split(word, str) AS (
 		SELECT '', tweet||',' FROM tennis_emma
@@ -91,17 +94,30 @@
 			SELECT tweet FROM tennis_emma 
 			WHERE INSTR( tweet, word1 ) > 0 and INSTR( tweet, word2 ) = 0
 		)
+		
 	(v) SELECT DISTINCT realName, friends, followers FROM tennis_emma
-			 WHERE friends > (
-			 	SELECT avg(friends) FROM tennis_emma 
-				WHERE instr(location, 'France') and userTweets > 20000
-			  )
+		WHERE friends > (
+	    	SELECT avg(friends) FROM tennis_emma 
+			WHERE instr(location, 'France') and userTweets > 20000
+		)
+		
 	(vi) SELECT linkURL, count(linkURL) as numLinks FROM tennis_emma
-			   WHERE linkURL IS NOT NULL
-			   GROUP BY linkURL
-			   ORDER BY numLinks DESC
-			   LIMIT 1
+	     WHERE linkURL IS NOT NULL
+		 GROUP BY linkURL
+		 ORDER BY numLinks DESC
+		 LIMIT 1
 			   
-			   Emma Raducanu: British tennis star makes history and wins US Open
-			   http://news.sky.com/story/emma-raducanu-british-tennis-star-makes-history-and-wins-us-open-12405558
-	(vii) 
+	     Emma Raducanu: British tennis star makes history and wins US Open
+	     http://news.sky.com/story/emma-raducanu-british-tennis-star-makes-history-and-wins-us-open-12405558
+		 
+	(vii) CREATE TABLE No_Retweet AS
+		  SELECT tweetID, tweet, screenName, realName
+		  FROM tennis_emma
+		  WHERE instr(tweet, 'RT') = 0;
+				
+		  Number of tweets: 20357
+		  
+	(viii) SELECT screenName, count(screenName) as numTweets FROM No_Retweet
+		   GROUP BY screenName
+		   ORDER BY numTweets DESC
+	       LIMIT 3
