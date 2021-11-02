@@ -28,7 +28,10 @@
     "MaxMin",
     "MinMax",
     "bookID",
-    "bound"
+    "bound",
+    "Pollak",
+    "TODO",
+    "Pollak"
   ],
   "foldHeading": false,
   "foldIndent": true,
