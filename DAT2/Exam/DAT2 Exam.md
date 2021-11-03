@@ -84,7 +84,7 @@ _Y3891128_
 	  
 (iv)
 WITH split(word, str) AS (
-	SELECT '', tweet||',' FROM tennis_emma
+	SELECT '', tweet||' ' FROM tennis_emma
 	UNION ALL 
 	SELECT substr(str, 0, instr(str, ' ')), substr(str, instr(str, ' ')+1)
 	FROM split WHERE str!=''
