@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "DAT2/Relationships.md",
+            "file": "DAT2/Exam/DAT2 Exam.md",
             "mode": "preview"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DAT2/Relationships.md",
+                "file": "DAT2/Exam/DAT2 Exam.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DAT2/Relationships.md"
+                "file": "DAT2/Exam/DAT2 Exam.md"
               }
             }
           },
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DAT2/Relationships.md",
+                "file": "DAT2/Exam/DAT2 Exam.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,15 +118,15 @@
   },
   "active": "5f75421d6de2b51b",
   "lastOpenFiles": [
-    "DAT2/Relationships.md",
     "DAT2/Exam/DAT2 Exam.md",
-    "DAT2/Normalization.md",
     "HCI2/In the wild.md",
-    "HCI2/User Experience.md",
     "HCI2/Cognitve Modelling.md",
-    "Pasted image 20211101164638.png.md",
     "HCI2/activity theory.png",
-    "Pasted image 20211101164638.png",
-    "DAT2/Relational Databases.md"
+    "DAT2/Exam/Hospital-ERM.png",
+    "DAT2/Attributes.md",
+    "DAT2/Relationships.md",
+    "DAT2/Normalization.md",
+    "HCI2/User Experience.md",
+    "Pasted image 20211101164638.png.md"
   ]
 }

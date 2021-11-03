@@ -8,5 +8,6 @@
   "obsidian-languagetool-plugin",
   "obsidian-git",
   "table-editor-obsidian",
-  "markdown-prettifier"
+  "markdown-prettifier",
+  "obsidian-pandoc"
 ]
