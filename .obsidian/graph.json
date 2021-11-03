@@ -25,7 +25,21 @@
       "query": "path:DAT2",
       "color": {
         "a": 1,
-        "rgb": 11657298
+        "rgb": 5407968
+      }
+    },
+    {
+      "query": "path:INT1",
+      "color": {
+        "a": 1,
+        "rgb": 5431378
+      }
+    },
+    {
+      "query": "path:HCI2",
+      "color": {
+        "a": 1,
+        "rgb": 5431473
       }
     }
   ],
