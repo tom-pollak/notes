@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "THE3/Computable Funcitons.md",
+            "file": "THE3/Decision Problems.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "THE3/Computable Funcitons.md",
+            "file": "THE3/Decision Problems.md",
             "mode": "preview"
           }
         },
@@ -89,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "THE3/Computable Funcitons.md",
+                "file": "THE3/Decision Problems.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "THE3/Computable Funcitons.md"
+                "file": "THE3/Decision Problems.md"
               }
             }
           },
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "THE3/Computable Funcitons.md",
+                "file": "THE3/Decision Problems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,15 +131,15 @@
   },
   "active": "88aab493970105c2",
   "lastOpenFiles": [
-    "THE3/Computable Funcitons.md",
+    "THE3/Decision Problems.md",
     "THE3/Island of Computability.md",
+    "THE3/Computable Funcitons.md",
     "THE3/Undecidable Languages.md",
     "THE3/Decidable Languages.md",
     "THE3/Semidecidable Languages.md",
     "THE3/Languages.md",
     "THE3/Grammars.md",
     "THE3/Finite Automata.md",
-    "THE3/Turing Machine.md",
-    "THE3/Pushdown Automata.md"
+    "THE3/Turing Machine.md"
   ]
 }

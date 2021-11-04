@@ -42,8 +42,8 @@ $\chi_L$ is a total function, hence TM computing will accept every input and pro
 > $f:\Sigma^* \rightarrow \Sigma^*$
 > $Graph(f) = \lbrace(v,w) \in \Sigma^* \times \Sigma^*\ |\ f(v) = w$
 > 
-> Which can be turned into language over $\Sigma \cup \lbrace \# \rbrace$
+> Which can be turned into language over $\Sigma \cup \lbrace \# \rbrace$ - as (v,w) is not a language
 > $Graph_\#(f) = \lbrace v\#w \ |\ (v,w) \in Graph(f)$
 
 - **Partial function** $f: \Sigma^* \rightarrow \Sigma^*$ is computable iff $Graph_\#(f)$ is **semidecidable**
-- **Total function** (...) is computable iff $Graph_\#(f)$ is **decidable**
+- **Total function** $f: \Sigma^* \rightarrow \Sigma^*$ is computable iff $Graph_\#(f)$ is **decidable**
