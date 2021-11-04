@@ -37,3 +37,13 @@ $\chi_L$ is a total function, hence TM computing will accept every input and pro
 > A language $L$ is decidable iff characteristic function $\chi_L$ is computable
 
 
+## Graph of a partial function
+
+> $f:\Sigma^* \rightarrow \Sigma^*$
+> $Graph(f) = \lbrace(v,w) \in \Sigma^* \times \Sigma^*\ |\ f(v) = w$
+> 
+> Which can be turned into language over $\Sigma \cup \lbrace \# \rbrace$
+> $Graph_\#(f) = \lbrace v\#w \ |\ (v,w) \in Graph(f)$
+
+- **Partial function** $f: \Sigma^* \rightarrow \Sigma^*$ is computable iff $Graph_\#(f)$ is **semidecidable**
+- **Total function** (...) is computable iff $Graph_\#(f)$ is **decidable**
