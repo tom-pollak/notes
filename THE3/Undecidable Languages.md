@@ -1,5 +1,6 @@
 ---
 date created: 2021-11-03 16:10
+date updated: 2021-11-04 13:27
 
 ---
 
@@ -16,6 +17,7 @@ date created: 2021-11-03 16:10
 - $SA$ consists of codes of all [[Turing Machine | TM]] that accept their own codes
 
 > $NSA$ is not [[Semidecidable Languages| Semidecidable]] — contradiction proof
+>
 > - By consequence, $SA$ is not decidable ([[Decidable Languages#Complement]])
 > - However, $SA$ is [[Semidecidable Languages| Semidecidable]]
 
@@ -24,6 +26,7 @@ date created: 2021-11-03 16:10
 > Universal TM $U$ takes inputs of form $e(M)e(w)$ where $M$ is a TM and $w$ is a sting over $M's$ input alphabet
 
 Machine $U$ simulates $M$ on input $w$
+
 - accepts if $M$ accepts $w$
 - rejects if $M$ rejects $w$
 - diverges (loops) if $M$ diverges from $w$

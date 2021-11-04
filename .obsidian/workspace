@@ -4,28 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "88aab493970105c2",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "THE3/Decision Problems.md",
-            "mode": "source"
-          }
-        },
-        "group": "7ab8c4a0270fb3e0"
-      },
-      {
         "id": "fd3b64cef6e1cccf",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "THE3/Decision Problems.md",
-            "mode": "preview"
-          }
-        },
-        "group": "7ab8c4a0270fb3e0"
+          "type": "graph",
+          "state": {}
+        }
       }
     ],
     "direction": "vertical"
@@ -89,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "THE3/Decision Problems.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,9 +88,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "THE3/Decision Problems.md"
-              }
+              "state": {}
             }
           },
           {
@@ -116,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "THE3/Decision Problems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,17 +109,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "88aab493970105c2",
+  "active": "fd3b64cef6e1cccf",
   "lastOpenFiles": [
-    "THE3/Decision Problems.md",
-    "THE3/Island of Computability.md",
-    "THE3/Computable Funcitons.md",
-    "THE3/Undecidable Languages.md",
-    "THE3/Decidable Languages.md",
+    "THE3/Rice's Theorem & Church-Turing Thesis.md",
+    "THE3/Regular Languages.md",
     "THE3/Semidecidable Languages.md",
-    "THE3/Languages.md",
-    "THE3/Grammars.md",
-    "THE3/Finite Automata.md",
-    "THE3/Turing Machine.md"
+    "THE3/Turing Machine.md",
+    "THE3/Undecidable Languages.md",
+    "THE3/Undecidable Problems.md",
+    "THE3/Decision Problems.md",
+    "DAT2/Exam/DAT2 Exam.md",
+    "DAT2/Exam/Hospital-ERM.png",
+    "THE3/Island of Computability.md"
   ]
 }

@@ -1,3 +1,8 @@
+---
+date created: 2021-11-04 13:27
+
+---
+
 # Semidecidable Languages
 
 > ###### Language L is semidecidable (or recursively enumerable) if there exists a [[Turing Machine | TM]] that accepts L

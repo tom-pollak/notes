@@ -1,3 +1,8 @@
+---
+date created: 2021-11-04 13:28
+
+---
+
 # Regular Languages
 
 ### Inductive Definition
