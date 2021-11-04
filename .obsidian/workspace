@@ -7,8 +7,11 @@
         "id": "fd3b64cef6e1cccf",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "THE3/Decidable Languages.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -73,6 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "THE3/Decidable Languages.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +92,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "THE3/Decidable Languages.md"
+              }
             }
           },
           {
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "THE3/Decidable Languages.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -111,6 +118,7 @@
   },
   "active": "fd3b64cef6e1cccf",
   "lastOpenFiles": [
+    "THE3/Decidable Languages.md",
     "THE3/Rice's Theorem & Church-Turing Thesis.md",
     "THE3/Regular Languages.md",
     "THE3/Semidecidable Languages.md",
@@ -119,7 +127,6 @@
     "THE3/Undecidable Problems.md",
     "THE3/Decision Problems.md",
     "DAT2/Exam/DAT2 Exam.md",
-    "DAT2/Exam/Hospital-ERM.png",
-    "THE3/Island of Computability.md"
+    "DAT2/Exam/Hospital-ERM.png"
   ]
 }
