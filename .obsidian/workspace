@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "THE3/Decidable Languages.md",
+            "file": "Unsupervised Learning.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "THE3/Decidable Languages.md",
+                "file": "Unsupervised Learning.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "THE3/Decidable Languages.md"
+                "file": "Unsupervised Learning.md"
               }
             }
           },
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "THE3/Decidable Languages.md",
+                "file": "Unsupervised Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,15 +118,15 @@
   },
   "active": "fd3b64cef6e1cccf",
   "lastOpenFiles": [
+    "Unsupervised Learning.md",
+    "DAT2/NoSQL.md",
+    "DAT2/JSON.md",
     "THE3/Decidable Languages.md",
     "THE3/Rice's Theorem & Church-Turing Thesis.md",
     "THE3/Regular Languages.md",
     "THE3/Semidecidable Languages.md",
     "THE3/Turing Machine.md",
     "THE3/Undecidable Languages.md",
-    "THE3/Undecidable Problems.md",
-    "THE3/Decision Problems.md",
-    "DAT2/Exam/DAT2 Exam.md",
-    "DAT2/Exam/Hospital-ERM.png"
+    "THE3/Undecidable Problems.md"
   ]
 }
