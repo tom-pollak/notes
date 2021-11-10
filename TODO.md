@@ -6,6 +6,8 @@ date updated: 2021-11-10 09:59
 
 # TODO
 
+> HCI assessment: 12th January
+
 ## SYS2
 
 - Tuesday 2/11
@@ -29,8 +31,7 @@ date updated: 2021-11-10 09:59
 ## DAT2
 
 - Wk7 Lecture 9
-<br>
-- Wk6 Labs: 11
+- Wk8 Lecture 10
 
 ## THE3
 
