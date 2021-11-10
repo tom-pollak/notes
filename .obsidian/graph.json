@@ -1,5 +1,5 @@
 {
-  "collapse-filter": true,
+  "collapse-filter": false,
   "search": "",
   "showTags": false,
   "showAttachments": false,
@@ -41,6 +41,13 @@
         "a": 1,
         "rgb": 5431473
       }
+    },
+    {
+      "query": "path:ENG1",
+      "color": {
+        "a": 1,
+        "rgb": 14701214
+      }
     }
   ],
   "collapse-display": true,
@@ -53,6 +60,6 @@
   "repelStrength": 17.1460674157303,
   "linkStrength": 1,
   "linkDistance": 207,
-  "scale": 0.6554983534946927,
+  "scale": 0.359227495865805,
   "close": true
 }
