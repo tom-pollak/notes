@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "TODO.md",
-            "mode": "source"
+            "file": "INT1/A-star Search.md",
+            "mode": "preview"
           }
         },
         "group": "7ab8c4a0270fb3e0"
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "TODO.md",
+            "file": "INT1/A-star Search.md",
             "mode": "preview"
           }
         },
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "space",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TODO.md",
+                "file": "INT1/A-star Search.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TODO.md"
+                "file": "INT1/A-star Search.md"
               }
             }
           },
@@ -116,13 +116,22 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TODO.md",
+                "file": "INT1/A-star Search.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "8113333965db14dd",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -131,15 +140,15 @@
   },
   "active": "88aab493970105c2",
   "lastOpenFiles": [
+    "INT1/A-star Search.md",
+    "INT1/Adversarial Search.md",
     "TODO.md",
+    "THE3/Decidable Languages.md",
+    "THE3/Decision Problems.md",
+    "THE3/Undecidable Languages.md",
     "INT1/Gradient Descent.md",
     "INT1/Local Search.md",
     "SYS2/System Calls.md",
-    "INT1/Minimax.md",
-    "INT1/Adversarial Search.md",
-    "INT1/Game Theory.md",
-    "ENG1/Development Lifecycles.md",
-    "SYS2/Deadlocks.md",
-    "DAT2/Unsupervised Learning.md"
+    "INT1/Minimax.md"
   ]
 }
