@@ -18,7 +18,7 @@ date updated: 2021-11-10 09:59
 
 ## INT1
 
-- Wk6 Lectures
+- Wk6 Lectures: 3 & 4
 - Wk7 Lectures
 <br>
 - Wk6 Practical
