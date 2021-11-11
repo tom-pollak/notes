@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "INT1/A-star Search.md",
+            "file": "DAT2/Unsupervised Learning.md",
             "mode": "preview"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "INT1/A-star Search.md",
+            "file": "DAT2/Unsupervised Learning.md",
             "mode": "preview"
           }
         },
@@ -89,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "INT1/A-star Search.md",
+                "file": "DAT2/Unsupervised Learning.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "INT1/A-star Search.md"
+                "file": "DAT2/Unsupervised Learning.md"
               }
             }
           },
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "INT1/A-star Search.md",
+                "file": "DAT2/Unsupervised Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,6 +140,7 @@
   },
   "active": "88aab493970105c2",
   "lastOpenFiles": [
+    "DAT2/Unsupervised Learning.md",
     "INT1/A-star Search.md",
     "INT1/Adversarial Search.md",
     "TODO.md",
@@ -148,7 +149,6 @@
     "THE3/Undecidable Languages.md",
     "INT1/Gradient Descent.md",
     "INT1/Local Search.md",
-    "SYS2/System Calls.md",
-    "INT1/Minimax.md"
+    "SYS2/System Calls.md"
   ]
 }
