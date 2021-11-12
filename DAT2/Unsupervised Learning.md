@@ -1,39 +1,3 @@
----
-date created: 2021-11-07 14:04
-date updated: 2021-11-08 15:02
-
----
-
-> Machine Learning: Field of study that gives computers the ability to learn without being explicitly programmed
-
-# Supervised Learning
-
-> Train machine using data which is well labelled
-
-1. Predictive model construction
-2. PM tested using new data
-3. PM used for classifying future or unknown cases
-
-## Regression
-
-### Linear
-
-> Multiple Linear Regression
-> $Y = b_0 + b_1X_1 + b_2X_2 + b_3X_3 ...$
-
-### Logistic
-
-> ##### $g(z) = \frac{1}{1+e^{-z}}$
-
-As z goes from $- \infty$ to $+ \infty$, $g(z)$ goes from $0$ to $1$
-
-> $h\emptyset(X) = \emptyset_0 + \emptyset_1X$ where $\emptyset_0$ is 
-
-## Classification
-
-Can be binary or multi class
-- Can set a **descision boundary** where the classification changes from true to false
-
 # Unsupervised Learning
 
 > Classification not provided

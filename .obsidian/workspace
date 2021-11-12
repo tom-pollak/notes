@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "DAT2/Unsupervised Learning.md",
-            "mode": "preview"
+            "file": "DAT2/Supervised Learning.md",
+            "mode": "source"
           }
         },
         "group": "7ab8c4a0270fb3e0"
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "DAT2/Unsupervised Learning.md",
+            "file": "DAT2/Supervised Learning.md",
             "mode": "preview"
           }
         },
@@ -89,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DAT2/Unsupervised Learning.md",
+                "file": "DAT2/Supervised Learning.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DAT2/Unsupervised Learning.md"
+                "file": "DAT2/Supervised Learning.md"
               }
             }
           },
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DAT2/Unsupervised Learning.md",
+                "file": "DAT2/Supervised Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,15 +140,15 @@
   },
   "active": "88aab493970105c2",
   "lastOpenFiles": [
+    "DAT2/Supervised Learning.md",
+    "DAT2/Machine Learning.md",
     "DAT2/Unsupervised Learning.md",
+    "TODO.md",
+    "THE3/Undecidable Problems.md",
     "INT1/A-star Search.md",
     "INT1/Adversarial Search.md",
-    "TODO.md",
     "THE3/Decidable Languages.md",
     "THE3/Decision Problems.md",
-    "THE3/Undecidable Languages.md",
-    "INT1/Gradient Descent.md",
-    "INT1/Local Search.md",
-    "SYS2/System Calls.md"
+    "THE3/Undecidable Languages.md"
   ]
 }
