@@ -19,7 +19,6 @@ date updated: 2021-11-10 09:59
 
 ## INT1
 
-- Wk7 Lectures
 - Wk8 Lectures
 <br>
 - Wk6 Practical
@@ -40,3 +39,5 @@ date updated: 2021-11-10 09:59
 <br>
 - Wk5 Problem sheet
 - Wk7 Problem sheet - check 1 & 2**
+
+## ENG1

@@ -1,3 +1,8 @@
+---
+date created: 2021-11-12 11:18
+
+---
+
 # Adversarial Search
 
 ## Game Tree
@@ -8,6 +13,7 @@ Solution in a form $(P1, (P2_1, P2_2))$
 Can find the solution to maximize outcome with best possible response
 
 ## MaxMin Strategy
+
 > Maximize Minimum Gain
 
 - If we don't know the strategy the other agent will use, we need to **ensure** we get the highest payoff
@@ -19,5 +25,5 @@ Can find the solution to maximize outcome with best possible response
 > Minimize Maximum Payoff
 
 - We can apply this same strategy to our opponent, to **minimize their maximum payoff**
-	- In zero-sum, this is equivalent to minimising our maximum loss
+  - In zero-sum, this is equivalent to minimising our maximum loss
 - This lowers the upper-bound of our opponent's payoff for this game

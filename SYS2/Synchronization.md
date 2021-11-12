@@ -39,3 +39,8 @@ date created: 2021-11-01 13:54
 ## Mutual Exclusion
 
 ### Implementation
+
+1. Leave responsibility to processes that wish to execute concurrently
+	- Would be required to coordinate with each other
+2. Special purpose machine instructions
+3. Support within the OS or programming language

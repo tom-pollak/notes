@@ -1,11 +1,13 @@
 ---
 date created: 2021-10-26 12:27
+date updated: 2021-11-12 11:18
 
 ---
 
 # Game Theory
 
 > Two or more agents interacting with same enviourment
+>
 > - We assume we have a rational opponent who wants to maximize their utility
 
 - Specifically with no communication
@@ -27,13 +29,10 @@ e.g., poker quantify utility through how much money you leave with compared to h
 
 - Situations where all players can gain/lose: e.g., prisoner's dilemma
 
-
 ### Notation
 
 - Represent utility in form (P1, P2), for utility of players
 - In a zero-sum game, these will be (-4, 4)
-	- We can often emit second player, reducing down to -4
-
-
+  - We can often emit second player, reducing down to -4
 
 ## Decision Making

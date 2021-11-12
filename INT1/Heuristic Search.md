@@ -1,6 +1,6 @@
 ---
 date created: 2021-10-20 16:03
-date updated: 2021-10-20 16:58
+date updated: 2021-11-12 11:18
 
 ---
 
@@ -83,4 +83,4 @@ Like breadth first but nodes stored in priority queue ordered by increasing path
 - Optimality: No
 - (This is a worst-case, a good $h(n)$ can reduce this)
 
-### [[A-star Search | A\* Search]]
+### [[A-star Search | A\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\* Search]]

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "INT1/Propositional Logic.md",
+            "file": "SYS2/Synchronization.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "INT1/Propositional Logic.md",
+                "file": "SYS2/Synchronization.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "INT1/Propositional Logic.md"
+                "file": "SYS2/Synchronization.md"
               }
             }
           },
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "INT1/Propositional Logic.md",
+                "file": "SYS2/Synchronization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,15 +127,15 @@
   },
   "active": "fd3b64cef6e1cccf",
   "lastOpenFiles": [
-    "INT1/Propositional Logic.md",
+    "SYS2/Synchronization.md",
     "TODO.md",
-    "INT1/Local Search.md",
-    "INT1/Minimax.md",
-    "INT1/Heuristic Search.md",
+    "INT1/SAT Solving.md",
+    "INT1/Propositional Logic.md",
     "INT1/Simulated Annealing.md",
-    "INT1/Population-based techniques.md",
+    "INT1/A-star Search.md",
+    "INT1/Adversarial Search.md",
+    "INT1/Game Theory.md",
     "INT1/Gradient Descent.md",
-    "DAT2/Supervised Learning.md",
-    "DAT2/Machine Learning.md"
+    "INT1/Heuristic Search.md"
   ]
 }

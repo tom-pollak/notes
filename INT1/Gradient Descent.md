@@ -1,5 +1,6 @@
 ---
 date created: 2021-11-10 14:21
+date updated: 2021-11-12 11:18
 
 ---
 
@@ -22,7 +23,6 @@ If function $f(x)$ is differentiable, we can use gradient descent
 Can't use $f'(x)$. We need to update our definition to use partial derivatives.
 
 $\left\{ \stackrel{x_{n+1} = x_n - \eta \cdot \frac{\delta}{\delta x_n} f(x_n, y_n)}{y_{n+1} = y_n - \eta \cdot \frac{\delta}{\delta x_n} f(x_n, y_n)} \right.$
-
 
 We get ridges in higher dimensions:
 ![[ridges-higher-dimensions.png]]
