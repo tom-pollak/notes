@@ -37,7 +37,11 @@
     " Obseve-Orient-Decide-Ac",
     "Wk",
     "GDs",
-    "GDs"
+    "GDs",
+    "num",
+    "Num",
+    "Metaheuristic",
+    "bitstring"
   ],
   "foldHeading": false,
   "foldIndent": true,

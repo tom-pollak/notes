@@ -19,8 +19,8 @@ date updated: 2021-11-10 09:59
 
 ## INT1
 
-- Wk6 Lectures: 3 & 4
 - Wk7 Lectures
+- Wk8 Lectures
 <br>
 - Wk6 Practical
 - Wk7 Practical
@@ -31,7 +31,6 @@ date updated: 2021-11-10 09:59
 
 ## DAT2
 
-- Wk7 Lecture 9
 - Wk8 Lecture 10
 - Wk7 Lab 12 & 13
 

@@ -5,8 +5,9 @@ date created: 2021-11-10 14:21
 
 # Gradient Descent
 
+Example of [[Local Search]]
+
 If function $f(x)$ is differentiable, we can use gradient descent
-Can be used for [[Local Search]]
 
 > $x_{n+1} = x_n - \eta \cdot f'(x_n)$
 >

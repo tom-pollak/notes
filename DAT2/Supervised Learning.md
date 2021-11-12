@@ -49,6 +49,13 @@ Normal odds: P(0.8) = P(0.8) / (1 - P(0.8)) = 4
 > $Error = 1 - Accuracy$
 > $Accuracy = \frac{TP+TN}{TN+FP+FN+TP}$
 
-**Sensitivity:** (recall or true positive rate) Calculated using positives and false positives
+**Sensitivity:** (recall or true positive rate) Ratio of correct positive predictions to total num of positives
 - $\frac{TP}{TP + FN}$
 - Best is 1.0, worst 0.0
+
+**Specificity:** (True negative rate) ratio of correct negative predictions to total num of negatives
+- $\frac{TN}{TN+FP}$
+
+**Positive Predicted Value:** Num of correct  positive predictions to total num of positive predictions
+- $\frac{TP}{TP + FP}$
+

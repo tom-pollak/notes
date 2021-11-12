@@ -1,5 +1,6 @@
 ---
 date created: 2021-11-10 14:11
+date updated: 2021-11-12 10:39
 
 ---
 
@@ -44,3 +45,13 @@ Formal Representation:
 
 - We can sometimes just use the function we are optimizing
 - Provides feedback to our algorithm of how “good” the solution is
+
+### Problem Warping
+
+> Important to consider how algorithms will behave in presence of different gradients
+
+- Warping fitness landscape to improve the outcome of the search
+
+## Representation
+
+**Representation Bias:** Multiple ways to encode data, means it's more likely to be found by the search algorithm
