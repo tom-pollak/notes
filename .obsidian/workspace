@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SYS2/Synchronization.md",
-            "mode": "source"
+            "file": "INT1/Simulated Annealing.md",
+            "mode": "preview"
           }
         }
       }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SYS2/Synchronization.md",
+                "file": "INT1/Simulated Annealing.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SYS2/Synchronization.md"
+                "file": "INT1/Simulated Annealing.md"
               }
             }
           },
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SYS2/Synchronization.md",
+                "file": "INT1/Simulated Annealing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,15 +127,15 @@
   },
   "active": "fd3b64cef6e1cccf",
   "lastOpenFiles": [
-    "SYS2/Synchronization.md",
+    "INT1/Simulated Annealing.md",
+    "INT1/Gradient Descent.md",
+    "INT1/Heuristic Search.md",
     "TODO.md",
+    "SYS2/Synchronization.md",
     "INT1/SAT Solving.md",
     "INT1/Propositional Logic.md",
-    "INT1/Simulated Annealing.md",
     "INT1/A-star Search.md",
     "INT1/Adversarial Search.md",
-    "INT1/Game Theory.md",
-    "INT1/Gradient Descent.md",
-    "INT1/Heuristic Search.md"
+    "INT1/Game Theory.md"
   ]
 }
