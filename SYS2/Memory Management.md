@@ -16,24 +16,45 @@ date created: 2021-11-15 14:00
 - **Read** request & address _(load rc 0x102)_
 - **Write** request & data & address _(store ra 0x343)_
 
-## Address Space
+## [[Address Space]]
 
-> Logical address space: range address OS makes available to process
+## Memory Management Unit
 
-Endpoints:
+> Hardware device that at runtime maps logical addresses to physical addresses
 
-- **Base register:** physical address start point
-- **Limit register:** size of address
+## Single User Contiguous Memory
 
-### Address Types
+> All memory assigned to a single job
 
-- **Source:** Symbolic, e.g. variable count
-- **Compiler:** binds these to relocatable addresses, e.g. 14 bytes from beginning
-- **Linker or loader**: bind relocatable addresses to absolute addresses, e.g. 0x133
+- Easy address resolution
+- Physical address = issued address
+- Process unused during I/O operations
 
-### Address Binding
+## Memory Partitioning
 
-- **Compile time:** If memory location known priori, absolute code can be generated
-- **Load time:** memory location not known, relocatable code generated
-- **Execution time:** Binding delayed until runtime if process can be moved during its execution
+### xcvbxfhfgvjdfjhfygStatic partitioning
 
+> Divided into number of static partitions at system generation time
+> - Process loaded into a partition of equal or greater size
+
+- Inefficient use of memory due to **internal fragmentation**
+	- Maximum number of active processes fixed
+
+### Dynamic Partitioning
+
+> Partitions created dynamically, each process loaded into partition exactly the same size as process
+
+- More efficient use of memory
+- Inefficient use of processor due to need for compaction to counter **external fragmentation**
+
+#### Partition allocation problem
+
+- **First fit:** allocate to first partition that is big enough
+- **Best fit:** Allocate the smallest partition that is big enough
+	- Must search entire list, unless list ordered by size
+	- Produces the smallest leftover partition
+- **Worst fit:** allocate the largest partition
+	- Search entire list
+	- Produces the largest leftover partition
+
+No clear winner: performance depends on request patterns

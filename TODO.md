@@ -6,6 +6,7 @@ date updated: 2021-11-10 09:59
 
 # TODO
 
+> 26th November — 1st December
 > HCI assessment: 12th January
 
 ## SYS2
