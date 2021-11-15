@@ -16,6 +16,9 @@ date updated: 2021-11-10 09:59
 - Thursday 11/11
 <br>
 - Wk6 Practical
+- Wk7 Practical
+- Week 3 & 6 Quizzes
+- Past Exam
 
 ## INT1
 
@@ -36,6 +39,7 @@ date updated: 2021-11-10 09:59
 ## THE3
 
 - Wk7 Lectures
+- Wk8 Lectures
 <br>
 - Wk5 Problem sheet
 - Wk7 Problem sheet - check 1 & 2**
