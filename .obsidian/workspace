@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SYS2/Memory Management.md",
+            "file": "SYS2/Synchronization.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "space",
+                "query": "critical",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SYS2/Memory Management.md",
+                "file": "SYS2/Synchronization.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SYS2/Memory Management.md"
+                "file": "SYS2/Synchronization.md"
               }
             }
           },
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SYS2/Memory Management.md",
+                "file": "SYS2/Synchronization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,15 +126,15 @@
   },
   "active": "e4c7b97bab0eeb40",
   "lastOpenFiles": [
+    "SYS2/Synchronization.md",
+    "SYS2/Deadlocks.md",
+    "TODO.md",
+    "SYS2/Blurring Boundaries.md",
     "SYS2/Memory Management.md",
     "SYS2/Address Space.md",
     "SYS2/Processes.md",
     "SYS2/Kernel.md",
     "SYS2/Inter-process communication.md",
-    "SYS2/Deadlocks.md",
-    "SYS2/Threads.md",
-    "User Address Space.md",
-    "SYS2/Scheduling.md",
-    "TODO.md"
+    "SYS2/Threads.md"
   ]
 }
