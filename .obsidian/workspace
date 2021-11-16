@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "e4c7b97bab0eeb40",
+        "id": "b3770a3bc14887f1",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SYS2/Synchronization.md",
+            "file": "SYS2/Inter-process communication.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "critical",
+                "query": "send",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -60,7 +60,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 158
+    "width": 158,
+    "collapsed": true
   },
   "right": {
     "id": "956d08eff0b9ff22",
@@ -76,13 +77,13 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SYS2/Synchronization.md",
+                "file": "SYS2/Inter-process communication.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": true,
+                "backlinkCollapsed": false,
                 "unlinkedCollapsed": false
               }
             }
@@ -93,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SYS2/Synchronization.md"
+                "file": "SYS2/Inter-process communication.md"
               }
             }
           },
@@ -103,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SYS2/Synchronization.md",
+                "file": "SYS2/Inter-process communication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,17 +125,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e4c7b97bab0eeb40",
+  "active": "b3770a3bc14887f1",
   "lastOpenFiles": [
-    "SYS2/Synchronization.md",
-    "SYS2/Deadlocks.md",
-    "TODO.md",
-    "SYS2/Blurring Boundaries.md",
-    "SYS2/Memory Management.md",
-    "SYS2/Address Space.md",
-    "SYS2/Processes.md",
-    "SYS2/Kernel.md",
     "SYS2/Inter-process communication.md",
-    "SYS2/Threads.md"
+    "TODO.md",
+    "SYS2/Synchronization.md",
+    "Communication Links.md",
+    "SYS2/Threads.md",
+    "SYS2/Scheduling.md",
+    "SYS2/Memory Management.md",
+    "SYS2/Processes.md",
+    "SYS2/Address Space.md",
+    "HCI2/Blurring Boundaries.md"
   ]
 }

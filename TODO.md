@@ -11,7 +11,7 @@ date updated: 2021-11-10 09:59
 
 ## SYS2
 
-- Tuesday 2/11
+- Thursday 21/10
 - Thursday 4/11
 - Monday 8/11
 - Thursday 11/11
