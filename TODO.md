@@ -11,10 +11,9 @@ date updated: 2021-11-10 09:59
 
 ## SYS2
 
-- Thursday 21/10
-- Thursday 4/11
 - Monday 8/11
 - Thursday 11/11
+- Tuesday 16/11
 <br>
 - Wk6 Practical
 - Wk7 Practical
@@ -27,6 +26,7 @@ date updated: 2021-11-10 09:59
 <br>
 - Wk6 Practical
 - Wk7 Practical
+- Wk8 Practical
 
 ## HCI2
 
@@ -43,6 +43,6 @@ date updated: 2021-11-10 09:59
 - Wk8 Lectures
 <br>
 - Wk5 Problem sheet
-- Wk7 Problem sheet - check 1 & 2**
+- Wk7 Problem sheet -  done: check 1 & 2**
 
 ## ENG1

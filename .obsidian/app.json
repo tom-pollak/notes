@@ -41,7 +41,11 @@
     "num",
     "Num",
     "Metaheuristic",
-    "bitstring"
+    "bitstring",
+    "Mutex",
+    "semWaitB",
+    "semSignalB",
+    "mutex"
   ],
   "foldHeading": false,
   "foldIndent": true,
