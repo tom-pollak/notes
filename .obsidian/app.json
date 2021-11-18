@@ -45,7 +45,12 @@
     "Mutex",
     "semWaitB",
     "semSignalB",
-    "mutex"
+    "mutex",
+    "DPLL",
+    "WalkSAT",
+    "preemption",
+    "Preempted",
+    "preempt"
   ],
   "foldHeading": false,
   "foldIndent": true,

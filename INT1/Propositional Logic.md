@@ -47,6 +47,8 @@ If that doesn't work, need inference algorithm
 
 ### NP Complete
 
+> Nondeterministic Polynomial time [[Complexity Classes]]
+
 - Every known inference algorithm has exponential time complexity
   - Searching using inference rules as operators until we match some goal state
   - In effect deploying depth-first search

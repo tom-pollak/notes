@@ -6,16 +6,19 @@ date updated: 2021-11-10 09:59
 
 # TODO
 
-> 26th November — 1st December
+> DAT2: 26th November — 1st December
 > HCI assessment: 12th January
 
 ## SYS2
 
-- Monday 8/11
-- Thursday 11/11
-- Tuesday 16/11
-- Thursday 18/11
+- Wk7
+	- Thursday 11/11
+- Wk8
+	- Tuesday 16/11
+	- Thursday 18/11
+
 <br>
+
 - Wk6 Practical
 - Wk7 Practical
 - Week 3 & 6 Quizzes
@@ -23,7 +26,7 @@ date updated: 2021-11-10 09:59
 
 ## INT1
 
-- Wk8 Lectures
+- Wk9 Lectures - not released
 <br>
 - Wk6 Practical
 - Wk7 Practical
@@ -41,8 +44,12 @@ date updated: 2021-11-10 09:59
 ## THE3
 
 - Wk8 Lectures
+- Wk9 Lectures - not released
 <br>
 - Wk5 Problem sheet
 - Wk7 Problem sheet -  done: check 1 & 2**
 
 ## ENG1
+
+- Wk8 Lectures: Project planning & risk management, requirements engineering
+- Wk9 Lectures
