@@ -14,6 +14,7 @@ date updated: 2021-11-10 09:59
 - Monday 8/11
 - Thursday 11/11
 - Tuesday 16/11
+- Thursday 18/11
 <br>
 - Wk6 Practical
 - Wk7 Practical
@@ -34,12 +35,11 @@ date updated: 2021-11-10 09:59
 
 ## DAT2
 
-- Wk8 Lecture 10
+- Wk9 Lecture 11
 - Wk7 Lab 12 & 13
 
 ## THE3
 
-- Wk7 Lectures
 - Wk8 Lectures
 <br>
 - Wk5 Problem sheet

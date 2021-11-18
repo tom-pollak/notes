@@ -60,4 +60,4 @@ If that doesn't work, need inference algorithm
 
 **Satisfiability:** Sentence is true in at least one model
 - For a reasonably sized model, it is a non-trivial problem to find allocation of values to pop symbols such that the model is true
-- Known as [[SAT Solving]]
+- Known as [[INT1/SAT Solving]]
