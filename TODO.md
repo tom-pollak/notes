@@ -24,13 +24,14 @@ date updated: 2021-11-19 15:36
 
 ## INT1
 
-- Wk9 Lectures
+- Wk9 Lectures: Inference & Chaining
 
 <br>
 
 - Wk6 Practical
 - Wk7 Practical
 - Wk8 Practical
+- Wk9 Practical
 
 ## HCI2
 
@@ -38,15 +39,9 @@ date updated: 2021-11-19 15:36
 
 ## DAT2
 
-- Wk9 Lecture 11
 - Wk7 Lab 12 & 13
 
 ## THE3
-
-- Wk8 Lectures
-- Wk9 Lectures
-
-<br>
 
 - Wk5 Problem sheet
 - Wk7 Problem sheet — done: check 1 & 2**
@@ -55,4 +50,4 @@ date updated: 2021-11-19 15:36
 ## ENG1
 
 - Wk8 Lectures: Project planning & risk management, requirements engineering
-- Wk9 Lectures
+- Wk9 Lectures: OO modelling w/ UML, OO patterns, Eclipse tips and tricks

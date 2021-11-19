@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "fd3b64cef6e1cccf",
+        "id": "88aab493970105c2",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "TODO.md",
-            "mode": "preview"
+            "file": "SYS2/Memory Management.md",
+            "mode": "source"
           }
         }
       }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TODO.md",
+                "file": "SYS2/Memory Management.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TODO.md"
+                "file": "SYS2/Memory Management.md"
               }
             }
           },
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TODO.md",
+                "file": "SYS2/Memory Management.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -116,17 +116,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "fd3b64cef6e1cccf",
+  "active": "88aab493970105c2",
   "lastOpenFiles": [
+    "SYS2/Memory Management.md",
     "TODO.md",
-    "SYS2/Deadlocks.md",
+    "INT1/First-Order Logic.md",
     "SYS2/System Calls.md",
-    "INT1/SAT Solving.md",
-    "DPLL.md",
-    "INT1/Propositional Logic.md",
-    "THE3/Decidable Languages.md",
-    "THE3/Computable Funcitons.md",
-    "THE3/Complexity Classes.md",
-    "THE3/Time Complexity.md"
+    "DAT2/Non-Parametric Test.md",
+    "DAT2/Non-parametric-alternatives.png",
+    "THE3/Polynomial-time Reductions.md",
+    "THE3/Pushdown Automata.md",
+    "THE3/Inclusions Between Complexity Classes.md",
+    "THE3/Computable Funcitons.md"
   ]
 }
