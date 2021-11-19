@@ -50,7 +50,8 @@
     "WalkSAT",
     "preemption",
     "Preempted",
-    "preempt"
+    "preempt",
+    "Preemption"
   ],
   "foldHeading": false,
   "foldIndent": true,

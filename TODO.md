@@ -1,6 +1,6 @@
 ---
 date created: 2021-11-10 09:58
-date updated: 2021-11-10 09:59
+date updated: 2021-11-19 15:27
 
 ---
 
@@ -11,11 +11,9 @@ date updated: 2021-11-10 09:59
 
 ## SYS2
 
-- Wk7
-	- Thursday 11/11
 - Wk8
-	- Tuesday 16/11
-	- Thursday 18/11
+  - Tuesday 16/11
+  - Thursday 18/11
 
 <br>
 
@@ -27,6 +25,7 @@ date updated: 2021-11-10 09:59
 ## INT1
 
 - Wk9 Lectures - not released
+
 <br>
 - Wk6 Practical
 - Wk7 Practical
@@ -45,9 +44,11 @@ date updated: 2021-11-10 09:59
 
 - Wk8 Lectures
 - Wk9 Lectures - not released
+
 <br>
 - Wk5 Problem sheet
 - Wk7 Problem sheet -  done: check 1 & 2**
+- Wk8 Problem sheet - done: check
 
 ## ENG1
 

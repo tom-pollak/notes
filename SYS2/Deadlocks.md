@@ -1,6 +1,6 @@
 ---
 date created: 2021-11-18 12:24
-date updated: 2021-11-18 12:29
+date updated: 2021-11-19 15:27
 
 ---
 
@@ -10,13 +10,13 @@ date updated: 2021-11-18 12:29
 
 - **Mutual Exclusion:** Only one process at a time can use a resource
 
-- **Hold and wait:** Process holding at least one resource is waiting to acquire additional resources held by other processes
+- **Hold and wait:** [[Processes| Process]] holding at least one resource is waiting to acquire additional resources held by other processes
 
 - **No pre-emption:** A resource can be released only voluntarily by the process holding it, after the process completed the task
 
 - **Guaranteed existence** — **Circular wait:** There exists a set of waiting processes such that a process waiting for a resource which is held by another process waiting in that same queue
 
-## Deadlock handling strategies
+## Handling strategies
 
 - **Deadlock prevention:** Disallow one of the three conditions for deadlock occurrence, or prevent the circular wait condition from happening
 
@@ -24,7 +24,7 @@ date updated: 2021-11-18 12:29
 
 - **Deadlock detection:** Grant resource requests if possible, but periodically check for the presence of a deadlock and take action to recover
 
-## Deadlock Prevention
+## Prevention
 
 - **Mutual exclusion:** not required for sharable resources (e.g. read-only), must hold for non-shareable resources
 
@@ -33,12 +33,11 @@ date updated: 2021-11-18 12:29
   - Low resource utilization, starvation possible
 
 - **No preemption:** If a process that is holding some resources requests another resource that cannot be immediately allocated to it (_preempt_)
-	- Preempted resources added to the list of resources for which the process is waiting
-	- Process will only be restarted when it can regain its old resources plus new ones requesting
+  - Preempted resources added to the list of resources for which the process is waiting
+  - Process will only be restarted when it can regain its old resources plus new ones requesting
 
 - **Circular Wait:** Impose a total ordering of resource types, and require that each process requests resources in an increasing order of enumeration
-	- Declare each resource a number, and impose increasing ordering
-
+  - Declare each resource a number, and impose increasing ordering
 
 ## Safe State
 
@@ -47,9 +46,10 @@ date updated: 2021-11-18 12:29
 > System must decide if immediate allocation of a resource to process leaves system in a safe state
 
 System in safe state iff there exists a sequence $<T_1, T_2, ..., T_n>$ of **all** processes in systems such that for each $T_i$, resources of $T_i$ can still request and be satisfied by currently available resources & resources held by all $T_j$ with $j < i$
+
 - Can use resources from processes earlier in sequence as they will have already finished
 
-## Avoidance algorithms
+## Avoidance
 
 ### Resource-Allocation Graph
 
@@ -68,9 +68,68 @@ System in safe state iff there exists a sequence $<T_1, T_2, ..., T_n>$ of **all
 
 Let $n$ be a number of processes and $m$ be a number of resources types
 
-- Available: Vector of length $m$. If $available[j] = k$, there are $k$ instances of resource type $R_j$ available.
-- Max: $n \times m$ matrix. If $max[i,j] = k$, process $T_i$ may request at most $k$ instances of resource type $R_j$
-- Allocation: If $allocation[i,j] = k$ Then $T_i$ is currently allocated $k$ instances of $R_j$
-- Need: $need[i,j] = k$ $T_i$ may need k more instances of $R_j$ to complete its task
+- **Available:** Vector of length $m$. If $available[j] = k$, there are $k$ instances of resource type $R_j$ available.
+- **Max** $n \times m$ matrix. If $max[i,j] = k$, process $T_i$ may request at most $k$ instances of resource type $R_j$
+- **Allocation:** If $allocation[i,j] = k$ Then $T_i$ is currently allocated $k$ instances of $R_j$
+- **Need:** $need[i,j] = k$ $T_i$ may need k more instances of $R_j$ to complete its task
 
 > $need[i,j] = max[i,j] - allocation[i,j]$
+
+## Detection
+
+### Single instance of each resource type
+
+- Maintain wait-for-graph
+- $T_i \rightarrow T_j$ if process $T_i$ is waiting for $T_j$
+- Periodically invoke an algorithm that searches for a cycle in the graph
+  - If so, there exists a deadlock
+  - $O(n^2)$
+
+### Multiple instances of each resource type
+
+Functions from [[Deadlocks#Bankers Algorithm | Bankers Algorithm]] &
+
+- **Request:** $n \times m$, current request of each process\
+  - $Request[i][j] = k$: Process $T_i$ is requesting $k$ more instances of $R_j$
+
+#### Detection algorithm
+
+```
+Work = available # matrix of available resources of each type
+Finish = boolean list of length n # num processes
+for i 1..n:
+	if Allocation_i != 0: Finish[i] = false
+	else: Finish[i] = true
+
+deadlock = false
+while not deadlock:
+	deadlock = true
+	for i in 1..n:
+		# We have enough resources to allocate to process
+		if not Finish[i] and Request_i <= Work:
+			Work += Allocation_i
+			Finish[i] = true
+			deadlock = false # as long as we are allocating resources
+		
+for i 1..n:
+	if not Finish[i]: System in Deadlock by T_i
+```
+
+- $O(m \times n^2)$
+
+## Recovery
+
+- Abort all deadlocked processes
+- Abort one process at a time until deadlock cycle eliminated
+  - In which order?
+    - Priority
+    - How long process has computed, how much longer
+    - Resources process has used
+    - Resource process needs to complete
+    - How many processes will need to be terminated
+
+### Resource Preemption
+
+- **Selecting a victim:** Minimize cost
+- **Rollback:** Return to some safe state, restart from that state
+- **Starvation:** Same process may always be picked as victim, include number of rollback in cost factor
