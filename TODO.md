@@ -1,6 +1,6 @@
 ---
 date created: 2021-11-10 09:58
-date updated: 2021-11-19 15:27
+date updated: 2021-11-19 15:36
 
 ---
 
@@ -24,9 +24,10 @@ date updated: 2021-11-19 15:27
 
 ## INT1
 
-- Wk9 Lectures - not released
+- Wk9 Lectures
 
 <br>
+
 - Wk6 Practical
 - Wk7 Practical
 - Wk8 Practical
@@ -43,12 +44,13 @@ date updated: 2021-11-19 15:27
 ## THE3
 
 - Wk8 Lectures
-- Wk9 Lectures - not released
+- Wk9 Lectures
 
 <br>
+
 - Wk5 Problem sheet
-- Wk7 Problem sheet -  done: check 1 & 2**
-- Wk8 Problem sheet - done: check
+- Wk7 Problem sheet — done: check 1 & 2**
+- Wk8 Problem sheet — done: check
 
 ## ENG1
 
