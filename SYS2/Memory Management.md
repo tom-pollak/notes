@@ -1,5 +1,6 @@
 ---
 date created: 2021-11-15 14:00
+date updated: 2021-11-19 17:41
 
 ---
 
@@ -24,6 +25,8 @@ Endpoints:
 
 - **Base register:** physical address start point
 - **Limit register:** size of address
+
+![[base-limit-harware-protection.png]]
 
 ### Address Types
 
@@ -54,10 +57,11 @@ Endpoints:
 ### Static Partitioning
 
 > Divided into number of static partitions at system generation time
+>
 > - Process loaded into a partition of equal or greater size
 
 - Inefficient use of memory due to **internal fragmentation**
-	- Maximum number of active processes fixed
+  - Maximum number of active processes fixed
 
 ### Dynamic Partitioning
 
@@ -70,11 +74,30 @@ Endpoints:
 
 - **First fit:** allocate to first partition that is big enough
 - **Best fit:** Allocate the smallest partition that is big enough
-	- Must search entire list, unless list ordered by size
-	- Produces the smallest leftover partition
+  - Must search entire list, unless list ordered by size
+  - Produces the smallest leftover partition
 - **Worst fit:** allocate the largest partition
-	- Search entire list
-	- Produces the largest leftover partition
+  - Search entire list
+  - Produces the largest leftover partition
 
 No clear winner: performance depends on request patterns
+
+## Dynamic Contiguous Partitions
+
+> Compaction (de-fragmentation) procedure\
+
+- Requires relocatable partitions
+  - Base register needs to be changed
+- Compaction algorithm needs spare memory to operate efficiently
+- Cannot perform compaction whilst I/O in progress involving memory that is being compacted
+
+![[relocation-hardware-protection.png]]
+
+## Swapping
+
+> Process can be swapped temporarily out of memory to a backing store, then brought back into memory to continue execution
+> - Total physical memory space of processes can exceed physical memory
+
+- **Backing store:** Fast disk large enough to accommodate binaries of all processes
+- Major part of swap time is transfer time, which is directly proportional to the amount of memory
 
