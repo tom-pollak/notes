@@ -4,7 +4,7 @@ date updated: 2021-11-16 13:49
 
 ---
 
-# Inter-process communication
+# Inter-process Communication
 
 > [[Processes]] may be independent or cooperating process can affect each other
 >

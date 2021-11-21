@@ -12,13 +12,13 @@ date updated: 2021-11-19 15:36
 ## SYS2
 
 - Wk8
-  - Tuesday 16/11
   - Thursday 18/11
 
 <br>
 
 - Wk6 Practical
 - Wk7 Practical
+- Wk8 Practical
 - Week 3 & 6 Quizzes
 - Past Exam
 
