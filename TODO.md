@@ -11,14 +11,8 @@ date updated: 2021-11-19 15:36
 
 ## SYS2
 
-- Wk8
-  - Thursday 18/11
-
-<br>
-
+- Look at wk4 & 5 practical again
 - Wk6 Practical
-- Wk7 Practical
-- Wk8 Practical
 - Week 3 & 6 Quizzes
 - Past Exam
 
@@ -32,9 +26,11 @@ date updated: 2021-11-19 15:36
 - Wk7 Practical
 - Wk8 Practical
 - Wk9 Practical
+- Past exam paper
 
 ## HCI2
 
+- Wk5 Pervasive computing - look at slides
 - Wk7: Conceptualizing UX
 
 ## DAT2

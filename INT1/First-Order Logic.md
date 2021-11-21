@@ -74,4 +74,3 @@ Non-empty substitution form: $\theta = \lbrace x_1/t_1, x_2/t_2, \ldots, x_n/t_n
 ## Inference
 
 
-
