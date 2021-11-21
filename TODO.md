@@ -8,6 +8,7 @@ date updated: 2021-11-19 15:36
 
 > DAT2: 26th November — 1st December
 > HCI assessment: 12th January
+> THE3 Formative: 25th November, 1:30 – 2:30
 
 ## SYS2
 
@@ -18,10 +19,6 @@ date updated: 2021-11-19 15:36
 
 ## INT1
 
-- Wk9 Lectures: Inference & Chaining
-
-<br>
-
 - Wk6 Practical
 - Wk7 Practical
 - Wk8 Practical
@@ -31,7 +28,9 @@ date updated: 2021-11-19 15:36
 ## HCI2
 
 - Wk5 Pervasive computing - look at slides
-- Wk7: Conceptualizing UX
+- **Wk7: Conceptualizing UX**
+
+**ASSESSMENT**
 
 ## DAT2
 

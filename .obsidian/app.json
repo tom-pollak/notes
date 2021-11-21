@@ -52,7 +52,9 @@
     "Preempted",
     "preempt",
     "Preemption",
-    "Presburger"
+    "Presburger",
+    "Propositionalisation",
+    "Ponens"
   ],
   "foldHeading": false,
   "foldIndent": false,

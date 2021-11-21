@@ -1,6 +1,6 @@
 ---
 date created: 2021-11-19 16:57
-date updated: 2021-11-19 17:15
+date updated: 2021-11-21 20:52
 
 ---
 
@@ -73,4 +73,49 @@ Non-empty substitution form: $\theta = \lbrace x_1/t_1, x_2/t_2, \ldots, x_n/t_n
 
 ## Inference
 
+> **Propositionalisation:**
 
+### Existential Elimination
+
+Can produce a **new** constant and replace variable by that new constant
+
+$\exists x\ Crown(x) \wedge OnHead(x, John)$
+
+Is replaced by:
+$Crown(C_1) \wedge OnHead(C_1, John)$
+
+### Universal Instantiation
+
+Add a new sentence for each ground term in KB:
+
+$\forall x\ King(x) \wedge Greedy(x) \implies Evil(x)$
+
+becomes:
+$King(John) \wedge Greedy(John) \implies Evil(John)$
+$King(Richard) \wedge Greedy(Richard) \implies Evil(Richard)$
+
+### Modus Ponens
+
+For atomic sentences $p_i, p'_i, q$ and some substitution $\theta$ such that $Subst(\theta, p'_i) = Subst(\theta, p_i)$
+
+$p'_1, \ldots, p'_n\ \ \ \ (p_1 \wedge \ldots \wedge p_n \implies q)$
+--------------------
+$Subst(\theta, q)$
+
+#### Unification
+
+> Finding suitable substitution such that different logical expressions look identical
+
+## Chaining
+
+### Forward Chaining
+
+1. Start with ground terms
+2. Combine rules to generate new terms
+	- Brute force rule combinations
+
+### Backward Chaining
+
+1. Start with query
+2. Apply rules recursively until we get to ground terms
+	- Use unification with substitutions
