@@ -54,7 +54,11 @@
     "Preemption",
     "Presburger",
     "Propositionalisation",
-    "Ponens"
+    "Ponens",
+    "Prepaging",
+    "WPs",
+    "PlantUML",
+    "SSON"
   ],
   "foldHeading": false,
   "foldIndent": false,
@@ -65,5 +69,6 @@
     "landscape": false,
     "margin": "0",
     "downscalePercent": 77
-  }
+  },
+  "fileSortOrder": "byModifiedTime"
 }

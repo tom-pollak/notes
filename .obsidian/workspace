@@ -4,15 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "fe88214b75376e91",
+        "id": "88aab493970105c2",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "TODO.md",
+            "file": "ENG1/Requirements Engineering.md",
             "mode": "source"
           }
-        }
+        },
+        "group": "7ab8c4a0270fb3e0"
+      },
+      {
+        "id": "fd3b64cef6e1cccf",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "ENG1/Requirements Engineering.md",
+            "mode": "preview"
+          }
+        },
+        "group": "7ab8c4a0270fb3e0"
       }
     ],
     "direction": "vertical"
@@ -60,8 +73,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 158,
-    "collapsed": true
+    "width": 158
   },
   "right": {
     "id": "956d08eff0b9ff22",
@@ -77,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TODO.md",
+                "file": "ENG1/Requirements Engineering.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TODO.md"
+                "file": "ENG1/Requirements Engineering.md"
               }
             }
           },
@@ -104,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TODO.md",
+                "file": "ENG1/Requirements Engineering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,17 +129,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "fe88214b75376e91",
+  "active": "88aab493970105c2",
   "lastOpenFiles": [
+    "ENG1/Requirements Engineering.md",
+    "ENG1/Project Planning.md",
+    "ENG1/Risk Management.md",
     "TODO.md",
-    "INT1/First-Order Logic.md",
-    "Inference.md",
-    "SYS2/Swapping.md",
-    "SYS2/Synchronization.md",
-    "SYS2/Virtual Memory.md",
-    "SYS2/Memory Management.md",
-    "SYS2/Memory Partitioning.md",
-    "SYS2/paging-translating-address.png",
-    "SYS2/Threads.md"
+    "SYS2/System Calls.md",
+    "ENG1/Development Lifecycles.md",
+    "SYS2/IO.md",
+    "SYS2/Kernel.md",
+    "SYS2/Scheduling.md",
+    "SYS2/Deadlocks.md"
   ]
 }

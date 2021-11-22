@@ -46,5 +46,5 @@ date updated: 2021-11-19 15:36
 
 ## ENG1
 
-- Wk8 Lectures: Project planning & risk management, requirements engineering
+- Wk8 Lectures: risk management, requirements engineering
 - Wk9 Lectures: OO modelling w/ UML, OO patterns, Eclipse tips and tricks
