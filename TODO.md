@@ -38,6 +38,8 @@ date updated: 2021-11-19 15:36
 
 ## THE3
 
+- Wk9 Lecture 20 & 21
+
 - Wk5 Problem sheet
 - Wk7 Problem sheet — done: check 1 & 2**
 - Wk8 Problem sheet — done: check
