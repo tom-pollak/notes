@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "ENG1/Requirements Engineering.md",
+            "file": "HCI2/UX.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "ENG1/Requirements Engineering.md",
+            "file": "HCI2/UX.md",
             "mode": "preview"
           }
         },
@@ -89,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ENG1/Requirements Engineering.md",
+                "file": "HCI2/UX.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ENG1/Requirements Engineering.md"
+                "file": "HCI2/UX.md"
               }
             }
           },
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ENG1/Requirements Engineering.md",
+                "file": "HCI2/UX.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,15 +131,15 @@
   },
   "active": "88aab493970105c2",
   "lastOpenFiles": [
-    "ENG1/Requirements Engineering.md",
-    "ENG1/Project Planning.md",
-    "ENG1/Risk Management.md",
+    "HCI2/UX.md",
+    "HCI2/User Experience.md",
+    "HCI2/Ethics.md",
+    "HCI2/Blurring Boundaries.md",
+    "HCI2/In the wild.md",
+    "HCI2/Computer Supported Cooperatve Work.md",
+    "HCI2/Cognitve Modelling.md",
     "TODO.md",
-    "SYS2/System Calls.md",
-    "ENG1/Development Lifecycles.md",
-    "SYS2/IO.md",
-    "SYS2/Kernel.md",
-    "SYS2/Scheduling.md",
-    "SYS2/Deadlocks.md"
+    "ENG1/Requirements Engineering.md",
+    "ENG1/Project Planning.md"
   ]
 }
