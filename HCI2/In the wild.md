@@ -3,6 +3,8 @@ date created: 2021-11-21 12:11
 
 ---
 
+# In the Wild
+
 ## External Cognition
 
 - Create external representations to aid memory
@@ -36,7 +38,7 @@ date created: 2021-11-21 12:11
 ### Level of Observer Involvement
 
 - Observe as an outsider,
-  - Don't give help or ask what  they are having trouble with
+  - Don't give help or ask what they are having trouble with
   - e.g. observe how long it takes to use a ticket machine, noting their age and gender
 
 <br>
@@ -47,7 +49,7 @@ date created: 2021-11-21 12:11
 <br>
 
 - Partial participant/ complete participant
-  - Observer becomes part of accomapny for a while, participating in
+  - Observer becomes part of accomapny for a while
 
 ### Framework
 
@@ -66,7 +68,7 @@ date created: 2021-11-21 12:11
 
 - Live within community to learn about some aspect of their life
 - Assume an insider perspective,
-  - Interpret and represent experiences of people
+	- Interpret and represent experiences of people
 
 ## Contextual Enquiry
 

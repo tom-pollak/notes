@@ -11,9 +11,7 @@ date created: 2021-11-15 16:51
 
 - Many projects are gamified to encourage engagement
 
-## Work life boundaries
-
-- Pervasiveness of technology
+## Pervasiveness of technology
 
 ## Serious Games
 

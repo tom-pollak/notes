@@ -54,5 +54,5 @@ Emotions can either be:
 
 - **Pragmatic:** Instrumental, task-oriented qualities primarily related to behavioural goals
   - Useful, controllable
-- **Hedonic:** Non-instrumental, self-oriented qualities that relate to pleasure of experience
+- **Hedonic:** Non-instrumental, self-oriented qualities that relate to pleasure of experience, emphasizes individuals psychi=ological well-being
   - Exciting, impressive, presentable

@@ -46,7 +46,7 @@ date created: 2021-11-21 12:11
 
 ### Distributed Cognition
 
-- Propagation of knowledge between different individuals and artefacts
+- Propagation of knowledge between different individuals and artifacts
 - How intelligence is manifested at the systems level as opposed to cognitive level
 
 ## Distributed participation

@@ -12,20 +12,7 @@
             "file": "HCI2/UX.md",
             "mode": "source"
           }
-        },
-        "group": "7ab8c4a0270fb3e0"
-      },
-      {
-        "id": "fd3b64cef6e1cccf",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "HCI2/UX.md",
-            "mode": "preview"
-          }
-        },
-        "group": "7ab8c4a0270fb3e0"
+        }
       }
     ],
     "direction": "vertical"
@@ -52,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "distribute",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,7 +60,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 158
+    "width": 161.5
   },
   "right": {
     "id": "956d08eff0b9ff22",
@@ -132,14 +119,14 @@
   "active": "88aab493970105c2",
   "lastOpenFiles": [
     "HCI2/UX.md",
-    "HCI2/Ethics.md",
-    "HCI2/User Experience.md",
-    "HCI2/Blurring Boundaries.md",
     "HCI2/In the wild.md",
     "HCI2/Computer Supported Cooperatve Work.md",
     "HCI2/Cognitve Modelling.md",
+    "HCI2/Waves.md",
+    "HCI2/Blurring Boundaries.md",
     "TODO.md",
-    "ENG1/Requirements Engineering.md",
-    "ENG1/Project Planning.md"
+    "HCI2/Ethics.md",
+    "HCI2/User Experience.md",
+    "ENG1/Requirements Engineering.md"
   ]
 }
