@@ -1,3 +1,8 @@
+---
+date created: 2021-11-22 17:52
+
+---
+
 # Ethics
 
 ## Principles
@@ -32,14 +37,15 @@
 > **Co-design:** Sharing and teaching stakeholders the process of design
 
 Advantages:
+
 - Considers values and ethics
 - Buy in, commitment
 - Maximizing user input/feedback
 - Inclusive
 
 Disadvantages:
+
 - Chaotic
 - Ownership
 - Users are not designers
 - Difficult to account for differences between users
-
