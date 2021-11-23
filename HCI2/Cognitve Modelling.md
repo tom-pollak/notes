@@ -15,7 +15,7 @@ date created: 2021-11-21 12:11
 
 ## GOMS
 
-> **Goals:**: end state user is trying to achieve
+> **Goals:** end state user is trying to achieve
 >
 > - Hierarchical decomposition of tasks
 >

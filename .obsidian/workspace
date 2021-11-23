@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "88aab493970105c2",
+        "id": "3101f8a58ca495ea",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
             "file": "HCI2/UX.md",
-            "mode": "source"
+            "mode": "preview"
           }
         }
       }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "distribute",
+                "query": "consumer",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -116,16 +116,16 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "88aab493970105c2",
+  "active": "3101f8a58ca495ea",
   "lastOpenFiles": [
     "HCI2/UX.md",
-    "HCI2/In the wild.md",
-    "HCI2/Computer Supported Cooperatve Work.md",
     "HCI2/Cognitve Modelling.md",
-    "HCI2/Waves.md",
-    "HCI2/Blurring Boundaries.md",
     "TODO.md",
     "HCI2/Ethics.md",
+    "HCI2/Blurring Boundaries.md",
+    "HCI2/Computer Supported Cooperatve Work.md",
+    "HCI2/Waves.md",
+    "HCI2/In the wild.md",
     "HCI2/User Experience.md",
     "ENG1/Requirements Engineering.md"
   ]
