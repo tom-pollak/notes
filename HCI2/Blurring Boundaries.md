@@ -11,7 +11,12 @@ date created: 2021-11-15 16:51
 
 - Many projects are gamified to encourage engagement
 
-## Pervasiveness of technology
+## Pervasive Computing
+
+### Embodied Interaction
+
+- Tangible computing: interface does not have a screen
+- Social computing: Context and social meanings that are connected and how we interact with technology
 
 ## Serious Games
 

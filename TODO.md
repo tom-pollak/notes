@@ -27,7 +27,6 @@ date updated: 2021-11-19 15:36
 
 ## HCI2
 
-- Wk5 Pervasive computing - look at slides
 - **Wk7: Conceptualizing UX**
 
 **ASSESSMENT**
