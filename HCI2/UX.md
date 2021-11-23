@@ -56,3 +56,24 @@ Emotions can either be:
   - Useful, controllable
 - **Hedonic:** Non-instrumental, self-oriented qualities that relate to pleasure of experience, emphasizes individuals psychiological well-being
   - Exciting, impressive, presentable
+
+### Eudaimonic UX
+
+
+> Meaningful product experiences
+
+- Technology helps individuals learn something or achieve a personally meaningful goal
+
+#### What is Meaning
+
+- Relates to experience both _during_ interaction, as well as outcomes that endure _beyond_ the interaction
+
+
+Five components:
+- Connectedness: Connects to aspects of the self and the world we live in
+- Resonance: Spontaneous, non-reflective response
+	- Experience just 'clicks' or 'feels right'
+- Purpose: Relates to having a sense of core aims and direction
+- Coherence: Sense-making, how an experience fits into life as a whole
+- Significance: Relates to a sense that the experience matters, that you are engaged in something worthwhile
+

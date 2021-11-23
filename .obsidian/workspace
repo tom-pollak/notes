@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SYS2/File Management.md",
+            "file": "HCI2/Waves.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SYS2/File Management.md",
+                "file": "HCI2/Waves.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SYS2/File Management.md"
+                "file": "HCI2/Waves.md"
               }
             }
           },
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SYS2/File Management.md",
+                "file": "HCI2/Waves.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,15 +118,15 @@
   },
   "active": "8ca90b69c2b23210",
   "lastOpenFiles": [
+    "HCI2/Waves.md",
+    "HCI2/UX.md",
+    "HCI2/Cognitve Modelling.md",
+    "TODO.md",
     "SYS2/File Management.md",
     "SYS2/Memory Partitioning.md",
     "SYS2/Memory Management.md",
     "SYS2/IO.md",
-    "TODO.md",
     "HCI2/Blurring Boundaries.md",
-    "Untitled.md",
-    "HCI2/Cognitve Modelling.md",
-    "HCI2/UX.md",
-    "HCI2/Ethics.md"
+    "Untitled.md"
   ]
 }
