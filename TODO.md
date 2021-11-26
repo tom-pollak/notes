@@ -8,7 +8,7 @@ date updated: 2021-11-19 15:36
 
 > DAT2: 26th November — 1st December
 > HCI assessment: 12th January
-> THE3 Formative: 25th November, 1:30 – 2:30
+> THE3 Formative: 40 minutes
 
 ## SYS2
 
@@ -26,8 +26,6 @@ date updated: 2021-11-19 15:36
 - Past exam paper
 
 ## HCI2
-
-- **Wk7: Conceptualizing UX**
 
 **ASSESSMENT**
 
