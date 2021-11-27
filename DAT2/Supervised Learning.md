@@ -59,3 +59,5 @@ Normal odds: P(0.8) = P(0.8) / (1 - P(0.8)) = 4
 **Positive Predicted Value:** Num of correct  positive predictions to total num of positive predictions
 - $\frac{TP}{TP + FP}$
 
+**F1 Score:** Weighted average of _precision_ & _recall_
+- $\frac{2 \times Precision \times Recall}{Precision + Recall}$

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "ENG1/Requirements Engineering.md",
+            "file": "DAT2/Non-Parametric Test.md",
             "mode": "preview"
           }
         }
@@ -60,8 +60,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 161.5,
-    "collapsed": true
+    "width": 161.5
   },
   "right": {
     "id": "956d08eff0b9ff22",
@@ -77,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ENG1/Requirements Engineering.md",
+                "file": "DAT2/Non-Parametric Test.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ENG1/Requirements Engineering.md"
+                "file": "DAT2/Non-Parametric Test.md"
               }
             }
           },
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ENG1/Requirements Engineering.md",
+                "file": "DAT2/Non-Parametric Test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,15 +118,15 @@
   },
   "active": "8ca90b69c2b23210",
   "lastOpenFiles": [
+    "DAT2/Non-Parametric Test.md",
+    "DAT2/Supervised Learning.md",
+    "DAT2/Machine Learning.md",
+    "TODO.md",
+    "THE3/Polynomial-time Reductions.md",
     "ENG1/Requirements Engineering.md",
     "HCI2/Computer Supported Cooperatve Work.md",
     "HCI2/Cognitve Modelling.md",
-    "TODO.md",
     "HCI2/Waves.md",
-    "HCI2/UX.md",
-    "SYS2/File Management.md",
-    "SYS2/Memory Partitioning.md",
-    "SYS2/Memory Management.md",
-    "SYS2/IO.md"
+    "HCI2/UX.md"
   ]
 }
