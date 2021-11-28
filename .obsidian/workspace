@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "DAT2/Non-Parametric Test.md",
+            "file": "DAT2/Supervised Learning.md",
             "mode": "preview"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "distributed cog",
+                "query": "regress",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -56,7 +56,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -76,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DAT2/Non-Parametric Test.md",
+                "file": "DAT2/Supervised Learning.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DAT2/Non-Parametric Test.md"
+                "file": "DAT2/Supervised Learning.md"
               }
             }
           },
@@ -103,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DAT2/Non-Parametric Test.md",
+                "file": "DAT2/Supervised Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,8 +119,8 @@
   },
   "active": "8ca90b69c2b23210",
   "lastOpenFiles": [
-    "DAT2/Non-Parametric Test.md",
     "DAT2/Supervised Learning.md",
+    "DAT2/Non-Parametric Test.md",
     "DAT2/Machine Learning.md",
     "TODO.md",
     "THE3/Polynomial-time Reductions.md",
