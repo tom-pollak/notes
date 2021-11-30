@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "HCI2/Computer Supported Cooperatve Work.md",
+            "file": "HCI2/In the wild.md",
             "mode": "preview"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "activity",
+                "query": "situated",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -56,8 +56,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -77,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HCI2/Computer Supported Cooperatve Work.md",
+                "file": "HCI2/In the wild.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HCI2/Computer Supported Cooperatve Work.md"
+                "file": "HCI2/In the wild.md"
               }
             }
           },
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HCI2/Computer Supported Cooperatve Work.md",
+                "file": "HCI2/In the wild.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,15 +118,15 @@
   },
   "active": "8ca90b69c2b23210",
   "lastOpenFiles": [
-    "HCI2/Computer Supported Cooperatve Work.md",
     "HCI2/In the wild.md",
+    "HCI2/Computer Supported Cooperatve Work.md",
+    "HCI2/Ethics.md",
+    "HCI2/User Experience.md",
+    "HCI2/Blurring Boundaries.md",
+    "HCI2/Cognitve Modelling.md",
+    "TODO.md",
     "DAT2/Supervised Learning.md",
     "DAT2/Non-Parametric Test.md",
-    "DAT2/Big Data.md",
-    "DAT2/Machine Learning.md",
-    "DAT2/Unsupervised Learning.md",
-    "DAT2/Relational Databases.md",
-    "DAT2/XML.md",
-    "DAT2/NoSQL.md"
+    "DAT2/Big Data.md"
   ]
 }

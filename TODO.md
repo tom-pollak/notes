@@ -9,6 +9,11 @@ date updated: 2021-11-19 15:36
 > DAT2: 26th November — 1st December
 > HCI assessment: 12th January
 > THE3 Formative: 40 minutes
+> ENG1: 2nd February
+
+> INT1: Spring wk1
+> SYS2: Spring wk1
+> THE3: Spring wk1
 
 ## SYS2
 
@@ -19,15 +24,20 @@ date updated: 2021-11-19 15:36
 
 ## INT1
 
+- Wk10 Lectures: 1, 2, 3,4 
+
+<br>
+
 - Wk6 Practical
 - Wk7 Practical
 - Wk8 Practical
 - Wk9 Practical
 - Past exam paper
+- Essay submission — not graded
 
 ## HCI2
 
-**ASSESSMENT**
+- 29/11 Lecture
 
 ## DAT2
 
@@ -36,6 +46,9 @@ date updated: 2021-11-19 15:36
 ## THE3
 
 - Wk9 Lecture 20 & 21
+- Wk10 Lecture 22
+
+<br>
 
 - Wk5 Problem sheet
 - Wk7 Problem sheet — done: check 1 & 2**
@@ -45,3 +58,4 @@ date updated: 2021-11-19 15:36
 
 - Wk8 Lectures: requirements engineering
 - Wk9 Lectures: OO modelling w/ UML, OO patterns, Eclipse tips and tricks
+- Wk10 Lectures: Software Architecture, Software Testing
