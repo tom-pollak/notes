@@ -32,6 +32,7 @@ date updated: 2021-11-19 15:36
 - Wk7 Practical
 - Wk8 Practical
 - Wk9 Practical
+- Wk10 Practical
 - Past exam paper
 - Essay submission — not graded
 
