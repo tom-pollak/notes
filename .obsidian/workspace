@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Cutomer Meeting Notes.md",
-            "mode": "source"
+            "file": "ENG1/Requirements Engineering.md",
+            "mode": "preview"
           }
         }
       }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cutomer Meeting Notes.md",
+                "file": "ENG1/Requirements Engineering.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cutomer Meeting Notes.md"
+                "file": "ENG1/Requirements Engineering.md"
               }
             }
           },
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cutomer Meeting Notes.md",
+                "file": "ENG1/Requirements Engineering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,6 +118,7 @@
   },
   "active": "8ca90b69c2b23210",
   "lastOpenFiles": [
+    "ENG1/Requirements Engineering.md",
     "Cutomer Meeting Notes.md",
     "HCI2/In the wild.md",
     "HCI2/Cognitve Modelling.md",
@@ -126,7 +127,6 @@
     "HCI2/Computer Supported Cooperatve Work.md",
     "HCI2/Ethics.md",
     "HCI2/User Experience.md",
-    "HCI2/Blurring Boundaries.md",
-    "DAT2/Supervised Learning.md"
+    "HCI2/Blurring Boundaries.md"
   ]
 }
