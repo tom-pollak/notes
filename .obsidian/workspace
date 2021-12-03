@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "TODO.md",
+            "file": "Cutomer Meeting Notes.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TODO.md",
+                "file": "Cutomer Meeting Notes.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TODO.md"
+                "file": "Cutomer Meeting Notes.md"
               }
             }
           },
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TODO.md",
+                "file": "Cutomer Meeting Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,15 +118,15 @@
   },
   "active": "8ca90b69c2b23210",
   "lastOpenFiles": [
-    "TODO.md",
+    "Cutomer Meeting Notes.md",
     "HCI2/In the wild.md",
+    "HCI2/Cognitve Modelling.md",
+    "Untitled.md",
+    "TODO.md",
     "HCI2/Computer Supported Cooperatve Work.md",
     "HCI2/Ethics.md",
     "HCI2/User Experience.md",
     "HCI2/Blurring Boundaries.md",
-    "HCI2/Cognitve Modelling.md",
-    "DAT2/Supervised Learning.md",
-    "DAT2/Non-Parametric Test.md",
-    "DAT2/Big Data.md"
+    "DAT2/Supervised Learning.md"
   ]
 }
