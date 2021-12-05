@@ -44,6 +44,12 @@ Consider an expression in [[SAT Solving#Conjunctive Normal Form]] with boolean e
 
 - We need to construct a polynomial-time computable function $f$ which maps a CNF expression to a pair $(G_x, k_x)$, where $G_x$ is a graph and $k_x$ an integer, such that $x$ is satisfiable iff $G_x$ contains a clique with $k_x$ nodes
 
+> Suppose we pick one literal $L_i$ from each conjunct (AND) as a node, and connect each pair of picked literals that are not complementary by an edge. If this yields a complete graph, then $x$ is satisfiable by the assignment: $x_i \mapsto$ _if_ $x_i \in \lbrace L_1, \cdots , L_2 \rbrace$ _then_ true _else false_
+> - Vice versa, if $x$ is satisfiable, then a complete graph can be constructed this way
+
+- We construct $G_x$ as a graph consisting of all occurrences of literals in $x$, and all edges between literals that are in **distinct** conjuncts and not complementary (e.g. $x$ and $\neg x$. Also, we choose $k_x$ as the number of conjuncts in $x$. Then $G_x$ contains a clique with $k_x$ nodes iff $x$ is satisfiable.
+
+![[sat-to-clique.png]]
 
 ## NP-Hard
 
