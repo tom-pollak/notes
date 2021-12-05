@@ -69,7 +69,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -132,6 +133,7 @@
   "active": "88aab493970105c2",
   "lastOpenFiles": [
     "THE3/NP.md",
+    "TODO.md",
     "SYS2/System Calls.md",
     "THE3/NP-hardness & NP-completeness.md",
     "THE3/Decision Problems.md",
@@ -139,7 +141,6 @@
     "THE3/Decidable Languages.md",
     "THE3/Computable Funcitons.md",
     "THE3/Polynomial-time Reductions.md",
-    "THE3/Regular Languages.md",
-    "THE3/Rice's Theorem & Church-Turing Thesis.md"
+    "THE3/Regular Languages.md"
   ]
 }

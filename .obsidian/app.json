@@ -60,7 +60,9 @@
     "PlantUML",
     "SSON",
     "proc",
-    "Eudaimonic"
+    "Eudaimonic",
+    "Subgraph",
+    " subgrap"
   ],
   "foldHeading": false,
   "foldIndent": false,

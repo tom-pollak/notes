@@ -46,7 +46,7 @@ date updated: 2021-11-19 15:36
 
 ## THE3
 
-- Wk9 Lecture 20 & 21
+- Wk9 Lecture 21
 - Wk10 Lecture 22
 
 <br>
