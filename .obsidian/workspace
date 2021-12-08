@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "cf0d9bf94f177316",
+        "id": "4816af58761a5898",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "HCI2/UX.md",
+            "file": "THE3/NP.md",
             "mode": "preview"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "pragma",
+                "query": "conjunctive ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -56,12 +56,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 158
+    "width": 158,
+    "collapsed": true
   },
   "right": {
     "id": "956d08eff0b9ff22",
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HCI2/UX.md",
+                "file": "THE3/NP.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HCI2/UX.md"
+                "file": "THE3/NP.md"
               }
             }
           },
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HCI2/UX.md",
+                "file": "THE3/NP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,17 +117,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "cf0d9bf94f177316",
+  "active": "4816af58761a5898",
   "lastOpenFiles": [
-    "HCI2/UX.md",
-    "HCI2/Cognitve Modelling.md",
-    "THE3/Chomsky hierarchy.md",
-    "THE3/Turing Machine.md",
-    "HCI2/In the wild.md",
-    "HCI2/User Experience.md",
-    "HCI2/Ethics.md",
-    "HCI2/Computer Supported Cooperatve Work.md",
-    "HCI2/Blurring Boundaries.md",
-    "HCI2/Waves.md"
+    "THE3/NP.md",
+    "THE3/Nondeterministic Turing Machine.md",
+    "Untitled.md",
+    "INT1/SAT Solving.md",
+    "TODO.md",
+    "THE3/Polynomial-time Reductions.md",
+    "THE3/Space Complexity.md",
+    "THE3/Time Complexity.md",
+    "THE3/Complexity Classes.md",
+    "THE3/Inclusions Between Complexity Classes.md"
   ]
 }

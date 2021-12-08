@@ -46,7 +46,6 @@ date updated: 2021-11-19 15:36
 
 ## THE3
 
-- Wk9 Lecture 21
 - Wk10 Lecture 22
 
 <br>
@@ -56,6 +55,7 @@ date updated: 2021-11-19 15:36
 - Wk8 Problem sheet — done: check
 - Wk9 Problem sheet
 - Wk10 Problem sheet
+- Past paper
 
 ## ENG1
 

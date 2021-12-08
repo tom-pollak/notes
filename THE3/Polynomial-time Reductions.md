@@ -1,3 +1,8 @@
+---
+date created: 2021-12-08 10:05
+
+---
+
 # Polynomial-time Reductions
 
 > For function $f$ if there is a [[Turing Machine]] M with $\tau_M \in O(n^r)$ that computes $f$
