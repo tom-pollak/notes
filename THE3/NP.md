@@ -25,7 +25,9 @@ date updated: 2021-12-08 10:05
 
 ### [[Satisfiability problem]]
 
-> First problem to be NP-Complete
+- Hamiltonian circuit problem
+- Vertex cover problem
+- Subgraph isomorphism problem
 
 
 ## NP-Hard

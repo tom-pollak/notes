@@ -6,6 +6,8 @@ date updated: 2021-12-08 16:17
 
 # Satisfiability problem
 
+> First problem to be [[NP#NP-Complete]]
+
 Consider an expression in [[SAT Solving#Conjunctive Normal Form]] with boolean expressions built from literal variables.
 
 - An expression $C$ is **satisfiable** if there is an assignment of truth values to variables, making $C$ true
@@ -151,6 +153,18 @@ Estimate number of variables in $C$: Tableau is $n^k \times n^k$, hence contains
 	- $I$ depends only on $N$ not on input length $n$, total number of variables is in $O(n^{2k})$
 
 Estimate size of each of four parts of $C$:
-- $C_{cell}$: Contains fixed-size fragment of expression for each cell of tableau, so size is in $O(n^{2^k})$
+- $C_{cell},\ C_{move}\ \&\ C_{accept}$: Contain fixed size fragment of the expression for each cell of tableau, so $O(n^{2k})$
 - $C_{start}$: Fragment for each cell in top row, so $O(n^k)$
-- $C_{C_{move} \text{ \& } C_{accept}$: Contain fixed size fragment of 
+
+$\therefore$ $C$ total size is in $O(n^{2k})$
+
+- Estimates are low by a factor of $O(\log{n})$ as each variable has indices ranging up to $n^k$ so may require $O(\log{n})$ symbols to write the expression, but does not change polynomially of result.
+
+We can generate $C$ in polynomial because of its repetitive nature. Each component of $C$ consists of many nearly identical fragments, which differ only at indices in a simple way. Hence, $C$ can be produced from $w$ in polynomial time.
+
+#### $C$ is in [[SAT Solving#Conjunctive Normal Form | CNF]]
+
+- $C_{cell}$: Written as a conjunction of disjunctions, hence in CNF
+- $C_{start}$: Conjunction of variables, each of which can be taken as a disjunction of size 1
+- $C_{accept}$: Disjunction of variables
+- $C_{move}$: Can be converted into CNF expression such that $C_{move}$ is only increased by a constant factor (**Sipser**)

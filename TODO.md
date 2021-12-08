@@ -6,7 +6,6 @@ date updated: 2021-11-19 15:36
 
 # TODO
 
-> DAT2: 26th November — 1st December
 > HCI assessment: 12th January
 > THE3 Formative: 40 minutes
 > ENG1: 2nd February
@@ -24,15 +23,11 @@ date updated: 2021-11-19 15:36
 
 ## INT1
 
-- Wk10 Lectures: 1, 2, 3,4 
-
-<br>
 
 - Wk6 Practical
 - Wk7 Practical
 - Wk8 Practical
 - Wk9 Practical
-- Wk10 Practical
 - Past exam paper
 - Essay submission — not graded
 
@@ -40,15 +35,7 @@ date updated: 2021-11-19 15:36
 
 - 29/11 Lecture
 
-## DAT2
-
-- Wk7 Lab 12 & 13
-
 ## THE3
-
-- Wk10 Lecture 22
-
-<br>
 
 - Wk5 Problem sheet
 - Wk7 Problem sheet — done: check 1 & 2**
