@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "THE3/NP.md",
-            "mode": "preview"
+            "file": "THE3/Satisfiability problem.md",
+            "mode": "source"
           }
         }
       }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "conjunctive ",
+                "query": "\\vee",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "THE3/NP.md",
+                "file": "THE3/Satisfiability problem.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "THE3/NP.md"
+                "file": "THE3/Satisfiability problem.md"
               }
             }
           },
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "THE3/NP.md",
+                "file": "THE3/Satisfiability problem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,15 +119,15 @@
   },
   "active": "4816af58761a5898",
   "lastOpenFiles": [
+    "THE3/Satisfiability problem.md",
     "THE3/NP.md",
+    "THE3/Polynomial-time Reductions.md",
+    "INT1/First-Order Logic.md",
     "THE3/Nondeterministic Turing Machine.md",
     "Untitled.md",
     "INT1/SAT Solving.md",
     "TODO.md",
-    "THE3/Polynomial-time Reductions.md",
     "THE3/Space Complexity.md",
-    "THE3/Time Complexity.md",
-    "THE3/Complexity Classes.md",
-    "THE3/Inclusions Between Complexity Classes.md"
+    "THE3/Time Complexity.md"
   ]
 }
