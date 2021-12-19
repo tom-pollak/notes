@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "68f21a1dbf2dc408",
+        "id": "08506a19550190f2",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
             "file": "TODO.md",
-            "mode": "preview"
+            "mode": "source"
           }
         }
       }
@@ -60,8 +60,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 158,
-    "collapsed": true
+    "width": 158
   },
   "right": {
     "id": "956d08eff0b9ff22",
@@ -117,7 +116,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "68f21a1dbf2dc408",
+  "active": "08506a19550190f2",
   "lastOpenFiles": [
     "TODO.md",
     "INT1/Ethics in AI.md",
