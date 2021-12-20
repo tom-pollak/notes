@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "TODO.md",
-            "mode": "source"
+            "file": "INT1/Simulated Annealing.md",
+            "mode": "preview"
           }
         }
       }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "chinese",
+                "query": "simulated",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -56,11 +56,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 158
+    "width": 158,
+    "collapsed": true
   },
   "right": {
     "id": "956d08eff0b9ff22",
@@ -76,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TODO.md",
+                "file": "INT1/Simulated Annealing.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TODO.md"
+                "file": "INT1/Simulated Annealing.md"
               }
             }
           },
@@ -103,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TODO.md",
+                "file": "INT1/Simulated Annealing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,15 +120,15 @@
   },
   "active": "08506a19550190f2",
   "lastOpenFiles": [
+    "INT1/Simulated Annealing.md",
+    "INT1/Gradient Descent.md",
+    "INT1/Local Search.md",
     "TODO.md",
     "INT1/Ethics in AI.md",
     "INT1/Future of AI.md",
     "INT1/Philosophical Issues.md",
     "THE3/Rice's Theorem & Church-Turing Thesis.md",
     "THE3/NP.md",
-    "THE3/Satisfiability problem.md",
-    "THE3/Polynomial-time Reductions.md",
-    "INT1/First-Order Logic.md",
-    "THE3/Nondeterministic Turing Machine.md"
+    "THE3/Satisfiability problem.md"
   ]
 }
