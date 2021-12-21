@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "de7904eccbf81b54",
+        "id": "20efa36cc3b8b845",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
             "file": "Poker/Flop.md",
-            "mode": "preview"
+            "mode": "source"
           }
         }
       }
@@ -60,8 +60,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 158,
-    "collapsed": true
+    "width": 158
   },
   "right": {
     "id": "956d08eff0b9ff22",
@@ -117,7 +116,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "de7904eccbf81b54",
+  "active": "20efa36cc3b8b845",
   "lastOpenFiles": [
     "Poker/Flop.md",
     "Poker/Poker.md",
