@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "Poker/Flop.md",
-            "mode": "source"
+            "mode": "preview"
           }
         }
       }
@@ -60,7 +60,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 158
+    "width": 158,
+    "collapsed": true
   },
   "right": {
     "id": "956d08eff0b9ff22",
@@ -119,6 +120,7 @@
   "active": "20efa36cc3b8b845",
   "lastOpenFiles": [
     "Poker/Flop.md",
+    "River.md",
     "Poker/Poker.md",
     "INT1/Simulated Annealing.md",
     "INT1/Gradient Descent.md",
@@ -126,7 +128,6 @@
     "TODO.md",
     "INT1/Ethics in AI.md",
     "INT1/Future of AI.md",
-    "INT1/Philosophical Issues.md",
-    "THE3/Rice's Theorem & Church-Turing Thesis.md"
+    "INT1/Philosophical Issues.md"
   ]
 }

@@ -141,3 +141,68 @@ date updated: 2021-12-21 12:29
 
 ### 3-Bet Pots
 
+![[ip-defense-formations-3b.jpg]]
+
+- Under 40% equity and under-realize our equity
+- At a great disadvantage despite position:
+	- Both players ranges are narrow
+	- Top-end hands that we don't have in our range opponent has in theirs are a greater proportion of their overall range
+	- SPR is smaller, meaning less decisions to get all the money in, simplifying and reducing the impact of the positional advantage
+- Metrics worsen the later our position as our opponent will 3-bet us more widely the wider our opening range
+
+<br>
+
+- Opponent should c-bet 80% of the time
+	- Fold 40-50% of our range
+	- **very** rarely raise - could eliminate raising range altogether on majority of boards
+	- Call or fold stategy
+- When V does check, we c-bet more frequently from EP (50%)
+	- As they weaken their range when they check we're better able to attack with our narrow EP range
+	- MP/LP bet 2:1
+
+
+## OOP Defense
+
+- Worst spot
+- Capped range – even more so as we are less likely to trap in a calling range OOP
+- As we are at a range (and equity) disadvantage, any aggressive action will leave a large chunk of our range unprotected
+	- We will need an oppourtunity to polarize against our opponents range with the aggressive portion of our range
+	- Won't have a leading range, and very rarely check-raise
+	- Usually check-call check-fold
+
+### Single-raised Pots
+
+![[oop-defense-formations-srp.jpg]]
+
+- Opponent should be betting 60-70% of the time when we check
+	- Can exploit players that over c-bet
+
+#### Leading
+
+- 8% BB v BTN as our opponents' density of hands with poor equity that completely miss will increase as their range becomes wider, giving us opportunity to target a portion of his range more effectively
+- 11% SB v EP – SB flat range is very narrow, so we have some boards that connect with it significantly, letting us play our range more aggressively
+
+#### Check-raise
+
+- Inversely correlated with leading
+- We should be similarly aggressive OOP, but should shift these frequencies (check-raise or leads) based on formations
+
+![[defensive-oop-aggfreq-srp.jpg]]
+
+### 3-Bet Pots
+
+- Awful equity, 39-43%
+- Not incentivized to play a high SPR pot OOP, so we develop more polarized 4-bet ranges when OOP
+	- Therefore, our calling range is capped and less protected than IP
+- Both ranges are narrow, and our opponent's nut advantage is higher density in their range
+
+![[oop-defense-formations-3b.jpg]]
+
+- Because of this, V will be able to bet _much_ more frequently (over 80%)
+	- Unlikely to be able to find exploits against an opponent who bets too much
+- Since our opponent is betting more frequently and pressing their significant equity advantage against ours, we have to fold at a higher frequency
+- Check-fold 55% v EP & 47% v MP or SB v BB
+- Rarely lead: 2% in SB and 5% everywhere else
+- Rarely check-raise, should be less agressive in these 3-bet pots
+
+![[defensive-oop-aggfreq-3b.jpg]]
