@@ -7,10 +7,9 @@
         "id": "20efa36cc3b8b845",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "image",
           "state": {
-            "file": "Poker/Flop.md",
-            "mode": "preview"
+            "file": "Poker/ip-offense-formations-srp.jpg"
           }
         }
       }
@@ -60,8 +59,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 158,
-    "collapsed": true
+    "width": 158
   },
   "right": {
     "id": "956d08eff0b9ff22",
@@ -77,7 +75,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Poker/Flop.md",
+                "file": "Poker/ip-offense-formations-srp.jpg",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +92,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Poker/Flop.md"
+                "file": "Poker/ip-offense-formations-srp.jpg"
               }
             }
           },
@@ -104,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Poker/Flop.md",
+                "file": "Poker/ip-offense-formations-srp.jpg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,15 +117,15 @@
   },
   "active": "20efa36cc3b8b845",
   "lastOpenFiles": [
+    "Poker/ip-offense-formations-srp.jpg",
+    "Poker/Poker.md",
     "Poker/Flop.md",
     "River.md",
-    "Poker/Poker.md",
     "INT1/Simulated Annealing.md",
     "INT1/Gradient Descent.md",
     "INT1/Local Search.md",
     "TODO.md",
     "INT1/Ethics in AI.md",
-    "INT1/Future of AI.md",
-    "INT1/Philosophical Issues.md"
+    "INT1/Future of AI.md"
   ]
 }
