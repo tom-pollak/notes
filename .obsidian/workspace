@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "DAT2/Exam/DAT2 Exam.md",
-            "mode": "preview",
+            "file": "HCI2/In the wild.md",
+            "mode": "source",
             "source": false
           }
         }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "blended",
+                "query": "cognition",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,12 +57,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 158,
-    "collapsed": true
+    "width": 158
   },
   "right": {
     "id": "956d08eff0b9ff22",
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DAT2/Exam/DAT2 Exam.md",
+                "file": "HCI2/In the wild.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DAT2/Exam/DAT2 Exam.md"
+                "file": "HCI2/In the wild.md"
               }
             }
           },
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DAT2/Exam/DAT2 Exam.md",
+                "file": "HCI2/In the wild.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -120,15 +120,15 @@
   },
   "active": "20efa36cc3b8b845",
   "lastOpenFiles": [
+    "HCI2/In the wild.md",
+    "HCI2/Computer Supported Cooperatve Work.md",
+    "Poker/River.md",
+    "HCI2/The Thing and I.md",
     "DAT2/Exam/DAT2 Exam.md",
     "HCI2/User Experience.md",
     "TODO.md",
     "THE3/Polynomial-time Reductions.md",
     "INT1/Adversarial Search.md",
-    "INT1/Philosophical Issues.md",
-    "INT1/Ethics in AI.md",
-    "Poker/ip-offense-formations-srp.jpg",
-    "Poker/Poker.md",
-    "Poker/Flop.md"
+    "INT1/Philosophical Issues.md"
   ]
 }

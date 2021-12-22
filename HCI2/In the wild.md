@@ -16,11 +16,18 @@ date created: 2021-11-21 12:11
 - Number of people with range of technologies and devices, trying to achieve a goal
   - NHS choose and book: allows patient to make hospital appointment with consultant of choice at hospital of choice
 
+> Propagation of knowledge between individuals
+
+Door automatically closing itself: person who opened door does not have to think about closing it as architect already decided the door should close automatically
+
 ## Activity Theory
 
 ![[activity theory.png]]
 
 ## Situated Action
+
+>  Action and planning are both situated in context of a flow socially
+>  - As opposed to planning everything - people improvise, non-deterministic, cannot be reproduced
 
 - Nothing can be understood without first understanding its context
 - Human procedures are not replicable

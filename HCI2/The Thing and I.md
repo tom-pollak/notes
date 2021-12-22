@@ -1,0 +1,36 @@
+# The Thing & I: Understanding the relationship between user and product
+
+- Product “character” can vary between intendended (designer) and user
+- Construct product character from features, personal standards, expectations (other similar products)
+	- Can be based on situation or bad design
+	- E.g. ATM designed to be highly understandable by putting receiving money into short steps
+		- However can be frustrating to user that has limited time
+- 1. Product features - establish character, pragmatic & hedonic attributes
+- 2. Character leads to consequences: Situation specific!
+	- judgement about product appeal
+	- Emotional consequences (pleasure, satisfaction)
+	- Behavioural consequences (increased time spent with product)
+- This will always take place - even in situations with very limited information
+- Stimulating product: individuals strive for personal development, while many will not need or use all features available in a software, they nevertheless wanted the functionality for future perfection of current goals or future generation of new goals
+	- Features used pragmatic, features not yet used but are interesting hedonic
+- Product may be hedonic: stimulation, identification, or provokes memories
+	- E.g. vintage games, may buy a certain hammer (pragmatic) brand that communicates professionalism to others or a whole kit
+- Product needs to communicate _identity_ e.g. home page to communicate advantageous identity
+	- Borcherding and Schumacher (2002): Students who believed others hold unfavourable opinions and few social contacts presented more info about friends and family on their homepages
+- ACT: Strong pragmatic weak hedonic, SELF: Strong hedonic, weak pragmatic
+-   Appreciation & bond of SELF products much more stable that ACT: as prob individual change what they require is much lower than prob that behavioural goals change
+- Satisfaction: outcome and expectations of a product are confirmed
+- Joy: Pleased about a desirable event per se
+	- Requires no expectations: the more unexpected, the more intense
+- Appealing: broad, trigger positive emotional reaction
+- ACT more likely to be appealing and satisfaction, SELF: joy as hedonic
+- Usage modes: situation dependant, psychological states
+	- Goal mode: goal fulfilment in the fore, goal has importance and determines all actions
+		- Product means to an end
+		- Individuals try to be effective and efficient: describe themselves as “serious” and “planning”
+	- Action mode: determine goals on the fly, volatile
+		- Product end in itself
+		- Effectiveness & efficiency not as important
+		- Individuals “playful” “spontaneous”
+- Designers may better understand how people perceive and value objects
+- Operationalisation and measurement of key elements
