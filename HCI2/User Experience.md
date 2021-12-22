@@ -28,6 +28,6 @@ E.g. wifi can be slow, suggested that instead of hiding from the users use seamf
 
 ## Blended spaces
 
-> Physical space and a digital space brought togentehgr
+> Physical space and a digital space brought together
 
 e.g. Computer window: window in house and collecting computer operations together

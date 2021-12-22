@@ -7,9 +7,11 @@
         "id": "20efa36cc3b8b845",
         "type": "leaf",
         "state": {
-          "type": "image",
+          "type": "markdown",
           "state": {
-            "file": "Poker/ip-offense-formations-srp.jpg"
+            "file": "DAT2/Exam/DAT2 Exam.md",
+            "mode": "preview",
+            "source": false
           }
         }
       }
@@ -38,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "simulated",
+                "query": "blended",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -59,7 +61,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 158
+    "width": 158,
+    "collapsed": true
   },
   "right": {
     "id": "956d08eff0b9ff22",
@@ -75,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Poker/ip-offense-formations-srp.jpg",
+                "file": "DAT2/Exam/DAT2 Exam.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -92,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Poker/ip-offense-formations-srp.jpg"
+                "file": "DAT2/Exam/DAT2 Exam.md"
               }
             }
           },
@@ -102,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Poker/ip-offense-formations-srp.jpg",
+                "file": "DAT2/Exam/DAT2 Exam.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,15 +120,15 @@
   },
   "active": "20efa36cc3b8b845",
   "lastOpenFiles": [
+    "DAT2/Exam/DAT2 Exam.md",
+    "HCI2/User Experience.md",
+    "TODO.md",
+    "THE3/Polynomial-time Reductions.md",
+    "INT1/Adversarial Search.md",
+    "INT1/Philosophical Issues.md",
+    "INT1/Ethics in AI.md",
     "Poker/ip-offense-formations-srp.jpg",
     "Poker/Poker.md",
-    "Poker/Flop.md",
-    "River.md",
-    "INT1/Simulated Annealing.md",
-    "INT1/Gradient Descent.md",
-    "INT1/Local Search.md",
-    "TODO.md",
-    "INT1/Ethics in AI.md",
-    "INT1/Future of AI.md"
+    "Poker/Flop.md"
   ]
 }

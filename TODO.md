@@ -23,7 +23,6 @@ date updated: 2021-11-19 15:36
 
 ## INT1
 
-
 - Wk6 Practical
 - Wk7 Practical
 - Wk8 Practical
