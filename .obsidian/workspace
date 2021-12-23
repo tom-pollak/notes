@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "HCI2/In the wild.md",
+            "file": "Poker/Flop.md",
             "mode": "source",
             "source": false
           }
@@ -57,8 +57,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -78,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HCI2/In the wild.md",
+                "file": "Poker/Flop.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HCI2/In the wild.md"
+                "file": "Poker/Flop.md"
               }
             }
           },
@@ -105,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HCI2/In the wild.md",
+                "file": "Poker/Flop.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -120,6 +119,7 @@
   },
   "active": "20efa36cc3b8b845",
   "lastOpenFiles": [
+    "Poker/Flop.md",
     "HCI2/In the wild.md",
     "HCI2/Computer Supported Cooperatve Work.md",
     "Poker/River.md",
@@ -128,7 +128,6 @@
     "HCI2/User Experience.md",
     "TODO.md",
     "THE3/Polynomial-time Reductions.md",
-    "INT1/Adversarial Search.md",
-    "INT1/Philosophical Issues.md"
+    "INT1/Adversarial Search.md"
   ]
 }
