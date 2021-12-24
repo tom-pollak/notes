@@ -24,14 +24,14 @@ Encoding $enc$ is reasonable if:
 - $E(P)$ is decidable
 - There is a decoding algorithm which given a code $w \in E(P)$ construncts an instance $I$ such that $enc(I) = w$
 
-> Decision problem $P$ is only [[Decidable Languages | decidable]] if $Y(P)$ is decidable
-> [[Semidecidable Languages | Semidecidable]] if $Y(P)$ is semidecidable
+> Decision problem $P$ is only [[Decidable Languages |decidable]] if $Y(P)$ is decidable
+> [[Semidecidable Languages |Semidecidable]] if $Y(P)$ is semidecidable
 
 ### Membership Problem
 
 Membership problem for [[Regular Languages]]
 Input: A [[Finite Automata]] $M$ and $w \in \Sigma^*$
-Question: Is $w \in L(M)$
+Question: Is $w \in L(M)$?
 
 Problem domain: $D = \lbrace (M, w)\ |\ M\ is\ a\ FA\ and\ w \in \Sigma^*\rbrace$
 

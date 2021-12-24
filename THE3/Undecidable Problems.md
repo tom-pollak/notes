@@ -25,6 +25,8 @@ Given decision problems $P_1, P_2$ we say that $P_1$ is reducible to $P_2$ if $Y
 $Y(SAP) = \lbrace e(M)\ |\ M\ is\ a\ TM\ and\ e(M) \in L(M) \rbrace$
 $Y(MP) \ = \lbrace e(M)e(w)\ |\ M\ is\ a\ TM\ and\ w \in L(M) \rbrace$
 
+N.B $e(M)$ is an encoded M
+
 Define $f: \lbrace 0,1 \rbrace^* \rightarrow \lbrace 0, 1 \rbrace^*$ by
 
 $f(x) = \lbrace xe(x)\ if\ x = e(M)\ for\ some\ TM\ M,$
