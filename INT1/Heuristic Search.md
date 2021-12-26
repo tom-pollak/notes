@@ -83,4 +83,4 @@ Like breadth first but nodes stored in priority queue ordered by increasing path
 - Optimality: No
 - (This is a worst-case, a good $h(n)$ can reduce this)
 
-### [[A-star Search | A\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\* Search]]
+### [[A-star Search]]
