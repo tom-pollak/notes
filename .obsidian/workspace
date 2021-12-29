@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "INT1/Heuristic Search.md",
+            "file": "THE3/Grammars.md",
             "mode": "preview",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tauto",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,8 +57,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -78,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "INT1/Heuristic Search.md",
+                "file": "THE3/Grammars.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "INT1/Heuristic Search.md"
+                "file": "THE3/Grammars.md"
               }
             }
           },
@@ -105,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "INT1/Heuristic Search.md",
+                "file": "THE3/Grammars.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -120,15 +119,15 @@
   },
   "active": "9e5b82b0d309fa3c",
   "lastOpenFiles": [
-    "INT1/Heuristic Search.md",
-    "INT1/A-star Search.md",
-    "INT1/Gradient Descent.md",
-    "INT1/Local Search.md",
-    "INT1/Game Theory.md",
-    "INT1/Adversarial Search.md",
+    "THE3/Grammars.md",
     "TODO.md",
-    "THE3/Decision Problems.md",
-    "THE3/Undecidable Problems.md",
-    "THE3/Regular Languages.md"
+    "THE3/Satisfiability problem.md",
+    "THE3/Polynomial-time Reductions.md",
+    "THE3/Inclusions Between Complexity Classes.md",
+    "THE3/sat-to-clique.png",
+    "THE3/NP.md",
+    "INT1/Propositional Logic.md",
+    "INT1/SAT Solving.md",
+    "INT1/Heuristic Search.md"
   ]
 }

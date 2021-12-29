@@ -36,10 +36,9 @@ date updated: 2021-11-19 15:36
 
 ## THE3
 
-- Wk5 Problem sheet
+- Wk5 Problem sheet - **look at**
 - Wk7 Problem sheet — done: check 1 & 2**
 - Wk8 Problem sheet — done: check
-- Wk9 Problem sheet
 - Wk10 Problem sheet
 - Past paper
 
