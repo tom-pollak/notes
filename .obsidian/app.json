@@ -87,5 +87,6 @@
   },
   "fileSortOrder": "byModifiedTime",
   "legacyEditor": false,
-  "livePreview": true
+  "livePreview": true,
+  "useTab": true
 }

@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "c289336822a0f016",
+        "id": "817c0b626d669685",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "INT1/Exam/Exam.md",
+            "file": "INT1/Exam/INT1 Exam.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "$f",
+                "query": "admi",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "INT1/Exam/Exam.md",
+                "file": "INT1/Exam/INT1 Exam.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "INT1/Exam/Exam.md"
+                "file": "INT1/Exam/INT1 Exam.md"
               }
             }
           },
@@ -104,30 +104,39 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "INT1/Exam/Exam.md",
+                "file": "INT1/Exam/INT1 Exam.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "06301941733f894f",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "c289336822a0f016",
+  "active": "817c0b626d669685",
   "lastOpenFiles": [
-    "INT1/Exam/Exam.md",
-    "INT1/Gradient Descent.md",
-    "THE3/Computable Funcitons.md",
+    "INT1/Exam/INT1 Exam.md",
+    "INT1/Heuristic Search.md",
+    "DAT2/Exam/DAT2 Exam.md",
     "INT1/A-star Search.md",
+    "INT1/Gradient Descent.md",
+    "INT1/Local Search.md",
+    "THE3/Computable Funcitons.md",
     "DAT2/Machine Learning.md",
     "DAT2/Non-Parametric Test.md",
-    "DAT2/Supervised Learning.md",
-    "INT1/Game Theory.md",
-    "INT1/Adversarial Search.md",
-    "INT1/Propositional Logic.md"
+    "DAT2/Supervised Learning.md"
   ]
 }
