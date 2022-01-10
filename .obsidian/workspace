@@ -10,8 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "INT1/Exam/INT1 Exam.md",
-            "mode": "preview",
-            "source": false
+            "mode": "source"
           }
         }
       }
@@ -128,14 +127,14 @@
   "active": "015cdf8d3ba54245",
   "lastOpenFiles": [
     "INT1/Exam/INT1 Exam.md",
+    "INT1/First-Order Logic.md",
+    "INT1/Philosophical Issues.md",
+    "INT1/Ethics in AI.md",
+    "INT1/Heuristic Search.md",
     "DAT2/Relationships.md",
     "SYS2/Processes.md",
-    "INT1/Heuristic Search.md",
     "INT1/SAT Solving.md",
     "DAT2/Exam/DAT2 Exam.md",
-    "INT1/A-star Search.md",
-    "INT1/Gradient Descent.md",
-    "INT1/Local Search.md",
-    "THE3/Computable Funcitons.md"
+    "INT1/A-star Search.md"
   ]
 }

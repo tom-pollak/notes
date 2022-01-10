@@ -86,7 +86,7 @@
     "downscalePercent": 77
   },
   "fileSortOrder": "byModifiedTime",
-  "legacyEditor": false,
+  "legacyEditor": true,
   "livePreview": true,
   "useTab": true
 }
