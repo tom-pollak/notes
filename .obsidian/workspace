@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "817c0b626d669685",
+        "id": "015cdf8d3ba54245",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
             "file": "INT1/Exam/INT1 Exam.md",
-            "mode": "source",
+            "mode": "preview",
             "source": false
           }
         }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "admi",
+                "query": "mermai",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -118,25 +118,24 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "817c0b626d669685",
+  "active": "015cdf8d3ba54245",
   "lastOpenFiles": [
     "INT1/Exam/INT1 Exam.md",
+    "DAT2/Relationships.md",
+    "SYS2/Processes.md",
     "INT1/Heuristic Search.md",
+    "INT1/SAT Solving.md",
     "DAT2/Exam/DAT2 Exam.md",
     "INT1/A-star Search.md",
     "INT1/Gradient Descent.md",
     "INT1/Local Search.md",
-    "THE3/Computable Funcitons.md",
-    "DAT2/Machine Learning.md",
-    "DAT2/Non-Parametric Test.md",
-    "DAT2/Supervised Learning.md"
+    "THE3/Computable Funcitons.md"
   ]
 }

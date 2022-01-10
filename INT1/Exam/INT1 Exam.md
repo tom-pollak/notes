@@ -47,13 +47,17 @@ I would use a stack to represent the fringe, which is FIFO
 
 > $\forall i \in \lbrace \mathbb{Z}^+ < n \rbrace ,\ P_i \in B_1$ or $B_0 = \emptyset$
 
-**Successor function:** Can be defined as a series of actions with appreopiate preconditions and postconditions. Actions in this case consist of moving a set of people, $W$, defined by the function $f_W: \mathbb{N} \rightarrow \lbrace \mathbb{N},\ \lbrace \mathbb{N} \cup \lambda \rbrace \rbrace$ between the two points. For example $MOVE(W, B_0, B_1, T)$ would move the set of people $W$ from point $B_{in}$ to $B_{out}$. $T$ is used to verify the other variables. The preconditions are as follows:
+**Successor function:** Can be defined as a series of actions with 
+appropiate preconditions and postconditions. Actions in this case consist of moving a set of people, $W$, between the two points. For example $MOVE(W, B_0, B_1, T)$ would people in $W$ from point $B_0$ to $B_1$. $T$ is used to verify the other variables. The preconditions for $MOVE(W, B_{in}, B_{out}, T)$ are as follows:
 
-> $f_W(B_0, B_1, T) = \LARGE \left\{\ \{ P_i,\ P_j\ |\ \exists\ i,j:\ P_i \in B_0,\ P_j \in \{B_0\ \cup\ \lambda \},\ P_i \neq P_j \}\ \text{ if } T \text{ is even} \atop \{ P_i,\ P_j\ |\ \exists\ i,j:\ P_i \in B_1,\ P_j \in \{B_1\ \cup\ \lambda \},\ P_i \neq P_j \}\ \text{ if } T \text{ is odd} \right.$
+We can also use the function $f_B: \mathbb{N} \rightarrow \mathbb{B}$ to verify that the movement is correct based on the position of the torch
 
-We can also use the function to create variable _pointers_ $B_{in}$ and $B_{out}$
+> $f_B(T) = \LARGE \left\{\ (B_0 = B_{out})\ \wedge\ (B_1 = B_{in}) \text{ if } T \text{ is even} \atop (B_1 =B_{out})\ \wedge\ (B_0 = B_{in}) \text{ if } T \text{ is odd} \right.$
 
-> $f_B(T) = \LARGE \left\{\ B_{out} = B_0,\ B_{in} = B_1 \text{ if } T \text{ is even} \atop B_{out} = B_1,\ B_{in} = B_0 \text{ if } T \text{ is odd} \right.$
+We can then verify that the people that are moving are indeed from the point $B_{in}$
+
+> $\large W \in \{ P_i,\ P_j\ |\ \exists\ i,j:\ P_i \in B_{in},\ P_j \in \{B_{in}\ \cup\ \lambda \},\ P_i \neq P_j \}$
+
 
 Postcondtions: These reflect an updated set of states after the $MOVE$ function has taken place
 
@@ -63,21 +67,19 @@ Postcondtions: These reflect an updated set of states after the $MOVE$ function 
 
 ### (ii)
 
-As with an unoptimized approach all people crossing are equivalent, a depth first search that avoids cycles would be the best because it would search deeper in the tree than a breadth first search and therefore find a solution quicker.
+With an unoptimized approach all people crossing are equivalent, a depth first search that avoids cycles would be the best because it would search deeper in the tree than a breadth first search and therefore find a solution quicker.
 
 ### (iii)
 
-An admissible heuristic could be the person with the smallest $i$ currently at point $B_0$, divided by 2
-
-> 
+An admissible heuristic could be the crossing time of the person with the smallest $i$ currently at point $B_0$ multiplied by the number of people at $B_0$, divided by 2
 
 ### (iv)
 
-For an admissible heuristic, we are required to underestimate the lowest possible solving time of the problem. Therefore we can ignore the problem of the torch coming back, as this will only increase the lowest possible solving time.
+For an admissible heuristic, we are required to equal underestimate the optimal solution to the problem. Therefore we can ignore optimizing the torch coming back, as this will only increase the lowest possible solving time.
 
 As by definition of the question, the persons crossing time is $2^i$, it follows that the person with the lowest $i$ is the person with the shortest crossing time.
 
-For the quickest _theoretical_ possible solving time every person currently at $B_0$ would have the same lowest crossing time so no other person would have to wait for somebody else (even though this is not technically possible in the current puzzle, as each person has a different time according to their identifier $i$). Therefore, as two people can cross the bridge at any one time, the lowest possible solving time by this definition must be the time of the quickest person currently at $B_0$ (lowest $i$) divided by 2.
+For the quickest _theoretically_ possible solving time every person currently at $B_0$ would have the same lowest crossing time so no other person would have to wait for somebody else (even though this is not technically possible in the current puzzle, as each person has a different time according to their identifier $i$, however it dosen't matter as it is an underestimation). Therefore, as two people can cross the bridge at any one time, the lowest theorietical solving time by this definition must be the time taken of the quickest person currently at $B_0$ (lowest $i$) multiplied by the number of people at $B_0$, divided by 2.
 
 ## 3.
 
@@ -90,6 +92,81 @@ For the quickest _theoretical_ possible solving time every person currently at $
 
 ### (ii)
 
-The functions minima is $x = 0$, at this point the gradient is 0 so there will be no difference between the new x value and old one so the algorithm will know it has reached the local minima. The algorithm will therefore return the minimum value on the first loop.
+The functions minima is $x = 0$, at this point the gradient is 0 so there will be no difference between $x_n$ and $x_{n+1}$ so the algorithm will know it has reached the local minima. The algorithm will therefore return the minima (0) on the first loop.
 
 ### (iii)
+
+No you could not use gradient descent to solve SAT problems as gradient descent requires the ability to differentiate a function which is impossible in boolean logic.
+
+## 4.
+
+### (i)
+
+The minimax search algorithm will start at $s_1$ and attempt to maximize the outputs from its child nodes. It tries move A and reaches $s_2$ where it will take the view of the oppenent and try to minimize the output. Therefore from $s_2$ it will pick move C as this is the smallest value. This is returned to $s_1$ and move A results in a value of 1.
+
+The same is applied to move B, $s_3$ and the the minima function will again return 1 as move B results in the minimal value from $s_3$. So move B will return 1.
+
+Move C reaches $s_4$, where the minima funciton will return 8, from either move B or C the oppenent will return 8, the minimum value. Therefore $s_4$ returns 8 and the minimax algorithm chooses move C as it returns the highest value.
+
+### (ii)
+
+Max should make move C as this forces the opponent to give an output of 8 or 16, which is better than the other two moves in which the opponent can give an output of 1
+
+### (iii)
+
+
+# TODO
+**heuristic function one here**
+
+## 5.
+
+### (i)
+
+**(a)** $(\neg A \vee \neg B) \wedge (\neg B \vee C) \wedge (\neg C \vee B) \wedge (\neg A \vee C)$
+
+**(b)** DPLL can be implemented as a DFS. $L$ is satifiable by $\{A:F,\ B:T,\ C:T\}$ and $\{A:F,\ B:F,\ C:F\}$
+
+```mermaid
+graph TD
+A[A]
+B_t[B]
+B_f[B]
+C_t_2[C]
+C_f_1[C]
+C_f_2[C]
+t_1[T]
+t_2[T]
+f_1[F]
+f_2[F]
+f_5[F]
+f_6[F]
+f_7[F]
+
+
+A --- |T| B_t
+A --- |F| B_f
+B_t --- |T| f_2
+B_t --- |F| C_f_1
+B_f --- |T| C_t_2
+B_f --- |F| C_f_2
+C_f_2 --- |T| f_1
+C_f_2 --- |F| t_1
+C_t_2 --- |T| t_2
+C_t_2 --- |F| f_5
+C_f_1 --- |T| f_6
+C_f_1 --- |F| f_7
+
+
+
+```
+
+
+
+**(c)** $(\neg B \vee C)$
+
+### (ii)
+
+# TODO
+**Knowledge base one**
+
+
