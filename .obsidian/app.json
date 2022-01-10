@@ -85,7 +85,7 @@
     "margin": "0",
     "downscalePercent": 77
   },
-  "fileSortOrder": "byCreatedTime",
+  "fileSortOrder": "byModifiedTime",
   "legacyEditor": false,
   "livePreview": true
 }

@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "9e5b82b0d309fa3c",
+        "id": "c289336822a0f016",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "INT1/A-star Search.md",
-            "mode": "preview",
+            "file": "INT1/Exam/Exam.md",
+            "mode": "source",
             "source": false
           }
         }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "iterativ",
+                "query": "$f",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,8 +57,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -78,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "INT1/A-star Search.md",
+                "file": "INT1/Exam/Exam.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "INT1/A-star Search.md"
+                "file": "INT1/Exam/Exam.md"
               }
             }
           },
@@ -105,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "INT1/A-star Search.md",
+                "file": "INT1/Exam/Exam.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,17 +117,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "9e5b82b0d309fa3c",
+  "active": "c289336822a0f016",
   "lastOpenFiles": [
-    "INT1/A-star Search.md",
+    "INT1/Exam/Exam.md",
     "INT1/Gradient Descent.md",
-    "TODO.md",
-    "THE3/Semidecidable Languages.md",
-    "THE3/Pushdown Automata.md",
-    "HCI2/The Thing and I.md",
-    "THE3/Grammars.md",
-    "THE3/Satisfiability problem.md",
-    "THE3/Polynomial-time Reductions.md",
-    "THE3/Inclusions Between Complexity Classes.md"
+    "THE3/Computable Funcitons.md",
+    "INT1/A-star Search.md",
+    "DAT2/Machine Learning.md",
+    "DAT2/Non-Parametric Test.md",
+    "DAT2/Supervised Learning.md",
+    "INT1/Game Theory.md",
+    "INT1/Adversarial Search.md",
+    "INT1/Propositional Logic.md"
   ]
 }
