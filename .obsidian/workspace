@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "INT1/Gradient Descent.md",
+            "file": "INT1/A-star Search.md",
             "mode": "preview",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "recursively ",
+                "query": "iterativ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,7 +57,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -77,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "INT1/Gradient Descent.md",
+                "file": "INT1/A-star Search.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "INT1/Gradient Descent.md"
+                "file": "INT1/A-star Search.md"
               }
             }
           },
@@ -104,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "INT1/Gradient Descent.md",
+                "file": "INT1/A-star Search.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,6 +120,7 @@
   },
   "active": "9e5b82b0d309fa3c",
   "lastOpenFiles": [
+    "INT1/A-star Search.md",
     "INT1/Gradient Descent.md",
     "TODO.md",
     "THE3/Semidecidable Languages.md",
@@ -127,7 +129,6 @@
     "THE3/Grammars.md",
     "THE3/Satisfiability problem.md",
     "THE3/Polynomial-time Reductions.md",
-    "THE3/Inclusions Between Complexity Classes.md",
-    "THE3/sat-to-clique.png"
+    "THE3/Inclusions Between Complexity Classes.md"
   ]
 }
