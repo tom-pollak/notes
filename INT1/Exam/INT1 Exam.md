@@ -1,6 +1,6 @@
 ---
 date created: 2022-01-10 15:18
-date updated: 2022-01-10 19:17
+date updated: 2022-01-11 02:23
 
 ---
 
@@ -12,19 +12,17 @@ _Y3891128_
 
 ### 1.i
 
-**(a)** A B C D E F G H I J K
+**(a)** [A B C D E F G H I J K]
 
-**(b)** A B E I F C D G J K H
+**(b)** [A B E I F C D G J K H]
 
-**(c)** A B E F C D G H I J K
+**(c)** [A B E F C D G H I J K]
 
-**(d)** (Where “|” marks a new iteration)
-
-A | A B C D | A B E F C D H | A B E I F C D G J K H
+**(d)** [A; A B C D; A B E F C D H; A B E I F C D G J K H]
 
 ### 1.ii
 
-I would use a stack to represent the fringe, which is FIFO
+I would use a stack to represent the fringe. New nodes are added and removed at the top of the stack.
 
 | Add/ remove nodes from top |
 | :------------------------- |
@@ -64,32 +62,55 @@ Postconditions: These reflect an updated set of states after the $MOVE$ function
 > $B_{in}' = B_{in} \cup W$
 > $T' = T + 1$
 
-**Path cost:** The summation of the time taken for each $MOVE$ to be made. A single move is equal to $\large 2^{max(i)}$ where $\large \exists i: P_i \in W$ 
+**Path cost:** The summation of the time taken for each $MOVE$ to be made. A single move is equal to $\large 2^{max(i)}$ where $\large \exists i: P_i \in W$
 
 ### 2.ii
 
-With an unoptimized approach all people crossing are equivalent, a depth first search that avoids cycles would be the best because it would search deeper in the tree than a breadth first search and therefore find a solution quicker.
+With an unoptimized approach all people crossing are equivalent, a depth-limited depth first search with a depth limit of $n - 1$ would be the best uninformed search for the problem. This has lower space complexity than a breadth-first search, and deals with issues from infinite repeated states that depth-first suffers from. We know that the depth of the goal state is $n - 1$ as in each cycle of people crossing and the torch getting back to the start point, one person is moved to the other side except the final iteration, where both people can move to the other side together without a person going back with the torch.
 
 ### 2.iii
 
-An admissible heuristic could be the crossing time of the person with the smallest $i$ currently at point $B_0$ multiplied by the number of people at $B_0$, divided by 2
+An admissible heuristic could be the crossing time of the person with the smallest $i$ currently at point $B_0$ multiplied by the number of people at $B_0$
 
 ### 2.iv
 
-For an admissible heuristic, we are required to underestimate the optimal solution to the problem. Therefore, we can ignore optimizing the torch coming back, as this will only increase the lowest possible solving time.
+In order to show that the heuristic $h(i, n)$ is admissible, we must show that the optimal path cost in the problem $f(i, n)$ is always greater than or equal to the heuristic. To do this, we could use proof by induction:
 
-From the definition of the question, the person's crossing time is $2^i$, it follows that the person with the lowest $i$ is the person with the shortest crossing time.
+Prove that $h(i, n) \leq f(n)$:
 
-For the quickest _theoretically_ possible solving time, every person currently at $B_0$ would have the same lowest crossing time, so no other person would have to wait for somebody else (even though this is not technically possible in the current puzzle, as each person has a different time according to their identifier $i$, however it doesn't matter as it is an underestimation). Therefore, as two people can cross the bridge at any one time, the lowest theoretical solving time (ignoring returns) must be the time taken of the quickest person currently at $B_0$ (lowest $i$) multiplied by the number of people at $B_0$, divided by 2.
+The $i$ value is used to show the person $P_i$ with the shortest cross time, where $P_i \in B_0$. Therefore, for the proof of this question, we can assign this as a constant $j$
+
+$n = 0:$
+$\qquad$where $n = 0$, there are no persons at $B_0$ $\therefore$ $i = 0$
+$\qquad h(0, 0) = 0$
+$\qquad f(0, 0) = 0$
+$\qquad$(If no person remains at $B_0$, we are in goal state so $f(0) = 0$,
+$\qquad$if some people remain, they are not on $B_1$, so $f(0) > 0$)
+
+For $n = k:$
+$\qquad$$h(j, k) = 2^j \times k$
+$\qquad$$f(j, k) \geq 2^j \times k$ (assumed true)
+
+For $n = k + 1:$
+$\qquad$$h(j, k+1) = 2^j \times (k + 1)$
+$\qquad$$= 2^j \times k + 2^j$
+$\qquad$$f(j, k + 1) \geq 2^j \times k + 2^j$
+
+Adding one person must add another crossing, which will intuitively take at least as long as the person who crosses from $B_0$ the quickest.
+
+For the special case $n = 2$, the two people can cross at the same time without having to return the torch, therefore the previous reasoning is invalid. However, as the two walkers must walk at the speed of the slowest walker, the speed of the slower walker must be at least _twice_ the time of the faster walker. ($2^{i+1} = 2 \times 2^i$ )
 
 ## 3.
 
 ### 3.i
 
-- $x_0$: 0.1
-- $x_1$: 0.0996
-- $x_2$: 0.0992
-- $x_3$: 0.0988
+$f'(x) = 4x^3$
+$x_{n+1} = x_n - \eta f'(x_n)$
+
+- $x_0 = 0.1$
+- $x_1 = 0.0996$
+- $x_2 = 0.0992$
+- $x_3 = 0.0988$
 
 ### 3.ii
 
