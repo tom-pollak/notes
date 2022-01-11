@@ -25,3 +25,9 @@ The process will have a total of 3 program counters and user stacks, private to 
 
 ### 2.ii
 
+2 processes are created, the values of the return id are the id of the forked process and 0. The value of i is 15 in both processes.
+
+## 3.
+
+### 3.i
+
