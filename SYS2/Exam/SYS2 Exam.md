@@ -1,9 +1,12 @@
 ---
 date created: 2022-01-11 12:53
+date updated: 2022-01-11 20:11
 
 ---
 
 # Exam
+
+_Y3891128_
 
 ## 1.
 
@@ -27,6 +30,8 @@ The process will have a total of 3 program counters and user stacks, private to 
 
 2 processes are created, the values of the return id are the id of the forked process and 0. The value of i is 15 in both processes.
 
+# show ur working
+
 ## 3.
 
 ### 3.i
@@ -44,7 +49,6 @@ The process will have a total of 3 program counters and user stacks, private to 
 | P5      | 13              |
 | P6      | 14              |
 
-
 ### 3.iii
 
 | Process | Waiting Time |
@@ -56,8 +60,8 @@ The process will have a total of 3 program counters and user stacks, private to 
 | P5      | 9            |
 | P6      | 11           |
 
-
 ## 4.
+
 Using shared memory would be convient for sharing chunks of data, however would be insecure if the other computer was not trustable. This is because the computer could change the data on the memory to run malicious code on your computer.
 
 Message passing
@@ -98,6 +102,4 @@ void decrement() {
 }
 ```
 
-
 ## 6.
-

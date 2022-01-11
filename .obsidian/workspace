@@ -128,6 +128,7 @@
   "active": "cc0a7a758e57e9a8",
   "lastOpenFiles": [
     "SYS2/Exam/SYS2 Exam.md",
+    "INT1/Exam/INT1 Exam.md",
     "SYS2/Virtual Memory.md",
     "SYS2/Swapping.md",
     "SYS2/File Management.md",
@@ -135,7 +136,6 @@
     "SYS2/Synchronization.md",
     "SYS2/Concurrency.md",
     "SYS2/Threads.md",
-    "SYS2/Deadlocks.md",
-    "SYS2/Memory Partitioning.md"
+    "SYS2/Deadlocks.md"
   ]
 }
