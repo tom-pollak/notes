@@ -9,8 +9,21 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "INT1/Exam/INT1 Exam.md",
-            "mode": "preview"
+            "file": "SYS2/Exam/SYS2 Exam.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "1a77746174608060",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "SYS2/Threads.md",
+            "mode": "preview",
+            "source": false
           }
         }
       }
@@ -76,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "INT1/Exam/INT1 Exam.md",
+                "file": "SYS2/Exam/SYS2 Exam.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "INT1/Exam/INT1 Exam.md"
+                "file": "SYS2/Exam/SYS2 Exam.md"
               }
             }
           },
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "INT1/Exam/INT1 Exam.md",
+                "file": "SYS2/Exam/SYS2 Exam.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,15 +139,15 @@
   },
   "active": "cc0a7a758e57e9a8",
   "lastOpenFiles": [
+    "SYS2/Exam/SYS2 Exam.md",
+    "SYS2/Threads.md",
+    "SYS2/Kernel.md",
+    "SYS2/System Calls.md",
+    "SYS2/Processes.md",
     "INT1/Exam/INT1 Exam.md",
     "INT1/First-Order Logic.md",
     "INT1/Philosophical Issues.md",
     "INT1/Ethics in AI.md",
-    "INT1/Heuristic Search.md",
-    "DAT2/Relationships.md",
-    "SYS2/Processes.md",
-    "INT1/SAT Solving.md",
-    "DAT2/Exam/DAT2 Exam.md",
-    "INT1/A-star Search.md"
+    "INT1/Heuristic Search.md"
   ]
 }

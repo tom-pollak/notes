@@ -3,7 +3,7 @@ date created: 2021-10-18 13:55
 
 ---
 
-# Types of Kernel
+# Types of Kernel (OS)
 
 ## Monolithic
 
