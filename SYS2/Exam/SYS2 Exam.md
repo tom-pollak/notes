@@ -62,9 +62,30 @@ The process will have a total of 3 program counters and user stacks, private to 
 
 ## 4.
 
+# TODO
+
 Using shared memory would be convient for sharing chunks of data, however would be insecure if the other computer was not trustable. This is because the computer could change the data on the memory to run malicious code on your computer.
 
+
+Shared memory
+- Area of shared memory among process that wish to communicate
+- Under control of processes not OS
+- Issue: provide mechanism allow the user processes to synchronize actions when they access shared memory
+	- Race conditions
+
 Message passing
+- Communicate without resorting to shared variables
+	- No sync issues
+- operations: send(message) recieve(message)
+- Bidirectional or unidirecitonal
+- Synchronous or async
+- Direct: must name each other explicitly
+	- Link associated with exactly one pair of processes
+	- Link established automatically
+- Indirect: messages are directed and recieved from ports
+	- processes can communicate if they share a port
+	- each pair of proccesses may share several communication links
+
 
 ## 5.
 
@@ -74,9 +95,11 @@ If both processes are ran at the same time, neither would wait for $Sem1$ or $Se
 
 ### 5.ii
 
-If one of the processes exits while waiting, the other process will be indefinitely postponed when it reaches the wait section, as it will be waiting for a signal to $Sem$ that will never be sent as the other process has exited
+If one of the processes terminates while waiting, the other process will be indefinitely postponed when it reaches the wait section, as it will be waiting for a signal to $Sem$ that will never be sent as the other process has exited
 
 ### 5.iii
+
+# TODO petersons algo?
 
 ```c
 void increment() {
@@ -103,3 +126,30 @@ void decrement() {
 ```
 
 ## 6.
+
+### 6.i
+
+**(a)**
+
+| 7   | 2      | 3           | 1           | 2           | 5           | 3           | 4           | 6           | 7           | 7           | 1           | 0           | 5           | 4           | 6           | 2           | 3           | 0           | 1           |
+| --- | ------ | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
+| 7   | 7<br>2 | 7<br>2<br>3 | 1<br>2<br>3 | 1<br>2<br>3 | 1<br>2<br>5 | 3<br>2<br>5 | 3<br>4<br>5 | 3<br>4<br>6 | 7<br>4<br>6 | 7<br>4<br>6 | 7<br>1<br>6 | 7<br>1<br>0 | 5<br>1<br>0 | 5<br>4<br>0 | 5<br>4<br>6 | 2<br>4<br>6 | 2<br>3<br>6 | 2<br>3<br>0 | 1<br>3<br>0 |
+| F   | F      | F           | F           |             | F           | F           | F           | F           | F           |             | F           | F           | F           | F           | F           | F           | F           | F           | F           |
+
+
+18 page faults, assuming populating the frames originally count as page faults
+
+**(b)**
+
+| 7   | 2      | 3           | 1           | 2           | 5           | 3           | 4           | 6           | 7           | 7           | 1           | 0           | 5           | 4           | 6           | 2           | 3           | 0           | 1           |
+| --- | ------ | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
+| 7   | 7<br>2 | 7<br>2<br>3 | 1<br>2<br>3 | 1<br>2<br>3 | 1<br>5<br>3 | 1<br>5<br>3 | 1<br>5<br>4 | 6<br>5<br>4 | 6<br>7<br>4 | 6<br>7<br>4 | 6<br>7<br>1 | 0<br>7<br>1 | 0<br>5<br>1 | 0<br>5<br>4 | 6<br>5<br>4 | 6<br>2<br>4 | 6<br>2<br>3 | 0<br>2<br>3 | 0<br>1<br>3 |
+| F   | F      | F           | F           |             | F           |             | F           | F           | F           |             | F           | F           | F           | F           | F           | F           | F           | F           | F           | F
+
+18 page faults, assuming populating the frames originally count as page faults
+
+### 6.ii
+
+**(a)** The maximum number of frames and pages available can be calculated by dividing the size of the memory by the size of the page. The memory is 256 MB (256,000 KB) and the page size is 4 KB. This gives a total of **64000** pages or frames.
+
+**(b)** The virtual address is 32 bits long or 4 bytes. The page table can take up a single virtual address minus the space taken up by the control bits (1 byte). Therefore, the maximum size of the page table is **3 bytes**.

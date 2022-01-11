@@ -73,7 +73,8 @@
     "EQR",
     "JTs",
     "KQo",
-    "Defense"
+    "Defense",
+    "wait"
   ],
   "foldHeading": false,
   "foldIndent": false,
@@ -86,7 +87,7 @@
     "downscalePercent": 77
   },
   "fileSortOrder": "byModifiedTime",
-  "legacyEditor": false,
+  "legacyEditor": true,
   "livePreview": true,
   "useTab": true
 }

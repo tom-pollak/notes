@@ -10,8 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "SYS2/Exam/SYS2 Exam.md",
-            "mode": "source",
-            "source": false
+            "mode": "source"
           }
         }
       }
@@ -128,6 +127,7 @@
   "active": "cc0a7a758e57e9a8",
   "lastOpenFiles": [
     "SYS2/Exam/SYS2 Exam.md",
+    "THE3/Chomsky hierarchy.md",
     "INT1/Exam/INT1 Exam.md",
     "SYS2/Virtual Memory.md",
     "SYS2/Swapping.md",
@@ -135,7 +135,6 @@
     "SYS2/Kernel.md",
     "SYS2/Synchronization.md",
     "SYS2/Concurrency.md",
-    "SYS2/Threads.md",
-    "SYS2/Deadlocks.md"
+    "SYS2/Threads.md"
   ]
 }
