@@ -1,6 +1,6 @@
 ---
 date created: 2022-01-10 15:18
-date updated: 2022-01-10 17:51
+date updated: 2022-01-10 19:17
 
 ---
 
@@ -28,9 +28,9 @@ I would use a stack to represent the fringe, which is FIFO
 
 | Add/ remove nodes from top |
 | :------------------------- |
-| J |
-| H |
-| **Bottom of the stack** |
+| J                          |
+| H                          |
+| **Bottom of the stack**    |
 
 ## 2.
 
@@ -63,6 +63,8 @@ Postconditions: These reflect an updated set of states after the $MOVE$ function
 > $B_{out}' = B_{out} - W$
 > $B_{in}' = B_{in} \cup W$
 > $T' = T + 1$
+
+**Path cost:** The summation of the time taken for each $MOVE$ to be made. A single move is equal to $\large 2^{max(i)}$ where $\large \exists i: P_i \in W$ 
 
 ### 2.ii
 
