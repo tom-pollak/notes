@@ -66,7 +66,9 @@ The value of $i$ is 15 in both processes. This is because both the child and par
 
 Sharing memory between computers can allow processes to share chunks of data. However, a problem with this method is that it is hard to synchronize each computer's actions with the other when they access the shared memory, and this can lead to race conditions. This would be exemplified with the high latency, as the two processes are on different computers. This could also be insecure to let another computer write directly to your computer's memory if the other computer was not trustable.
 
-Memory passing is a much better use case for this situation as it does not share variables, so does not suffer from the synchronization issues that were the big disadvantage of memory sharing. The link between the computers can either be direct, in which the processes on each computer targets the other directly, or indirect, in which the two computers can send and receive data from a predetermined port. The messages may be either synchronous or asynchronous and bidirectional or unidirectional, allowing more flexibility in the implementation of the communication. This is a much better method of communicating and is the current standard in modern communication technology.
+Memory passing is a much better use case for this situation as it does not share variables, so does not suffer from the synchronization issues that were the big disadvantage of memory sharing. The link between the computers can either be direct, in which the processes on each computer targets the other directly, or indirect, in which the two computers can send and receive data from a predetermined port.
+
+Message passing does require an overhead in processing the message, which is not the case with shared memory, where the programs can directly expose their state. The messages may be either synchronous or asynchronous and bidirectional or unidirectional, allowing more flexibility in the implementation of the communication. This is a much better method of communicating and is the current standard in modern communication technology.
 
 ## 5.
 
@@ -154,12 +156,12 @@ I/O instructions are privileged, so must be done through OS system calls. This c
 
 The OS must handle errors from the I/O, such as failing disk reads/writes or network send errors. These can be transient, in which case the OS can retry the operation, or permanent, where the OS will have to fail the operation.
 
-Memory-mapping can map a portion of a file on disk to a range of addresses within the application's address space. The application can then access files on disk in the same way it accesses memory. This can increase I/O performance, but the OS must be able to handle I/O errors on the underlying file while processes are accessing its mapped memory. If handled incorrectly, this can cause multiple out of sync versions of the same file.
+Memory-mapping can map a portion of a file on disk to a range of addresses within the application's address space. The application can then access files on disk in the same way it accesses memory. This can increase I/O performance, but the OS must be able to handle I/O errors on the underlying file while processes are accessing its mapped memory. If handled incorrectly, this can cause multiple out of sync versions of the same file. The OS also has to handle concurrency issues where multiple processes are making changes to the file version in memory.
 
 ### 7.ii
 
-**1.** I would use first fit for the large number of small files, accessed sequentially as the files are accessed sequentially, they will be able to be placed next to each other in memory, without needing to optimize placement. This also means that the OS will not need to search the entire list to find the file, as they are still in the order they were added.
+**1.** I would use contiguous allocation with a first fit policy. As the files are accessed sequentially, we do not need to optimize placement, as the files will be in the order they will are accessed in. The OS will not need to search the entire list to find the file, as they are still in the order they were added.
 
-This method will not suffer from external fragmentation or extra space overhead as files are deleted from memory in the order they were added, similar to a stack, and as they were added in order, only one growing partition of free space is created.
+This method will not suffer from external fragmentation or any extra space overhead as files are deleted from memory in the order they were added, similar to a stack, and as they were added in order, only one growing partition of free space is created.
 
-**2.** For the large number of large files accessed in a random order I would use best fit, as the files are big, and you want to keep the file partitions stored compactly together. Further, the files are accessed randomly, so there is no way to index the files in a way that avoids external fragmentation, every method will suffer from extra space overhead.
+**2.** For the large number of large files accessed in a random order I would use indexed allocation with best fit, as the files are large, and will use multiple blocks. The overhead of the index block is relatively small in comparison to the number of blocks used to store the file. As all identifying block information is in the index block, it is more reliable than linked allocation, as the entire file will not be lost if one block is corrupted.
