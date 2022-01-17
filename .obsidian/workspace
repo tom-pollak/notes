@@ -4,14 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "35567e9d88fbd463",
+        "id": "4abc88b1ab41c8bd",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "THE3/Time Complexity.md",
-            "mode": "preview"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -76,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "THE3/Time Complexity.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -92,9 +88,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "THE3/Time Complexity.md"
-              }
+              "state": {}
             }
           },
           {
@@ -103,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "THE3/Time Complexity.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +117,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "35567e9d88fbd463",
+  "active": "4abc88b1ab41c8bd",
   "lastOpenFiles": [
     "THE3/Time Complexity.md",
     "THE3/Undecidable Languages.md",
