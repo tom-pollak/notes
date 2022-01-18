@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "4abc88b1ab41c8bd",
+        "id": "78743106175c0e63",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Year 2/Term 2/INT2/Supervised Learning.md",
+            "file": "OOP Patterns.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Year 2/Term 2/INT2/Supervised Learning.md",
+                "file": "OOP Patterns.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Year 2/Term 2/INT2/Supervised Learning.md"
+                "file": "OOP Patterns.md"
               }
             }
           },
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Year 2/Term 2/INT2/Supervised Learning.md",
+                "file": "OOP Patterns.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,17 +124,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "4abc88b1ab41c8bd",
+  "active": "78743106175c0e63",
   "lastOpenFiles": [
+    "OOP Patterns.md",
+    "TODO.md",
     "Year 2/Term 2/INT2/Supervised Learning.md",
     "Year 2/Term 1/INT1/Exam/INT1 Exam.md",
     "Year 2/Term 1/SYS2/Exam/SYS2 Exam.md",
-    "TODO.md",
     "Year 2/Term 1/THE3/Time Complexity.md",
     "Year 2/Term 1/THE3/Undecidable Languages.md",
     "Year 2/Term 1/THE3/Decidable Languages.md",
     "Year 2/Term 1/THE3/Polynomial-time Reductions.md",
-    "Year 2/Term 1/THE3/Space Complexity.md",
-    "Year 2/Term 1/THE3/Undecidable Problems.md"
+    "Year 2/Term 1/THE3/Space Complexity.md"
   ]
 }

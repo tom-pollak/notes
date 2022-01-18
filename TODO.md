@@ -21,3 +21,6 @@ date updated: 2022-01-18 13:31
 - Wk10 Lectures: Software Architecture, Software Testing
 - Wk1
 - Wk2
+- Wk3 
+- Wk4
+- Wk5
