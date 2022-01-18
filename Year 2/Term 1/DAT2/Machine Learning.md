@@ -8,6 +8,6 @@ date updated: 2021-11-08 15:02
 
 > Field of study that gives computers the ability to learn without being explicitly programmed
 
-## [[Supervised Learning]]
+## [[Year 2/Term 1/DAT2/Supervised Learning]]
 
 ## [[Unsupervised Learning]]
