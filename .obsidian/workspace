@@ -7,8 +7,11 @@
         "id": "4abc88b1ab41c8bd",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "TODO.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -73,6 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "TODO.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +92,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "TODO.md"
+              }
             }
           },
           {
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "TODO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,6 +126,7 @@
   },
   "active": "4abc88b1ab41c8bd",
   "lastOpenFiles": [
+    "TODO.md",
     "THE3/Time Complexity.md",
     "THE3/Undecidable Languages.md",
     "THE3/Decidable Languages.md",
@@ -127,7 +135,6 @@
     "THE3/Undecidable Problems.md",
     "THE3/Satisfiability problem.md",
     "THE3/Decision Problems.md",
-    "SYS2/Exam/SYS2 Exam.md",
-    "SYS2/File Management.md"
+    "SYS2/Exam/SYS2 Exam.md"
   ]
 }
