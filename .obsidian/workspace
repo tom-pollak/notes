@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Year 2/Term 2/SYS3/Hazards.md",
-            "mode": "source"
+            "file": "Year 2/Term 2/INT2/Supervised Learning.md",
+            "mode": "preview"
           }
         }
       }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Year 2/Term 2/SYS3/Hazards.md",
+                "file": "Year 2/Term 2/INT2/Supervised Learning.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Year 2/Term 2/SYS3/Hazards.md"
+                "file": "Year 2/Term 2/INT2/Supervised Learning.md"
               }
             }
           },
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Year 2/Term 2/SYS3/Hazards.md",
+                "file": "Year 2/Term 2/INT2/Supervised Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,8 +126,8 @@
   },
   "active": "78743106175c0e63",
   "lastOpenFiles": [
-    "Year 2/Term 2/SYS3/Hazards.md",
     "Year 2/Term 2/INT2/Supervised Learning.md",
+    "Year 2/Term 2/SYS3/Hazards.md",
     "TODO.md",
     "Year 2/Term 2/ENG1/OOP Patterns.md",
     "Year 2/Term 1/INT1/Exam/INT1 Exam.md",
