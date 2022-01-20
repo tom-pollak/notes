@@ -8,6 +8,9 @@ date updated: 2022-01-18 13:31
 
 ## SOF3
 
+- Watch last 2 lectures of block 1
+- Complete excersises
+
 ## SYS3
 
 ## INT2
