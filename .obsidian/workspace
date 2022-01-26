@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Year 2/Term 2/SOF3/Type System.md",
-            "mode": "preview"
+            "file": "Year 2/Term 2/SYS3/Principles of Computer Design.md",
+            "mode": "source"
           }
         }
       }
@@ -56,8 +56,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -77,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Year 2/Term 2/SOF3/Type System.md",
+                "file": "Year 2/Term 2/SYS3/Principles of Computer Design.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Year 2/Term 2/SOF3/Type System.md"
+                "file": "Year 2/Term 2/SYS3/Principles of Computer Design.md"
               }
             }
           },
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Year 2/Term 2/SOF3/Type System.md",
+                "file": "Year 2/Term 2/SYS3/Principles of Computer Design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,15 +126,15 @@
   },
   "active": "78743106175c0e63",
   "lastOpenFiles": [
+    "Year 2/Term 2/SYS3/Principles of Computer Design.md",
+    "TODO.md",
+    "Year 2/Term 2/SYS3/Hazards.md",
     "Year 2/Term 2/SOF3/Type System.md",
     "Year 2/Term 2/SOF3/Recursion.md",
     "Year 2/Term 2/INT2/Supervised Learning.md",
-    "Year 2/Term 2/SYS3/Hazards.md",
-    "TODO.md",
     "Year 2/Term 2/ENG1/OOP Patterns.md",
     "Year 2/Term 1/INT1/Exam/INT1 Exam.md",
     "Year 2/Term 1/SYS2/Exam/SYS2 Exam.md",
-    "Year 2/Term 1/THE3/Time Complexity.md",
-    "Year 2/Term 1/THE3/Undecidable Languages.md"
+    "Year 2/Term 1/THE3/Time Complexity.md"
   ]
 }

@@ -75,7 +75,8 @@
     "KQo",
     "Defense",
     "wait",
-    "getInstance"
+    "getInstance",
+    "Speedup"
   ],
   "foldHeading": false,
   "foldIndent": false,
