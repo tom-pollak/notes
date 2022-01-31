@@ -76,7 +76,10 @@
     "Defense",
     "wait",
     "getInstance",
-    "Speedup"
+    "Speedup",
+    "mispredictions",
+    "speedup",
+    "CPIs"
   ],
   "foldHeading": false,
   "foldIndent": false,
