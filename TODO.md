@@ -8,11 +8,14 @@ date updated: 2022-01-26 18:52
 
 ## SOF3
 
-- Wk2 - complete type lecture & practical
+- Wk2 - complete type lecture
+- Complete block2
+- complete practical block 1 & 2
 
 ## SYS3
 
-- Wk2 principles of computer design
+ - wk4 introduction to risc pipeline 
+ - Sys3 ex 1
 
 ## INT2
 
