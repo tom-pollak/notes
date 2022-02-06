@@ -66,3 +66,6 @@ $\large \frac{(P - x)^T \cdot \theta}{||\theta||} = \frac{P^T \theta - x^T \thet
 
 > $\large y \cdot \frac{\theta^T x}{|| \theta ||}$
 
+- Margin of $D$ w.r.t. $\theta$
+
+> $\large \underset{i}{min}\ y^i\ \frac{\theta^T x^i}{||\theta||}$
