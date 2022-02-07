@@ -1,5 +1,6 @@
 ---
 date created: 2022-02-06 19:34
+date updated: 2022-02-07 12:58
 
 ---
 
@@ -39,13 +40,15 @@ return (\theta, \theta_0)
 
 ![[margin.png]]
 
->  If the point is on the positive side of the hyperplane the distance should be positive and vice versa
+> If the point is on the positive side of the hyperplane the distance should be positive and vice versa
 
 Compute the distance
+
 - Projection of vector $G$ onto vector $H$: $\frac{G \cdot H}{||H||}$
-	- $G$ being random vector from the plane to the origin
-	- $H$ being $\theta$ vector
->  $\large \frac{(\begin{bmatrix}0 \\ 0 \end{bmatrix} - x) \cdot \theta}{||\theta||} = \frac{-x^T \theta}{||\theta||}$
+  - $G$ being random vector from the plane to the origin
+  - $H$ being $\theta$ vector
+
+> $\large \frac{(\begin{bmatrix}0 \\ 0 \end{bmatrix} - x) \cdot \theta}{||\theta||} = \frac{-x^T \theta}{||\theta||}$
 
 As the hyperplane equation: $\theta^T x + \theta_0 = 0$
 $\implies \theta_0 = -\theta^T x$ (Matrices are commutative)
@@ -58,7 +61,7 @@ $\implies \theta_0 = -\theta^T x$ (Matrices are commutative)
 
 $\large \frac{(P - x)^T \cdot \theta}{||\theta||} = \frac{P^T \theta - x^T \theta}{|| \theta ||}$
 
->  $= \frac{P^T \theta - \theta_0}{||\theta||}$ - Distance from any point to hyperplane
+> $= \frac{P^T \theta - \theta_0}{||\theta||}$ - Distance from any point to hyperplane
 
 #### Calculating margin
 
@@ -71,15 +74,15 @@ $\large \frac{(P - x)^T \cdot \theta}{||\theta||} = \frac{P^T \theta - x^T \thet
 > $\large \underset{i}{min}\ y^i\ \frac{\theta^T x^i}{||\theta||}$
 
 - If dataset is linearly separable, then margin of the dataset will be positive
-	- If not then will be negative as the minimum will be a negative point
-
+  - If not then will be negative as the minimum will be a negative point
 
 #### Perceptron convergence theorem
 
-If 
-- There is $\theta^*$ s.t. $\forall i\ y^i\ \frac{\theta^T x^i}{||\theta||} \gt \gamma \gt 0$
-	- If dataset is linearly separable
+- There is $\theta^*$ s.t. $\forall i\ y^i\ \frac{\theta^T x^i}{||\theta||} \geq \gamma \gt 0$
+  - If dataset is linearly separable
+  - Gamma is the min gap to the hyperplane
 - $||x^i|| \leq R$
-	- All data is bound in the space of a circle with radius $R$
+  - All data is bound in the space of a circle with radius $R$
 
-Then the perceptron will make at most $\left( \frac{R}{\gamma} \right)^2$ mistakes
+Then the perceptron will make at most $\left( \frac{R}{\gamma} \right)^2$ mistakes in finding the linear separator.
+

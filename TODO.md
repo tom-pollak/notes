@@ -21,8 +21,7 @@ date updated: 2022-01-26 18:52
 
 - Wk3 practical
 - Wk4 practical
-- Wk5 lecture
-
+- Wk5 practical
 
 ## ENG1
 
