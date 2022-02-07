@@ -69,3 +69,17 @@ $\large \frac{(P - x)^T \cdot \theta}{||\theta||} = \frac{P^T \theta - x^T \thet
 - Margin of $D$ w.r.t. $\theta$
 
 > $\large \underset{i}{min}\ y^i\ \frac{\theta^T x^i}{||\theta||}$
+
+- If dataset is linearly separable, then margin of the dataset will be positive
+	- If not then will be negative as the minimum will be a negative point
+
+
+#### Perceptron convergence theorem
+
+If 
+- There is $\theta^*$ s.t. $\forall i\ y^i\ \frac{\theta^T x^i}{||\theta||} \gt \gamma \gt 0$
+	- If dataset is linearly separable
+- $||x^i|| \leq R$
+	- All data is bound in the space of a circle with radius $R$
+
+Then the perceptron will make at most $\left( \frac{R}{\gamma} \right)^2$ mistakes
