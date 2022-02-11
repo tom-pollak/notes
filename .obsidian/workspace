@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Year 2/Term 2/SYS3/RISC Pipeline.md",
-            "mode": "source"
+            "file": "Year 2/Term 2/SYS3/Principles of Computer Design.md",
+            "mode": "preview"
           }
         }
       }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Year 2/Term 2/SYS3/RISC Pipeline.md",
+                "file": "Year 2/Term 2/SYS3/Principles of Computer Design.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Year 2/Term 2/SYS3/RISC Pipeline.md"
+                "file": "Year 2/Term 2/SYS3/Principles of Computer Design.md"
               }
             }
           },
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Year 2/Term 2/SYS3/RISC Pipeline.md",
+                "file": "Year 2/Term 2/SYS3/Principles of Computer Design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,9 +126,9 @@
   },
   "active": "aa838e20b3abb230",
   "lastOpenFiles": [
-    "Year 2/Term 2/SYS3/RISC Pipeline.md",
-    "TODO.md",
     "Year 2/Term 2/SYS3/Principles of Computer Design.md",
+    "TODO.md",
+    "Year 2/Term 2/SYS3/RISC Pipeline.md",
     "Year 2/Term 2/INT2/Supervised Learning.md",
     "Year 2/Term 2/SYS3/Hazards.md",
     "Year 2/Term 2/SOF3/Type System.md",

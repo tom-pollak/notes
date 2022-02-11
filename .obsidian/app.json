@@ -81,7 +81,8 @@
     "speedup",
     "CPIs",
     "Pipelining",
-    "Pipelining"
+    "Pipelining",
+    "LW"
   ],
   "foldHeading": false,
   "foldIndent": false,

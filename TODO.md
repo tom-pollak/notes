@@ -15,7 +15,7 @@ date updated: 2022-01-26 18:52
 
 ## SYS3
 
- - wk4 introduction to risc pipeline & tutorial instuction pipeline and performance 
+ - wk4 tutorial instruction pipeline and performance 
  - Wk5 pipeline hazards
  - Sys3 ex 1
  - Wk5 practical
@@ -26,6 +26,7 @@ date updated: 2022-01-26 18:52
 - Wk4 practical
 - Wk5 practical
 - Wk5 lectures
+- Wk6 Lectures
 
 ## ENG1
 
