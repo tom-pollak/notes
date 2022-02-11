@@ -11,17 +11,21 @@ date updated: 2022-01-26 18:52
 - Wk2 - complete type lecture
 - Complete block2
 - complete practical block 1 & 2
+- Complete block 3
 
 ## SYS3
 
- - wk4 introduction to risc pipeline 
+ - wk4 introduction to risc pipeline & tutorial instuction pipeline and performance 
+ - Wk5 pipeline hazards
  - Sys3 ex 1
+ - Wk5 practical
 
 ## INT2
 
 - Wk3 practical
 - Wk4 practical
 - Wk5 practical
+- Wk5 lectures
 
 ## ENG1
 

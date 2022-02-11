@@ -79,7 +79,9 @@
     "Speedup",
     "mispredictions",
     "speedup",
-    "CPIs"
+    "CPIs",
+    "Pipelining",
+    "Pipelining"
   ],
   "foldHeading": false,
   "foldIndent": false,
