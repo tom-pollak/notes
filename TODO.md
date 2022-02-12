@@ -15,10 +15,10 @@ date updated: 2022-01-26 18:52
 
 ## SYS3
 
- - wk4 tutorial instruction pipeline and performance 
  - Wk5 pipeline hazards
  - Sys3 ex 1
  - Wk5 practical
+ - Wk6 lecture
 
 ## INT2
 
