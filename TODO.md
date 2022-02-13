@@ -8,33 +8,133 @@ date updated: 2022-01-26 18:52
 
 ## SOF3
 
-- Wk2 - complete type lecture
-- Complete block2
-- complete practical block 1 & 2
-- Complete block 3
+### Block 1
+- Block 1 practical
+
+### Block 2
+#### Lambda calculus
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+- 8
+- 9
+
+#### List comprehension
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+
+#### Folding Lists
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+
+#### Lazy evaluation
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+- 8
+
+#### Extended Example
+
+#### Practical
+
+### Block 3
+
+#### Reasoning about programs
+- 1
+- 2
+- 3
+- 4
+- 5
+
+#### Type Classes
+- 1
+- 2
+
+#### Extended example
+
+#### Practical
 
 ## SYS3
+### Wk5
 
- - Wk5 pipeline hazards
- - Sys3 ex 1
- - Wk5 practical
- - Wk6 lecture
+#### Pipeline Hazards
+- 3
+- 4
+- 5
+
+#### Control hazards and branch prediction
+- 1
+- 2
+- 3
+- 4
+
+#### Practical
+
+### Wk6
+- Compiler techniques 1
+- Compiler techniques 2
+- TL2 Pipeline hazards
+- Practical
+
+#### Ex1
 
 ## INT2
+### Wk3
+- Practical
 
-- Wk3 practical
-- Wk4 practical
-- Wk5 practical
-- Wk5 lectures
-- Wk6 Lectures
+### Wk4
+- Practical
+
+### Wk5
+- Linear separability, margin & perceptron
+- Practical
+
+### Wk6
+- Feature representation
+- Practical
 
 ## ENG1
+### Wk8
+- Requirements engineering
 
-- Wk8 Lectures: requirements engineering
-- Wk9 Lectures: OO modelling w/ UML, OO patterns, Eclipse tips and tricks
-- Wk10 Lectures: Software Architecture, Software Testing
-- Wk1
-- Wk2
-- Wk3
-- Wk4
-- Wk5
+### Wk9
+- OO Modelling w/ UML
+- OO Patterns
+
+### Wk10
+- Software architecture
+	- 1
+	- 2
+	- 3
+	- 4
+- Software testing
+
+### Wk2
+- Continuous Integration
+
+### Wk3
+- Intellectual Property
+
+### Wk4
+- Inspections and reviews
+
+### Wk5
+- Software engineering and safety critical systems

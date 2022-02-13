@@ -82,7 +82,9 @@
     "CPIs",
     "Pipelining",
     "Pipelining",
-    "LW"
+    "LW",
+    "writeback",
+    "anti-dependance"
   ],
   "foldHeading": false,
   "foldIndent": false,
