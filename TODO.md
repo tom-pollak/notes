@@ -13,9 +13,6 @@ date updated: 2022-01-26 18:52
 
 ### Block 2
 #### Lambda calculus
-- 1
-- 2
-- 3
 - 4
 - 5
 - 6
@@ -82,7 +79,7 @@ date updated: 2022-01-26 18:52
 - TL2 Pipeline hazards
 - Practical
 
-#### Ex1
+### Ex1
 
 ## INT2
 ### Wk3
@@ -95,7 +92,6 @@ date updated: 2022-01-26 18:52
 - Practical
 
 ### Wk6
-- Feature representation
 - Practical
 
 ## ENG1

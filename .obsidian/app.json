@@ -86,7 +86,8 @@
     "writeback",
     "anti-dependance",
     "mispredicted",
-    "undecoded"
+    "undecoded",
+    "word2vec"
   ],
   "foldHeading": false,
   "foldIndent": false,
