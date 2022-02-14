@@ -74,19 +74,13 @@ date updated: 2022-01-26 18:52
 
 ## SYS3
 ### Wk5
-
-#### Pipeline Hazards
-- 3
-- 4
-- 5
+- practical
 
 #### Control hazards and branch prediction
-- 1
 - 2
 - 3
 - 4
 
-#### Practical
 
 ### Wk6
 - Compiler techniques 1

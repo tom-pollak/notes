@@ -1,3 +1,7 @@
+---
+date created: 2022-02-14 14:02
+---
+
 # Hazards
 
 ## Read After Write

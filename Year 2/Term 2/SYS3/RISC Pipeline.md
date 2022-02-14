@@ -1,3 +1,7 @@
+---
+date created: 2022-02-14 14:02
+---
+
 # RISC Pipeline
 
 ## MIPS
@@ -15,6 +19,7 @@
 - Potential speedup = Number of pipe stages
 
 Reducing speedup Factors
+
 - Unbalanced lengths of pipe stages
 - Time to fill and drain pipeline
 
@@ -48,7 +53,7 @@ Reducing speedup Factors
 > Effective address cycle (EX)
 
 - Memory reference: Calculate effective address
-	- [LW R1, 8 (R2)] which has an effective address: [R2] + 8
+  - [LW R1, 8 (R2)] which has an effective address: [R2] + 8
 
 ### Memory Access Cycle
 
@@ -62,36 +67,42 @@ Reducing speedup Factors
 ## Pipelining Issues
 
 ### Ideal case: Uniform sub-computations
+
 - Computation to be performed can be evenly partitioned into uniform-latency sub-computations
 
 Reality: Internal fragmentation
+
 - Not all pipeline stages may have uniform latencies
 
 Impact of ISA:
+
 - Memory access is a critical sub-computation
 - Memory addressing modes should be minimized
 - Fast cache memories should be employed
 
-
 ### Ideal case: Identical computations
+
 - Same computation is to be performed repeatedly on many input data sets
 
 Reality: External fragmentation
+
 - Some pipeline stages may not be used
 
 Impact of ISA:
+
 - Reduce complexity and diversity of instruction types
 - RISC architectures use uniform stage simple instructions
-
 
 ### Ideal case: Independent computations
 
 - All instructions are mutually independent
 
 Reality: Pipeline stalls – cannot proceed
+
 - A later computation may require result of an earlier computation
 
 Impact of ISA
+
 - Reduce memory addressing modes - dependency detection
 - Use register addressing mode – easy dependencies check
 
