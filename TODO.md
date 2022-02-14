@@ -76,12 +76,6 @@ date updated: 2022-01-26 18:52
 ### Wk5
 - practical
 
-#### Control hazards and branch prediction
-- 2
-- 3
-- 4
-
-
 ### Wk6
 - Compiler techniques 1
 - Compiler techniques 2
@@ -98,7 +92,6 @@ date updated: 2022-01-26 18:52
 - Practical
 
 ### Wk5
-- Linear separability, margin & perceptron
 - Practical
 
 ### Wk6

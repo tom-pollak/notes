@@ -84,7 +84,9 @@
     "Pipelining",
     "LW",
     "writeback",
-    "anti-dependance"
+    "anti-dependance",
+    "mispredicted",
+    "undecoded"
   ],
   "foldHeading": false,
   "foldIndent": false,
