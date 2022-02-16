@@ -12,14 +12,6 @@ date updated: 2022-01-26 18:52
 - Block 1 practical
 
 ### Block 2
-#### Lambda calculus
-- 4
-- 5
-- 6
-- 7
-- 8
-- 9
-
 #### List comprehension
 - 1
 - 2
