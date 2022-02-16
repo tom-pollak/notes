@@ -9,26 +9,12 @@ date updated: 2022-01-26 18:52
 ## SOF3
 
 ### Block 1
-- Block 1 practical
+- Finish practical
 
 ### Block 2
-#### Folding Lists
-- 6
-- 7
-
-#### Lazy evaluation
-- 1
-- 2
-- 3
-- 4
-- 5
-- 6
-- 7
-- 8
-
-#### Extended Example
-
-#### Practical
+- Read laziness chapter 
+- Extended Example
+- Practical
 
 ### Block 3
 
