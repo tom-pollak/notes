@@ -13,10 +13,6 @@ date updated: 2022-01-26 18:52
 
 ### Block 2
 #### Folding Lists
-- 2
-- 3
-- 4
-- 5
 - 6
 - 7
 
