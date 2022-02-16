@@ -12,17 +12,7 @@ date updated: 2022-01-26 18:52
 - Block 1 practical
 
 ### Block 2
-#### List comprehension
-- 1
-- 2
-- 3
-- 4
-- 5
-- 6
-- 7
-
 #### Folding Lists
-- 1
 - 2
 - 3
 - 4
