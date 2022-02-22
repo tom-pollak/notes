@@ -8,32 +8,83 @@ date updated: 2022-01-26 18:52
 
 ## SOF3
 
-- Wk2 - complete type lecture
-- Complete block2
-- complete practical block 1 & 2
-- Complete block 3
+### Block 1
+- Finish practical
+
+### Block 2
+- Read laziness chapter 
+- Extended Example
+- Practical
+
+### Block 3
+
+#### Reasoning about programs
+- 1
+- 2
+- 3
+- 4
+- 5
+
+#### Type Classes
+- 1
+- 2
+
+#### Extended example
+
+#### Practical
 
 ## SYS3
+### Wk5
+- practical
 
- - wk4 introduction to risc pipeline & tutorial instuction pipeline and performance 
- - Wk5 pipeline hazards
- - Sys3 ex 1
- - Wk5 practical
+### Wk6
+- Compiler techniques 1
+- Compiler techniques 2
+- TL2 Pipeline hazards
+- Practical
+
+### Ex1
 
 ## INT2
+### Wk3
+- Practical
 
-- Wk3 practical
-- Wk4 practical
-- Wk5 practical
-- Wk5 lectures
+### Wk3
+- Practical
+
+### Wk4
+- Practical
+
+### Wk5
+- Practical
+
+### Wk6
+- Practical
 
 ## ENG1
+### Wk8
+- Requirements engineering
 
-- Wk8 Lectures: requirements engineering
-- Wk9 Lectures: OO modelling w/ UML, OO patterns, Eclipse tips and tricks
-- Wk10 Lectures: Software Architecture, Software Testing
-- Wk1
-- Wk2
-- Wk3
-- Wk4
-- Wk5
+### Wk9
+- OO Modelling w/ UML
+- OO Patterns
+
+### Wk10
+- Software architecture
+	- 1
+	- 2
+	- 3
+	- 4
+- Software testing
+
+### Wk2
+- Continuous Integration
+
+### Wk3
+- Intellectual Property
+
+### Wk4
+- Inspections and reviews
+
+### Wk5
+- Software engineering and safety critical systems

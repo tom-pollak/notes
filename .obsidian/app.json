@@ -81,7 +81,13 @@
     "speedup",
     "CPIs",
     "Pipelining",
-    "Pipelining"
+    "Pipelining",
+    "LW",
+    "writeback",
+    "anti-dependance",
+    "mispredicted",
+    "undecoded",
+    "word2vec"
   ],
   "foldHeading": false,
   "foldIndent": false,
