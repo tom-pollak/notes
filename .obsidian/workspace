@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "TODO.md",
-            "mode": "preview"
+            "mode": "source"
           }
         }
       }
@@ -128,13 +128,13 @@
   "lastOpenFiles": [
     "TODO.md",
     "Year 2/Term 2/INT2/Supervised Learning.md",
+    "Year 2/Term 2/SOF3/Recursion.md",
+    "Year 2/Term 2/INT2/margin.png",
+    "Year 2/Term 2/SOF3/Type System.md",
     "Year 2/Term 2/INT2/Feature Representation.md",
     "Year 2/Term 2/INT2/Perceptron.md",
     "Year 2/Term 2/SYS3/Control Hazards.md",
     "Year 2/Term 2/SYS3/Branch Prediction.md",
-    "Year 2/Term 2/SYS3/Pipeline Hazards.md",
-    "Year 2/Term 2/SYS3/5-stage-branch-optimized.png",
-    "Year 2/Term 2/SYS3/Principles of Computer Design.md",
-    "Year 2/Term 2/SYS3/RISC Pipeline.md"
+    "Year 2/Term 2/SYS3/Pipeline Hazards.md"
   ]
 }

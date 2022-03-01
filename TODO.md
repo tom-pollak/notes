@@ -12,7 +12,6 @@ date updated: 2022-01-26 18:52
 - Finish practical
 
 ### Block 2
-- Read laziness chapter 
 - Extended Example
 - Practical
 
@@ -43,7 +42,30 @@ date updated: 2022-01-26 18:52
 - TL2 Pipeline hazards
 - Practical
 
+### Wk7
+#### Dynamic scheduling
+- 1
+- 2
+
+
+#### Tomasulo's algorithm
+- 1
+- 2
+
+### Wk8
+#### Speculative execution
+- 1
+- 2
+
+#### Superscalar processors
+- 1
+- 2
+
+### Practical 7-9 more optimal solutions
+
 ### Ex1
+
+### Ex2
 
 ## INT2
 ### Wk3
@@ -59,6 +81,11 @@ date updated: 2022-01-26 18:52
 - Practical
 
 ### Wk6
+- Practical
+
+### Wk7
+- Machine learning as optimization problem
+- Gradient descent
 - Practical
 
 ## ENG1
