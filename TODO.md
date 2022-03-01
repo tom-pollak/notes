@@ -68,12 +68,6 @@ date updated: 2022-01-26 18:52
 ### Ex2
 
 ## INT2
-### Wk3
-- Practical
-
-### Wk3
-- Practical
-
 ### Wk4
 - Practical
 

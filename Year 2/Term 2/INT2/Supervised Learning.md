@@ -35,4 +35,3 @@ date created: 2022-01-18 17:07
 
 
 - Line is represented by where the dot product is 0
-- 
