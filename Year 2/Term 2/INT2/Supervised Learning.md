@@ -44,10 +44,12 @@ fsdf
 \end{verbatim}
 $$
 
-```latex
+$$
+\begin{multiline}
 random_linear_classifier(D, k):
 	for j=1 to k
 		\theta^j = random(\mathbb{R}^d); \theta_0^j = random(\mathbb{R})
 	j^* = \underset{j \in \{ 1..k \} }{argmin} \mathcal{E}_n( \theta^j, \theta_0^j)
 	return( \theta^{j^*}, \theta_0^{j^*})
-```
+\end{multiline}
+$$

@@ -9,5 +9,7 @@
   "obsidian-git",
   "table-editor-obsidian",
   "markdown-prettifier",
-  "obsidian-pandoc"
+  "obsidian-pandoc",
+  "quick-latex",
+  "obsidian-latex-environments"
 ]
