@@ -33,5 +33,21 @@ date created: 2022-01-18 17:07
 > $x \in \mathbb{R}^d, \theta \in \mathbb{R}^d, \theta_0 \in \mathbb{R}$
 > Theta is a column vector
 
+$\mathcal{E}$
 
 - Line is represented by where the dot product is 0
+$\underset{a}{b}$
+### Random Linear Classifier
+$$
+\begin{verbatim}
+fsdf
+\end{verbatim}
+$$
+
+```latex
+random_linear_classifier(D, k):
+	for j=1 to k
+		\theta^j = random(\mathbb{R}^d); \theta_0^j = random(\mathbb{R})
+	j^* = \underset{j \in \{ 1..k \} }{argmin} \mathcal{E}_n( \theta^j, \theta_0^j)
+	return( \theta^{j^*}, \theta_0^{j^*})
+```
