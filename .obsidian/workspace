@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Year 2/Term 2/INT2/Supervised Learning.md",
-            "mode": "source"
+            "file": "Year 2/Term 2/INT2/Perceptron.md",
+            "mode": "preview"
           }
         }
       }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "limits",
+                "query": "perceptron",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -56,8 +56,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -77,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Year 2/Term 2/INT2/Supervised Learning.md",
+                "file": "Year 2/Term 2/INT2/Perceptron.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Year 2/Term 2/INT2/Supervised Learning.md"
+                "file": "Year 2/Term 2/INT2/Perceptron.md"
               }
             }
           },
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Year 2/Term 2/INT2/Supervised Learning.md",
+                "file": "Year 2/Term 2/INT2/Perceptron.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,10 +126,10 @@
   },
   "active": "9d6e9577cad5675a",
   "lastOpenFiles": [
+    "Year 2/Term 2/INT2/Perceptron.md",
+    "Year 2/Term 2/INT2/Feature Representation.md",
     "Year 2/Term 2/INT2/Supervised Learning.md",
     "TODO.md",
-    "Year 2/Term 2/INT2/Feature Representation.md",
-    "Year 2/Term 2/INT2/Perceptron.md",
     "Year 2/Term 2/SOF3/Recursion.md",
     "Year 2/Term 2/INT2/margin.png",
     "Year 2/Term 2/SOF3/Type System.md",
