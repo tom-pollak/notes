@@ -1,7 +1,7 @@
 {
   "promptDelete": false,
   "spellcheck": false,
-  "vimMode": false,
+  "vimMode": true,
   "spellcheckDictionary": [
     "sys",
     "sys",
@@ -89,7 +89,9 @@
     "undecoded",
     "word2vec",
     "Regulization",
-    "OLS"
+    "OLS",
+    "regularizer",
+    "invertable"
   ],
   "foldHeading": false,
   "foldIndent": false,
