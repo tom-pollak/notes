@@ -87,7 +87,9 @@
     "anti-dependance",
     "mispredicted",
     "undecoded",
-    "word2vec"
+    "word2vec",
+    "Regulization",
+    "OLS"
   ],
   "foldHeading": false,
   "foldIndent": false,
@@ -100,7 +102,7 @@
     "downscalePercent": 77
   },
   "fileSortOrder": "byModifiedTime",
-  "legacyEditor": true,
+  "legacyEditor": false,
   "livePreview": true,
   "useTab": true
 }
