@@ -17,6 +17,9 @@ date updated: 2022-01-26 18:52
 
 ### Block 3
 
+### Block 4
+
+
 #### Reasoning about programs
 - 1
 - 2
@@ -44,7 +47,6 @@ date updated: 2022-01-26 18:52
 
 ### Wk7
 #### Dynamic scheduling
-- 1
 - 2
 
 
@@ -61,11 +63,45 @@ date updated: 2022-01-26 18:52
 - 1
 - 2
 
+### Wk9
+#### Virtual memory
+- 1
+- 2
+- 3
+- 4
+
+#### Page replacement
+- 1
+- 2
+- 3
+
+### Wk10
+#### Static & dynamic scheduling
+- 1
+- 2
+
+### SUMMER Wk1
+#### Introduction to cache memory
+- 1
+- 2
+- 3
+
+- Block replacement & write strategy
+
+
+### SUMMER Wk2
+#### Cache optimization
+- 1
+- 2
+
+
 ### Practical 7-9 more optimal solutions
 
 ### Ex1
 
 ### Ex2
+
+### Ex3
 
 ## INT2
 ### Wk4
@@ -78,9 +114,19 @@ date updated: 2022-01-26 18:52
 - Practical
 
 ### Wk7
-- Machine learning as optimization problem
-- Gradient descent
 - Practical
+
+### Wk8
+- Halfway through wk8 lecture – scholastic descent
+- Practical
+
+### Wk9
+- Neural networks
+- Practical
+- 3Blue1Brown neural network series
+
+### Wk10
+Convolutions & convolutional neural networks - Not required
 
 ## ENG1
 ### Wk8
