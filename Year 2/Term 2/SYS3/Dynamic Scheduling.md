@@ -37,4 +37,40 @@ Possibility of imprecise exception
 
 - Pipeline may complete instructions that are later in program order than the instruction that causes the exception
 - Pipeline may have not yet completed instructions earlier in the program order than the instruction causing the exception
-- Usually have to rollback all instruction after the exception and ensure the instructions before the exception are complete
+- Usually have to rollback all instructions after the exception and ensure the instructions before the exception are complete
+
+To allow out-of-order execution, split ID stage
+- **Issue:** Decode instructions, check for structural hazards
+- **Read operands:** Wait until no data hazards, then read operands
+
+All instructions pass through the **issue stage in order**
+- They can be stalled or bypass each other in the second stage
+
+## Register renaming
+
+![[register-renaming.png]]
+
+### Reservation stations
+
+> Used for register renaming
+
+- Reservation stations contain:
+	- The instruction (operation to be done)
+	- Buffered operand values (when available)
+	- Reservation station number providing the operand values
+- Pending instructions designate the RS that provide input
+- Result broadcast on common data bus (CDB)
+
+Seven fields:
+- **$Op$:** The operation to perform on source operands $S1$ and $S2$
+- **$Q_{j}, Q_{k}$:** Reservation stations that will produce the corresponding source operand.
+	- Value of 0 indicates source operand already available in $V_{j}$ or $V_{k}$
+- $V_{j}, V_{k}$: Value of source operands.
+	- For loads, $V_{k}$ field used to hold the offset field.
+- $A$: Hold information for memory address calculation for load & store
+	- Initially, immediate field of the instruction
+	- After address calculation, the effective address stored here
+- $Busy$: Indicates RS and its functional unit are occupied
+
+
+

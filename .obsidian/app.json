@@ -94,7 +94,8 @@
     "invertable",
     "WAW",
     "Antidependence",
-    "writes"
+    "writes",
+    "If"
   ],
   "foldHeading": false,
   "foldIndent": false,

@@ -6,35 +6,6 @@ date updated: 2022-01-26 18:52
 
 # TODO
 
-## SOF3
-
-### Block 1
-- Finish practical
-
-### Block 2
-- Extended Example
-- Practical
-
-### Block 3
-
-### Block 4
-
-
-#### Reasoning about programs
-- 1
-- 2
-- 3
-- 4
-- 5
-
-#### Type Classes
-- 1
-- 2
-
-#### Extended example
-
-#### Practical
-
 ## SYS3
 ### Wk5
 - practical
@@ -42,18 +13,16 @@ date updated: 2022-01-26 18:52
 ### Wk6
 - Practical
 
-### Wk7
-#### Dynamic scheduling
-- 2
+### Practical 7-9 more optimal solutions
 
+### Ex1
 
-#### Tomasulo's algorithm
-- 1
-- 2
+### Ex2
+
+### Ex3
 
 ### Wk8
 #### Speculative execution
-- 1
 - 2
 
 #### Superscalar processors
@@ -77,28 +46,34 @@ date updated: 2022-01-26 18:52
 - 1
 - 2
 
-### SUMMER Wk1
-#### Introduction to cache memory
+## SOF3
+
+### Block 1
+- Finish practical
+
+### Block 2
+- Extended Example
+- Practical
+
+### Block 3
+
+### Block 4
+
+#### Reasoning about programs
 - 1
 - 2
 - 3
+- 4
+- 5
 
-- Block replacement & write strategy
-
-
-### SUMMER Wk2
-#### Cache optimization
+#### Type Classes
 - 1
 - 2
 
+#### Extended example
 
-### Practical 7-9 more optimal solutions
+#### Practical
 
-### Ex1
-
-### Ex2
-
-### Ex3
 
 ## INT2
 ### Wk4
