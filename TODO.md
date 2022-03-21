@@ -40,9 +40,6 @@ date updated: 2022-01-26 18:52
 - practical
 
 ### Wk6
-- Compiler techniques 1
-- Compiler techniques 2
-- TL2 Pipeline hazards
 - Practical
 
 ### Wk7

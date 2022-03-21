@@ -66,6 +66,8 @@ Reducing speedup Factors
 
 ## Pipelining Issues
 
+> ISA: (Industry Standard Architecture) An ISA bus provides a basic route for peripheral devices that are attached to a motherboard to communicate with different circuits
+
 ### Ideal case: Uniform sub-computations
 
 - Computation to be performed can be evenly partitioned into uniform-latency sub-computations

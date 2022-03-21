@@ -92,7 +92,9 @@
     "OLS",
     "regularizer",
     "invertable",
-    "WAW"
+    "WAW",
+    "Antidependence",
+    "writes"
   ],
   "foldHeading": false,
   "foldIndent": false,

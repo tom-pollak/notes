@@ -57,6 +57,7 @@ $\text{CPU time} = IC \times CPI \times CCT$
 
 - Clock cycle time – hardware technology
 - CPI – organization and ISA
+	- Cost Performance Index: $CPI = \frac{\text{Earned value}}{\text{Actual cost}}$
 - IC – ISA and compiler technology
 
 Different instruction types may have different CPIs

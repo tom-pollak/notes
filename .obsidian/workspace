@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "1790b57effb96b1c",
+        "id": "7bcd42d8a3c6e005",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Year 2/Term 2/SYS3/Dynamic Scheduling.md",
+            "file": "TODO.md",
             "mode": "source",
             "source": false
           }
@@ -40,8 +40,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "perceptron",
-                "matchingCase": false,
+                "query": "",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -61,7 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 185
+    "width": 163
   },
   "right": {
     "id": "956d08eff0b9ff22",
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Year 2/Term 2/SYS3/Dynamic Scheduling.md",
+                "file": "TODO.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Year 2/Term 2/SYS3/Dynamic Scheduling.md"
+                "file": "TODO.md"
               }
             }
           },
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Year 2/Term 2/SYS3/Dynamic Scheduling.md",
+                "file": "TODO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,17 +125,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "1790b57effb96b1c",
+  "active": "7bcd42d8a3c6e005",
   "lastOpenFiles": [
-    "Year 2/Term 2/SYS3/Dynamic Scheduling.md",
     "TODO.md",
-    "Year 2/Term 2/INT2/Regression.md",
-    "Year 2/Term 2/INT2/Gradient Descent.md",
-    "Year 2/Term 2/INT2/Optimisation.md",
-    "Year 2/Term 1/INT1/Gradient Descent.md",
-    "Year 2/Term 2/INT2/Supervised Learning.md",
-    "Year 2/Term 2/INT2/Feature Representation.md",
-    "Year 2/Term 2/INT2/Perceptron.md",
-    "Year 2/Term 2/SOF3/Recursion.md"
+    "Year 2/Term 2/SYS3/Amdahl's Law.md",
+    "Year 2/Term 2/SYS3/Dynamic Scheduling.md",
+    "Year 2/Term 2/SYS3/Control Hazards.md",
+    "Year 2/Term 2/SYS3/Hazards.md",
+    "Year 2/Term 2/SYS3/rearrange-scheduling.png",
+    "Year 2/Term 2/SYS3/Pipeline Hazards.md",
+    "Different instruction and data cache.png.md",
+    "Year 2/Term 2/SYS3/Compiler Techniques.md",
+    "Year 2/Term 2/SYS3/Principles of Computer Design.md"
   ]
 }
