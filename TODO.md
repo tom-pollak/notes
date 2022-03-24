@@ -22,8 +22,7 @@ date updated: 2022-01-26 18:52
 ### Ex3
 
 ### Wk8
-#### Speculative execution
-- 2
+
 
 #### Superscalar processors
 - 1

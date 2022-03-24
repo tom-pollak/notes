@@ -55,6 +55,27 @@
         "a": 1,
         "rgb": 7885536
       }
+    },
+    {
+      "query": "path:SYS3",
+      "color": {
+        "a": 1,
+        "rgb": 161024
+      }
+    },
+    {
+      "query": "path:INT2",
+      "color": {
+        "a": 1,
+        "rgb": 14701233
+      }
+    },
+    {
+      "query": "path:SOF3",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
     }
   ],
   "collapse-display": true,
@@ -67,6 +88,6 @@
   "repelStrength": 17.1460674157303,
   "linkStrength": 1,
   "linkDistance": 207,
-  "scale": 1.2806434441906447,
-  "close": false
+  "scale": 0.3631431867498491,
+  "close": true
 }

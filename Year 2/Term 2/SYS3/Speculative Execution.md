@@ -52,9 +52,32 @@ How to overcome [[Control Hazards]] in [[Tomasulo's Algorithm]]?
 - Get an instruction from instruction queue
 - Issue instruction if there is empty RS and an empty slot in ROB
 	- Pre-book a slot in ROB for when instruction is completed
-	- If full then instruction is stalled
+	- If full then instruction stalled
 - Get slot number (tag) from ROB for this instruction
 - Send the operands to RS if they are available from either RF or ROB (speculative register read)
 - Num ROB entry sent to RS to tag result for when it is placed on CDB
 
-##### 
+##### Execute
+
+- If not all operands available, monitor CDB
+- Execute operation
+- Instruction may take multiple clock cycles
+	- Load still requires two steps
+- Store need to have base register value available at this step for effective address calculation
+
+##### Write result
+
+- Write to CDB with ROB tag
+- Data in CDB go into ROB and to RS waiting for result
+- If value/address to be stored available, write into ROB
+- Else CDB monitored until that value broadcast
+
+##### Commit
+
+###### Normal commit
+- Occurs when instruction reaches head of ROB and result is present in buffer
+- Updates RF/memory and removes it from ROB
+
+###### Incorrect prediction
+- ROB is flushed and execution restarted at correct successor of branch
+
