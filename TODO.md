@@ -91,7 +91,6 @@ date updated: 2022-01-26 18:52
 - Practical
 
 ### Wk9
-- Neural networks
 - Practical
 - 3Blue1Brown neural network series
 

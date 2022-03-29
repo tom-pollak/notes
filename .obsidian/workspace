@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "path:\"Year 2/Term 2/INT2\" 1",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -129,14 +129,14 @@
   "active": "dbf343a33e54250a",
   "lastOpenFiles": [
     "Year 2/Term 2/INT2/Neural Networks.md",
-    "TODO.md",
     "Year 2/Term 2/INT2/Regression.md",
+    "Year 2/Term 2/INT2/backpropagation.png",
     "Year 2/Term 2/INT2/Gradient Descent in Multiple Dimensions.md",
     "Year 2/Term 2/INT2/Optimisation.md",
     "Year 2/Term 2/INT2/Supervised Learning.md",
-    "Year 2/Term 1/INT1/Gradient Descent.md",
-    "Year 2/Term 2/INT2/Gradient Descent.md",
-    "Year 2/Term 2/ENG1/Requirements Engineering.md",
-    "Year 2/Term 2/SYS3/Speculative Execution.md"
+    "Year 2/Term 2/INT2/Perceptron.md",
+    "Year 2/Term 2/INT2/Feature Representation.md",
+    "TODO.md",
+    "Year 2/Term 1/DAT2/Supervised Learning.md"
   ]
 }

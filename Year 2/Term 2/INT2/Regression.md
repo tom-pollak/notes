@@ -22,7 +22,7 @@ We want $\theta^{*}, \theta^{*}_{0} = \underset{\theta, \theta_{0}}{argmin}\ J(\
 $$\LARGE \theta^{*} = (X^{T}X)^{-1} X^{T}Y$$
 Where $X$ is the matrix of data ($n \times d$) and $Y$ is the column vector of labels ($n \times 1$)
 
-- We assume there is a feature of just 1s, so we can ignore $\theta_0$
+- We assume there is a feature of just 1s, so we can ignore $\theta_0$ 
 
 ## Regularization by Ridge Regression
 
@@ -53,7 +53,7 @@ $$\nabla_{\theta}J_{ridge} = \frac{2}{n} X^{T}(X\theta - Y) + 2\lambda\theta$$
 - Gradient descent might just find local minima?
 	- Ordinary least squares (above) and ridge regression are both convex functions so will always find global minima (if we find optimal step size)
 
-#### Stochasticradient descent
+#### Stochastic gradient descent
 - Objective has the form of a sum, instead of summating all the elements:
 	- Sample a random element of the summation
 	- Do a small step in that direction
