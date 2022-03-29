@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "7bcd42d8a3c6e005",
+        "id": "dbf343a33e54250a",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Year 2/Term 2/INT2/Neural Networks.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -57,7 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 163
+    "width": 221
   },
   "right": {
     "id": "956d08eff0b9ff22",
@@ -73,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Year 2/Term 2/INT2/Neural Networks.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +93,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Year 2/Term 2/INT2/Neural Networks.md"
+              }
             }
           },
           {
@@ -97,6 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Year 2/Term 2/INT2/Neural Networks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,17 +125,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "7bcd42d8a3c6e005",
+  "active": "dbf343a33e54250a",
   "lastOpenFiles": [
+    "Year 2/Term 2/INT2/Neural Networks.md",
     "TODO.md",
-    "Year 2/Term 2/SYS3/Speculative Execution.md",
-    "Year 2/Term 2/SYS3/Compiler Techniques.md",
-    "Year 2/Term 2/SYS3/Principles of Computer Design.md",
-    "Year 2/Term 2/SYS3/Dynamic Scheduling.md",
-    "Year 2/Term 2/SYS3/Tomasulo's Algorithm.md",
-    "Year 2/Term 2/SYS3/Control Hazards.md",
-    "Year 2/Term 2/SYS3/register-renaming.png",
-    "Year 2/Term 2/SYS3/Amdahl's Law.md",
-    "Year 2/Term 2/SYS3/Hazards.md"
+    "Year 2/Term 2/INT2/Regression.md",
+    "Year 2/Term 2/INT2/Gradient Descent in Multiple Dimensions.md",
+    "Year 2/Term 2/INT2/Optimisation.md",
+    "Year 2/Term 2/INT2/Supervised Learning.md",
+    "Year 2/Term 1/INT1/Gradient Descent.md",
+    "Year 2/Term 2/INT2/Gradient Descent.md",
+    "Year 2/Term 2/ENG1/Requirements Engineering.md",
+    "Year 2/Term 2/SYS3/Speculative Execution.md"
   ]
 }

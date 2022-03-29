@@ -88,7 +88,6 @@ date updated: 2022-01-26 18:52
 - Practical
 
 ### Wk8
-- Halfway through wk8 lecture – scholastic descent
 - Practical
 
 ### Wk9
