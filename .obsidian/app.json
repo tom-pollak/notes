@@ -96,7 +96,10 @@
     "Antidependence",
     "writes",
     "If",
-    "ReLU"
+    "ReLU",
+    "superpipelining",
+    "VLIW",
+    "Hyperthreading"
   ],
   "foldHeading": false,
   "foldIndent": false,

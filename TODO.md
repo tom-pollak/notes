@@ -21,13 +21,6 @@ date updated: 2022-01-26 18:52
 
 ### Ex3
 
-### Wk8
-
-
-#### Superscalar processors
-- 1
-- 2
-
 ### Wk9
 #### Virtual memory
 - 1
@@ -56,8 +49,6 @@ date updated: 2022-01-26 18:52
 
 ### Block 3
 
-### Block 4
-
 #### Reasoning about programs
 - 1
 - 2
@@ -73,6 +64,24 @@ date updated: 2022-01-26 18:52
 
 #### Practical
 
+### Block 4
+
+#### Effects through type class `Monad`
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+- 8
+- 9
+
+#### Fresh identifier generation using monads
+- NAbsSyn.hs
+- Translate.hs
+
+#### Self study
 
 ## INT2
 ### Wk4
@@ -92,10 +101,9 @@ date updated: 2022-01-26 18:52
 
 ### Wk9
 - Practical
-- 3Blue1Brown neural network series
 
 ### Wk10
-Convolutions & convolutional neural networks - Not required
+Convolutions & convolutional neural networks – Not required
 
 ## ENG1
 ### Wk8

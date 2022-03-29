@@ -122,16 +122,6 @@ For a single input chain in a neural network:
 
 $C_{0} = (a^{(L)} - y)^{2}$
 
-- Obviously real neural networks have more than one input
-- We can use subscript to represent which neuron of the previous layer it is
-
-![[multiple-neural-inputs.png]]
-
-$$C_{0} = \sum\limits^{n_{L} - 1}_{j=0} (a_{j}^{(L)} - y_{j})^{2}$$
-
-- Let us call the weight connecting the $k_{th}$ neuron to the $j_{th}$ neuron $w_jk$
-
-
 $\frac{\delta C_{0}}{\delta a^{(L)}} = 2(a^{(L)} - y)$
 
 $\frac{\delta a^{(L)}}{\delta z^{(L)}} = \sigma'(z^{(L)})$
@@ -151,3 +141,35 @@ $$\large \nabla C = \begin{bmatrix} \frac{\delta C}{\delta w^{(1)}} \\ \frac{\de
 	- $\frac{\delta z^{(L)}}{\delta b^{(L)}} = 1$
 
 Of course then we can get [[Regression#Stochasticradient descent]]
+
+
+#### Multiple input neurons
+
+- Obviously real neural networks have more than one input
+- We can use subscript to represent which neuron of the previous layer it is
+
+![[multiple-neural-inputs.png]]
+
+$$C_{0} = \sum\limits^{n_{L} - 1}_{j=0} (a_{j}^{(L)} - y_{j})^{2}$$
+
+- Let us call the weight connecting the $k_{th}$ neuron to the $j_{th}$ neuron $w_{jk}^{(L)}$
+	- Note how the indexes are backwards ($jk$) instead of $kj$
+	- Lines up with how you would index weight matrix
+
+
+Weighted sum of neuron
+![[single-neuron-of-multiple-input.png]]
+
+- Looks same as before
+
+$$a_{j}^{(L)} = \sigma (z_{j}^{(L)})$$
+![[multiple-neuron-chain-rule.png | 500]]
+
+
+Derivative of the cost with respect to one of the activations of layer $L-1$
+- Neuron influences cost function through multiple different paths
+
+![[der-cost-l-minus-1.png | 500]]
+
+![[multiple-neuron-grad-func.png]]
+
