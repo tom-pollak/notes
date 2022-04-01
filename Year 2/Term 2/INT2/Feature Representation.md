@@ -33,14 +33,14 @@ $\varphi: ([x_1, \ldots, x_d]) = [x_1, \ldots, x_d, 1]$
 
 - Discrete data
   - Numeric $\mathbb{R}$
-	  - May not be good for much data, 2.5, working with strings etc.
+    - May not be good for much data, 2.5, working with strings etc.
   - One-hot encoding: $m$ Booleans $[1,0,0,\ldots, 0], [0,1,0,\ldots,0],\ldots,[0,0,0,\ldots,1]$
-	  - Set 1 to the value you want to choose
-	  - 1 and only one value can be chosen
+    - Set 1 to the value you want to choose
+    - 1 and only one value can be chosen
   - Factoring
-	  - e.g. blood types: A+, A-, B+, B-, AB, O+, O-
-	  - $\implies [A, B, AB, O], [+, -]$ or
-	  - $\implies [A, notA], [B, notB], [+, -]$
+    - e.g. blood types: A+, A-, B+, B-, AB, O+, O-
+    - $\implies [A, B, AB, O], [+, -]$ or
+      - $\implies [A, notA], [B, notB], [+, -]$
   - Text: Bag of words (bow), word2vec
 
 ## Standardising numerical features
