@@ -18,6 +18,9 @@ Disadvantages:
 - Substantial increase in hardware complexity
 - Complicates exceptions
 
+[[Control Hazards#Branch Prediction]]
+
+
 In a simple pipeline, if instruction $j$ depends on long-running instruction $i$, then all instructions after $j$ must be stalled until $i$ is finished and $j$ can execute.
 
 ## How dynamic scheduling works

@@ -58,12 +58,15 @@ Execution of a branch requires knowledge of:
   - Records previous outcomes of the branch instruction
   - How to index table is an issue
 - Prediction using BPB is attempted when the branch instruction is fetched (IF stage)
+
 - Acted upon during ID stage
 
 Has a prediction been made
+
 - If not use default 'Not taken'
 
 Is it correct or incorrect
+
 - Correct (most cases): no delay
 - Incorrect: delay
 
@@ -73,10 +76,11 @@ Is it correct or incorrect
 
 - Allow branches that favour taken/not-taken to be mispredicted less often
 
-**Branch prediction extremely useful in loops**
+- **Branch prediction extremely useful in loops**
+
 - Simple branch prediction can be implemented using a small amount of memory indexed by lower order bits of the address of the branch instruction
-	- One bit stores whether the branch was taken or not
-	- Next time branch instruction fetched refer this bit
+  - One bit stores whether the branch was taken or not
+  - Next time branch instruction fetched refer this bit
 
 #### Correlating predictor
 
@@ -94,7 +98,7 @@ else dot that; /* br-4 */
 
 - Multiple 2-bit predictors for each branch
 - One for each possible combination of outcomes for the **last n occurrences of this branch**
-	- So compare to the outcome of the last time the branch was called
+  - So compare to the outcome of the last time the branch was called
 
 #### Tournament predictor
 
@@ -102,14 +106,13 @@ else dot that; /* br-4 */
 
 ### Branch-target buffer
 
-> Branch prediction cache, that stores the predicted address for the next instruction after branch 
+> Branch prediction cache, that stores the predicted address for the next instruction after branch
 
 - To reduce the branch penalty, know whether the next undecoded instruction is a branch
-	- If so what the next PC should be
+  - If so what the next PC should be
 - If the instruction is a branch, and we know what PC should be, we can have a branch penalty of 0
 
 ![[branch-target-buffer.png]]
-
 
 #### Branch folding
 

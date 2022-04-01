@@ -49,6 +49,8 @@ Disadvantages
 - Stall issue if [[Speculative Execution#Reorder buffer]] (ROB) unavailable
 - If dependency exists in bundle, encode in [[Dynamic Scheduling#Reservation stations]] with ROB 
 - Multiple completion/commit (wide CDB (common data bus) & ROB)
+[Reservation stations](Dyn)
+[Reservation stations]	
 
 ### Dynamically scheduled 
 
