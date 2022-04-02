@@ -41,6 +41,8 @@ date updated: 2022-02-14 15:25
 
 ![[filling-branch-delay.png]]
 
+![filling branch delay](filling-branch-delay.png)
+
 ## Dynamic Branch Prediction
 
 Execution of a branch requires knowledge of:
