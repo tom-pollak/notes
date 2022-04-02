@@ -12,7 +12,8 @@ date updated: 2022-02-07 12:58
 
 ## Perceptron through origin
 
-```
+$$
+% \begin{code}
 perceptron(D, T)
 \theta = zeros(d); \theta_0 = 0
 for t=1 to T
@@ -21,6 +22,26 @@ for t=1 to T
 			\theta = \theta + y^i x^i
 			\theta_0 = \theta_0 + y^i
 return (\theta, \theta_0)
+% \end{code}
+$$
+### Finish converting!!
+
+> (Then write in haskell) :laughing:
+
+```pseudocode
+func perceptron(D, T, data, labels)
+  (n, d) = D
+  theta = zeros(d)
+  theta_0 = 0
+
+  for t in [1..T]
+    for i in [1..n]
+      X_i = data[:, i] :: (n x 1)  (don't think the shape is correct) # Get column (single dimension of weights)
+      y_i = labels[:, i] :: (n x 1)
+      if y_i * (theta.T @ X_i + theta_0) <= 0 then
+        theta = theta += y_i * x_i
+        theta_0 += y_i
+      done
 ```
 
 - If misclassify, $if$ will be less than 0
@@ -38,7 +59,7 @@ return (\theta, \theta_0)
 
 #### Perpendicular distance from origin to hyperplane
 
-![[margin.png]]
+![margin](margin.png)
 
 > If the point is on the positive side of the hyperplane the distance should be positive and vice versa
 

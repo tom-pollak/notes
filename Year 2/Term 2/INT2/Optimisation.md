@@ -74,7 +74,7 @@ We can use the log function as it is a monotonic function, where transforms the 
 $\LARGE = -\sum\limits\limits_{i=1}^{n} (y^{i} log(g^{i}) + (1 - y^{i}) log(1-g^{i}))$
 
 - Negative as we want to minimize the function
-- This is the negative log likelihood function
+- This is the **negative log likelihood function**
 
 $\LARGE = \sum\limits_{n}^{i=1} \mathcal{L}_{NLL}(g^{i},y^{i})$
 Where
@@ -83,7 +83,7 @@ $\LARGE L_{NLL}(g,y) = -(ylog(g) + (1 - y) log(1 - g))$
 
 $L_{NLL}$ can be called cross-entropy or log loss function
 
-## Regularisation
+## Regularization
 
 > $\lambda R(\Theta)$ from the [[Optimisation#Objective function]]
 
