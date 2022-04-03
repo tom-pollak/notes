@@ -12,24 +12,21 @@ date updated: 2022-02-07 12:58
 
 ## Perceptron through origin
 
-$$
-% \begin{code}
-perceptron(D, T)
-\theta = zeros(d); \theta_0 = 0
-for t=1 to T
-	for i=1 to n
-		if y^i(\theta^T x^i + \theta_0) \leq 0:
-			\theta = \theta + y^i x^i
-			\theta_0 = \theta_0 + y^i
+$$perceptron(D, T) \\
+\qquad \theta = zeros(d); \theta_0 = 0 \\
+for t=1 to T \\
+	for i=1 to n \\
+		if y^i(\theta^T x^i + \theta_0) \leq 0: \\
+			\theta = \theta + y^i x^i \\
+			\theta_0 = \theta_0 + y^i \\
 return (\theta, \theta_0)
-% \end{code}
 $$
 ### Finish converting!!
 
 > (Then write in haskell) :laughing:
 
 ```pseudocode
-func perceptron(D, T, data, labels)
+func perceptron(D, T)
   (n, d) = D
   theta = zeros(d)
   theta_0 = 0
@@ -43,6 +40,17 @@ func perceptron(D, T, data, labels)
         theta_0 += y_i
       done
 ```
+
+- $D$ is training set of $n$ data points, each with $d$ dimensions
+  - $D = \{ (x_1, y_1), \ldots, (x_n, y_n) \}$
+  - $x_j$ is a $d$-dimensional vector
+    - $x_j = [x_1, \ldots, x_d ]$
+- We show values of features as
+  - $x_{j, i}$: is value of $i$-th _feature_ of $j$-th training _input vector_ 
+  - $x_{j, 0} = 1$
+- Weights
+  - $\theta_i$ is the $i$-th value in the **weight vector**, to be multiplied with the $i$-th feature of the input feature
+  - As $x_{j,0} = 1$, $\theta_0$ is the bias
 
 - If misclassify, $if$ will be less than 0
 - $y$ (+1 or -1) determines what the correct will be based on whether y is positive or negative
