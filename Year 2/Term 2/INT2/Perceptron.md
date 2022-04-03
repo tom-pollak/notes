@@ -12,30 +12,20 @@ date updated: 2022-02-07 12:58
 
 ## Perceptron through origin
 
-$$perceptron(D, T) \\
-\qquad \theta = zeros(d); \theta_0 = 0 \\
-for t=1 to T \\
-	for i=1 to n \\
-		if y^i(\theta^T x^i + \theta_0) \leq 0: \\
-			\theta = \theta + y^i x^i \\
-			\theta_0 = \theta_0 + y^i \\
-return (\theta, \theta_0)
-$$
-### Finish converting!!
-
 > (Then write in haskell) :laughing:
 
 ```pseudocode
 func perceptron(D, T)
-  (n, d) = D
-  theta = zeros(d)
-  theta_0 = 0
+  (n, d) = D.shape # {(x_1, y_1), ..., (x_n, y_n)} where x_i is a vector of d elements
+  D' = D.T # {(x_1, x_2, ..., x_n), ..., (y_1, y_2, ..., y_n)}
+  theta = zeros(d) :: (1 x d)
+  theta_0 = 0 :: (1 x 1)
 
   for t in [1..T]
     for i in [1..n]
-      X_i = data[:, i] :: (n x 1)  (don't think the shape is correct) # Get column (single dimension of weights)
-      y_i = labels[:, i] :: (n x 1)
-      if y_i * (theta.T @ X_i + theta_0) <= 0 then
+      x_i = data[i].fst :: (1 x d) 
+      y_i = data[i].snd :: (1 x d)
+      if y_i * (theta.T @ x_i + theta_0) <= 0 then
         theta = theta += y_i * x_i
         theta_0 += y_i
       done
@@ -51,6 +41,7 @@ func perceptron(D, T)
 - Weights
   - $\theta_i$ is the $i$-th value in the **weight vector**, to be multiplied with the $i$-th feature of the input feature
   - As $x_{j,0} = 1$, $\theta_0$ is the bias
+- $T$ is the number of iterations
 
 - If misclassify, $if$ will be less than 0
 - $y$ (+1 or -1) determines what the correct will be based on whether y is positive or negative
