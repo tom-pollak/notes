@@ -17,19 +17,22 @@ date updated: 2022-02-07 12:58
 ```pseudocode
 func perceptron(D, T)
   (n, d) = D.shape # {(x_1, y_1), ..., (x_n, y_n)} where x_i is a vector of d elements
-  D' = D.T # {(x_1, x_2, ..., x_n), ..., (y_1, y_2, ..., y_n)}
+  D' = [[x_1], ..., [x_n]].T :: (d x n) # Each row is a vector of weights, with each example being a column
+  labels = [y_1, ..., y_n] :: [1 x d]
   theta = zeros(d) :: (1 x d)
   theta_0 = 0 :: (1 x 1)
 
   for t in [1..T]
     for i in [1..n]
-      x_i = data[i].fst :: (1 x d) 
-      y_i = data[i].snd :: (1 x d)
+      x_i = D'[:, i].fst :: (d x 1) 
+      y_i = data[:, i].snd :: (1 x d)
       if y_i * (theta.T @ x_i + theta_0) <= 0 then
         theta = theta += y_i * x_i
         theta_0 += y_i
       done
 ```
+
+> Each **column** is a example, with each row being a weights of a single dimension
 
 - $D$ is training set of $n$ data points, each with $d$ dimensions
   - $D = \{ (x_1, y_1), \ldots, (x_n, y_n) \}$
