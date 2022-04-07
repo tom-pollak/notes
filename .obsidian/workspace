@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Year 2/Term 2/SYS3/Superscalar Processors.md",
+            "file": "Year 2/Term 2/INT2/Regression.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "CDB",
+                "query": "signed distance",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Year 2/Term 2/SYS3/Superscalar Processors.md",
+                "file": "Year 2/Term 2/INT2/Regression.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Year 2/Term 2/SYS3/Superscalar Processors.md"
+                "file": "Year 2/Term 2/INT2/Regression.md"
               }
             }
           },
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Year 2/Term 2/SYS3/Superscalar Processors.md",
+                "file": "Year 2/Term 2/INT2/Regression.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,15 +127,15 @@
   },
   "active": "ea057c57b5e41a4e",
   "lastOpenFiles": [
+    "Year 2/Term 2/INT2/Regression.md",
+    "Year 2/Term 2/INT2/Gradient Descent in Multiple Dimensions.md",
+    "Year 2/Term 2/INT2/Supervised Learning.md",
+    "Year 2/Term 1/DAT2/Unsupervised Learning.md",
+    "TODO.md",
     "Year 2/Term 2/SYS3/Superscalar Processors.md",
     "Year 2/Term 2/SYS3/Dynamic Scheduling.md",
-    "TODO.md",
     "Year 2/Term 2/SYS3/Speculative Execution.md",
     "Year 2/Term 2/SYS3/Compiler Techniques.md",
-    "Year 2/Term 2/SYS3/Principles of Computer Design.md",
-    "Year 2/Term 2/SYS3/Amdahl's Law.md",
-    "Year 2/Term 2/SYS3/Tomasulo's Algorithm.md",
-    "Year 2/Term 2/INT2/Neural Networks.md",
-    "multiple-neural-inputs 1.png.md"
+    "Year 2/Term 2/SYS3/Principles of Computer Design.md"
   ]
 }
