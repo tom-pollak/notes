@@ -106,6 +106,7 @@ $\large \frac{(P - x)^T \cdot \theta}{||\theta||} = \frac{P^T \theta - x^T \thet
   - Gamma is the min gap to the hyperplane
 - $||x^i|| \leq R$
   - All data is bound in the space of a circle with radius $R$
+  - $R$ is just an arbitrary number
 
 Then the perceptron will make at most $\left( \frac{R}{\gamma} \right)^2$ mistakes in finding the linear separator.
 
