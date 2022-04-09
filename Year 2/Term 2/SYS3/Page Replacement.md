@@ -86,4 +86,14 @@ Leads to
 
 ![[thrashing.png | 500]]
 
+
+### Locality model
+
+- How close are the addresses that the process issues
+	- Close to each other - likely in same page
+	- Far away - unlikely to be same page
+
+$$\sum\limits \text{size of locality} > \text{total memory size}$$
+
 ## Working set model
+
