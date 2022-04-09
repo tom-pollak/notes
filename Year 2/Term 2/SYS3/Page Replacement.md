@@ -93,7 +93,39 @@ Leads to
 	- Close to each other - likely in same page
 	- Far away - unlikely to be same page
 
-$$\sum\limits \text{size of locality} > \text{total memory size}$$
+> Thrashing occurs when: $\sum\limits \text{size of locality} > \text{total memory size}$
+
+Can limit by
+- Local page replacement
+- Priority page replacement
 
 ## Working set model
 
+Define $\Delta$ to be a working-set window
+- Analyse most recent $\Delta$ references
+- If a page is in use, it is in the working set $\Delta$
+- If it is no longer used, it will drop from $\Delta$ time units after its last reference
+
+$WSS_{i}$ (Working set of process $P_{i}$) is defined as total number of pages referenced in window $\Delta$
+
+Approximate size of locality of process $P_{i}$
+- If $\Delta$ is too small will not encompass entire locality
+- If $\Delta$ too large will encompass several localities
+- If $\Delta = \infty$ will encompass entire program 
+
+Adjusting $\Delta$ will adjust the time units until a page is dropped, so if the process was only using two pages for awhile and $\Delta$ was small enough, the working set would only include those 2 pages
+
+If $\Delta = \infty$ nothing will ever be dropped so will include every page in the program
+
+$D = \sum\limits_{i=0}^{n} WSS_{i}$ 
+- Total demand for frames of all processes $P_{0} \ldots P_{n}$
+- If $D \gt m \implies Thrashing$ 
+	- Where $m$ is the total number of frames
+	- If $D \gt m$, suspend or swap out one of the processes
+
+## Page-fault frequency
+
+- More direct than SS
+- Establish "acceptable" PFF rate and use local replacement policy
+
+![[pff.png]]

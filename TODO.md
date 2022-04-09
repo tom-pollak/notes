@@ -21,14 +21,8 @@ date updated: 2022-01-26 18:52
 
 ### Ex3
 
-### Wk9
-
-#### Page replacement
-- 3
-
 ### Wk10
 #### Static & dynamic scheduling
-- 1
 - 2
 
 ## SOF3

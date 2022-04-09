@@ -5,9 +5,7 @@ date updated: 2022-03-18 13:05
 
 # Dynamic Scheduling
 
-```
 > Rearrange execution order of instructions
-```
 
 - Reduce stalls while maintaining data flow
 - Compiler doesn't need to know microarchitecture

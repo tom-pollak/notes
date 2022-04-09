@@ -32,3 +32,6 @@ Fields:
 - Write result into CDB with name of execution unit that generated the result
 - Stores must wait until address and values are received
 
+Number of commits per cycle equal to issue width
+
+Watch spring wk 10 tutorial 2
