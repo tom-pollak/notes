@@ -101,6 +101,19 @@ Major activities
 > - $p = 0$ no  page faults
 > - $p = 1$ every instruction is page fault
 
-Effective Access Time (EAT)
+#### Effective Access Time
 
-$$EAT = (1-p) \text{}$$
+$$EAT = (1-p) \times \text{memory access time} + p \times(\text{page fault overhead} + \text{swap page out} + \text{swap page in})$$
+
+ - Need a **very** small page fault rate, 1 in 1000 can cause slow-downs to a factor of 40
+
+#### Optimization
+
+- Swap space IO faster than file system IO even if on the same device
+- Copy entire process image to swap space at process load time
+	- Page in and out of swap space
+- Demand page in from program binary, but discard rather than paging out when freeing frame
+	- Pages not associated with file
+	- Pages modified in memory but not yet written back to system
+- Copy-on-Write (COW) allows parent and child to share same pages in memory
+	- Will only be copied when page is modified

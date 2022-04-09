@@ -22,12 +22,8 @@ date updated: 2022-01-26 18:52
 ### Ex3
 
 ### Wk9
-#### Virtual memory
-- 4
 
 #### Page replacement
-- 1
-- 2
 - 3
 
 ### Wk10
