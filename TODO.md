@@ -21,10 +21,6 @@ date updated: 2022-01-26 18:52
 
 ### Ex3
 
-### Wk10
-#### Static & dynamic scheduling
-- 2
-
 ## SOF3
 
 ### Block 1
@@ -71,9 +67,6 @@ date updated: 2022-01-26 18:52
 #### Self study
 
 ## INT2
-### Wk4
-- Practical
-
 ### Wk5
 - Practical
 
