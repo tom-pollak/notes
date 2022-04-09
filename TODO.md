@@ -23,7 +23,6 @@ date updated: 2022-01-26 18:52
 
 ### Wk9
 #### Virtual memory
-- 1
 - 2
 - 3
 - 4
