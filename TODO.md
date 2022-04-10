@@ -7,11 +7,6 @@ date updated: 2022-01-26 18:52
 # TODO
 
 ## SYS3
-### Wk5
-- practical
-
-### Wk6
-- Practical
 
 ### Practical 7-9 more optimal solutions
 
