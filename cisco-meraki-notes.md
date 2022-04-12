@@ -74,3 +74,6 @@ Software-defined Wide Area Network
 - Lunch and dinner daily
 - Customized laptop and desk setups
 - Medical coverage plan
+
+- Thinking out loud
+- Coding interview
