@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Year 2/Term 2/INT2/Perceptron.md",
+            "file": "Year 2/Term 2/INT2/Feature Representation.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tomasul",
+                "query": "polynomial ",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,7 +61,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 221
+    "width": 221,
+    "collapsed": true
   },
   "right": {
     "id": "956d08eff0b9ff22",
@@ -77,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Year 2/Term 2/INT2/Perceptron.md",
+                "file": "Year 2/Term 2/INT2/Feature Representation.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Year 2/Term 2/INT2/Perceptron.md"
+                "file": "Year 2/Term 2/INT2/Feature Representation.md"
               }
             }
           },
@@ -104,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Year 2/Term 2/INT2/Perceptron.md",
+                "file": "Year 2/Term 2/INT2/Feature Representation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,6 +128,8 @@
   },
   "active": "1fdc40b9df08dc0f",
   "lastOpenFiles": [
+    "Year 2/Term 2/INT2/Feature Representation.md",
+    "Year 2/Term 2/INT2/Optimisation.md",
     "Year 2/Term 2/INT2/Perceptron.md",
     "Year 2/Term 2/INT2/Supervised Learning.md",
     "Year 2/Term 2/INT2/Gradient Descent in Multiple Dimensions.md",
@@ -134,8 +137,6 @@
     "TODO.md",
     "Year 2/Term 2/SYS3/Tomasulo's Algorithm.md",
     "Year 2/Term 2/SYS3/Dynamic Scheduling.md",
-    "Caches.md",
-    "Year 2/Term 2/SYS3/Page Replacement.md",
-    "Year 2/Term 2/SYS3/Virtual Memory.md"
+    "Caches.md"
   ]
 }
