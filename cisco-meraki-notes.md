@@ -6,6 +6,42 @@
 - cloud based
 - build and improve the Dashboard web application.
 
+> Cloud managed
+
+- Remote troubleshooting
+- SD-WAN
+- MPLS like performance
+    - Load balancing over 2 broadband connections
+    - Less expesensive
+- Network security
+- Simplifying management & monitoring
+    - single dashboard
+- Scaliable and flexible
+
+Mulit protocol label switching
+- Uses labels instead of IP addresses
+
+Software-defined Wide Area Network
+
+## Products
+
+- Dashboard
+- Router
+  - Firewall
+  - SD-WAN
+  - Auto VPN
+  - 4G failover
+- Switches
+- Wireless Gateways
+- Load balance between wireless and switch (wired)
+- WAP
+- Security cameras
+- Meraki insight
+  - Performance monitoring
+- Indoor & outdoor WAP
+
+## Projects
+
 **Example projects of a Full Stack Web Developer Intern:**
 
 - Create services to fetch data from millions of Meraki devices, then present that data in a user-friendly way
@@ -20,7 +56,7 @@
 - Pursuing bachelors
 - Build rich web applications in front-end frameworks React, Redux & Ember, Angular
 - Familiar with web frameworks python Django
-- Worked with SQL and dbsk
+- Worked with SQL and dbs
 
 ## Program
 
@@ -32,9 +68,9 @@
 
 ## Benefits
 
-Housing Assistance
-Competitive salary
-Weekly social events inside and outside of the office (Giants games, Exploratorium tickets, friendly soccer games)
-Lunch and dinner daily
-Customized laptop and desk setups
-Medical coverage plan
+- Housing Assistance
+- Competitive salary
+- Weekly social events inside and outside of the office (Giants games, Exploratorium tickets, friendly soccer games)
+- Lunch and dinner daily
+- Customized laptop and desk setups
+- Medical coverage plan
