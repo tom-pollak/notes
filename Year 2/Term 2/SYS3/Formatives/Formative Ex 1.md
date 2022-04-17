@@ -44,3 +44,29 @@ $\frac{1}{45000} > \frac{1}{100000} \therefore$ program 2 is more cost effective
 
 >Another user is concerned with throughput of the systems as measured with an equal workload of programs 1 and 2. Which system has better performance for this workload, given that performance is inversely proportional to execution time? By how much? Which system is more cost effective for this workload? By how much?
 
+
+$\text{cost effectiveness} = avg(\text{cost effectiveness}_{S1}, \text{cost effectiveness}_{S2})$
+
+$performance = \frac{1}{\text{execution time}}$
+
+Performance (higher is better):
+
+$\text{program 1: } \frac{\frac{1}{10} + \frac{1}{5}}{2} = 0.15$
+
+$\text{program 2: } \frac{\frac{1}{3} + \frac{1}{5}}{2} = \frac{8}{30} = \frac{4}{15} = 0.26667$
+
+
+### c
+
+> Yet another user has the following requirements: Program 1 must be executed 200 times  each hour. Any remaining time can be used for running program 2. If the system has  enough performance to execute program 1 the required number of times per hour,  performance is measured by the number of executions per hour for program 2. Which  system has higher performance for this workload? Which is more cost effective?
+
+Time taken to run S1 200 times:
+
+Program 1: $200 \times 10 = \text{2000 seconds} = \text{55 minutes}$ = no
+
+Program 2: $200 \times 3 = \text{600 seconds} = \text{10 minutes}$
+
+## 5
+
+>Suppose you wish to run a program P with7.5 × 10^9  instructions on a 5 GHz machine with a CPI  of 0.8.
+
