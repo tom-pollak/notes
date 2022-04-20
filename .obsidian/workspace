@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Year 2/Term 2/INT2/Gradient Descent in Multiple Dimensions.md",
+            "file": "Year 2/Term 2/SYS3/Dynamic Scheduling.md",
             "mode": "source",
             "source": false
           }
@@ -57,8 +57,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -78,13 +77,13 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Year 2/Term 2/INT2/Gradient Descent in Multiple Dimensions.md",
+                "file": "Year 2/Term 2/SYS3/Dynamic Scheduling.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": true,
+                "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
@@ -95,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Year 2/Term 2/INT2/Gradient Descent in Multiple Dimensions.md"
+                "file": "Year 2/Term 2/SYS3/Dynamic Scheduling.md"
               }
             }
           },
@@ -105,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Year 2/Term 2/INT2/Gradient Descent in Multiple Dimensions.md",
+                "file": "Year 2/Term 2/SYS3/Dynamic Scheduling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,20 +122,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 100
   },
   "active": "1fdc40b9df08dc0f",
   "lastOpenFiles": [
+    "Year 2/Term 2/SYS3/Dynamic Scheduling.md",
+    "Year 2/Term 2/SYS3/Superscalar Processors.md",
+    "Year 2/Term 2/SYS3/register-renaming.png",
+    "Year 2/Term 2/SYS3/Sys3 Exam.md",
     "Year 2/Term 2/INT2/Gradient Descent in Multiple Dimensions.md",
     "Year 2/Term 1/INT1/Gradient Descent.md",
     "Year 2/Term 2/SYS3/Formatives/Formative Ex 1.md",
     "TODO.md",
     "Year 2/Term 2/SYS3/RISC Pipeline.md",
-    "Year 2/Term 2/INT2/Feature Representation.md",
-    "Year 2/Term 2/INT2/Optimisation.md",
-    "Year 2/Term 2/INT2/Perceptron.md",
-    "Year 2/Term 2/INT2/Supervised Learning.md",
-    "Year 2/Term 2/INT2/Neural Networks.md"
+    "Year 2/Term 2/INT2/Feature Representation.md"
   ]
 }
