@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Year 2/Term 2/SYS3/Dynamic Scheduling.md",
+            "file": "Year 2/Term 2/SYS3/Sys3 Exam.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cisc",
+                "query": "speedup",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,11 +57,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 221
+    "width": 221,
+    "collapsed": true
   },
   "right": {
     "id": "956d08eff0b9ff22",
@@ -72,29 +74,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "855f261f29ffd2c1",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Year 2/Term 2/SYS3/Dynamic Scheduling.md",
-                "collapseAll": true,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
             "id": "9a54894ca7cfdb14",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Year 2/Term 2/SYS3/Dynamic Scheduling.md"
+                "file": "Year 2/Term 2/SYS3/Sys3 Exam.md"
               }
             }
           },
@@ -104,7 +89,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Year 2/Term 2/SYS3/Dynamic Scheduling.md",
+                "file": "Year 2/Term 2/SYS3/Sys3 Exam.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,24 +102,42 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "be406c41261e6e3c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Year 2/Term 2/SYS3/Sys3 Exam.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 100
+    "width": 100,
+    "collapsed": true
   },
   "active": "1fdc40b9df08dc0f",
   "lastOpenFiles": [
+    "Year 2/Term 2/SYS3/Sys3 Exam.md",
     "Year 2/Term 2/SYS3/Dynamic Scheduling.md",
+    "Year 2/Term 2/SYS3/Principles of Computer Design.md",
+    "Year 2/Term 1/SYS2/Scheduling.md",
+    "Year 2/Term 2/SYS3/Amdahl's Law.md",
     "Year 2/Term 2/SYS3/Superscalar Processors.md",
     "Year 2/Term 2/SYS3/register-renaming.png",
-    "Year 2/Term 2/SYS3/Sys3 Exam.md",
     "Year 2/Term 2/INT2/Gradient Descent in Multiple Dimensions.md",
     "Year 2/Term 1/INT1/Gradient Descent.md",
-    "Year 2/Term 2/SYS3/Formatives/Formative Ex 1.md",
-    "TODO.md",
-    "Year 2/Term 2/SYS3/RISC Pipeline.md",
-    "Year 2/Term 2/INT2/Feature Representation.md"
+    "Year 2/Term 2/SYS3/Formatives/Formative Ex 1.md"
   ]
 }

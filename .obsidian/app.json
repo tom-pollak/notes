@@ -99,7 +99,10 @@
     "ReLU",
     "superpipelining",
     "VLIW",
-    "Hyperthreading"
+    "Hyperthreading",
+    "NOP",
+    " WA",
+    " NO"
   ],
   "foldHeading": false,
   "foldIndent": false,
