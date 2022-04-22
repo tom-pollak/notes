@@ -131,8 +131,17 @@ Rename the second write instruction register with a new register, and rename any
 
 > Explain the concept of dependency DAG, and how this dependency DAG graph representation relates to **dependencies** and **register hazards**.
 >   - **DAG:** Directed Acyclic Graph.
+
+A DAG represents the dependencies within a “basic block”, a sequential code sequence with no branches except entry and exit. Each instruction is represented as a node, and the edges between them “serialization dependencies”.
+
+The DAG referenced in the paper has three types of dependencies: definition vs. definition (a register being overwritten), definition vs. uses (a value stored to a register, and loaded in a subsequent instruction) and uses vs. definition (a register used in an instruction, then being overwritten in a subsequent instruction).
+
+Any edge $\vec{ab}$ asserts that instruction $a$ must be executed before $b$
+
 ### D(ii)
 > Provide an appropriate example dependency DAG diagram and its associated code, showing and discussing at least two kinds of register hazard.
+
+
 
 ### D(iii)
 > Draw instruction dependency DAG from test case:
@@ -175,4 +184,25 @@ DAG serializes
 - Uses v definitions
 
 Scan backwards across basic block, noting each definition or use of resource and then later the definitions or uses which must precede it
+
+![[dag-code.png]]
+
+![[dag-dependance.png]]
+
+Result: (3, 2, 4, 5, 8, 1, 6, 7, 9)
+
+Heuristics to use instead of lookahead:
+1. Whether an instruction interlocks with any of its immediate successors in the DAG
+2. The number of immediate successors of the instruction
+3. The length of the longest path from the instruction to the leaves of the DAG
+
+These properties bias towards selecting properties which:
+1. May cause interlocks (need to be scheduled as early as possible, when there is most likely to be a wide choice of instructions to follow them)
+2. Uncover most potential successors
+3. Balance the progress along the various paths towards the leaves of the DAG (leave the largest number of choices available at all stages of the process)
+
+Scheduling algorithm
+1. Make a prepass backward over the basic block to construct scheduling DAG comparing each instruction to the nodes of scheduling DAG constructed so far
+2. Put roots of DAG into candidate set
+3. Select first instruction to be scheduled from the candidate set
 
