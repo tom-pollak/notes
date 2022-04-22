@@ -56,12 +56,12 @@ A Data Hazard can occur when Instruction Fetch (IF) conflicts with a Data Fetch 
 ### B(i)
 
 
-| Instr. |     |     |     |      |      |      |      |      |      |      |      |                     |
-| ------ | --- | --- | --- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ------------------- |
-| 1      | IF  | ID  | OF  | RR.2 | RR.3 | IALU | IALU | DS   |      |      |      |                     |
-| 2      |     | IF  | ID  | OF   | ---  | WB.3 |      |      |      |      |      |                     |
-| 3      |     |     | --- | ---  | IF   | ID   | RR.4 | IALU | IALU | WB.5 |      |                     |
-| 4      |     |     |     | ---  | ---  | IF   | ID   | RR.2 | IALU | ---  | WB.2 |                     |
+| Instr. |     |     |     |      |      |      |      |      |      |      |      |                    |
+| ------ | --- | --- | --- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ------------------ |
+| 1      | IF  | ID  | OF  | RR.2 | RR.3 | IALU | IALU | DS   |      |      |      |                    |
+| 2      |     | IF  | ID  | OF   | ---  | WB.3 |      |      |      |      |      |                    |
+| 3      |     |     | --- | ---  | IF   | ID   | RR.4 | IALU | IALU | WB.5 |      |                    |
+| 4      |     |     |     | ---  | ---  | IF   | ID   | RR.2 | IALU | ---  | WB.2 |                    |
 |        | 1   | 2   | 3   | 4    | 5    | 6    | 7    | 8    | 9    | 10   | 11   | $\leftarrow$ cycle |
 
 
@@ -128,26 +128,64 @@ Rename the second write instruction register with a new register, and rename any
 
 ### D(i)
 
-
 > Explain the concept of dependency DAG, and how this dependency DAG graph representation relates to **dependencies** and **register hazards**.
->   - **DAG:** Directed Acyclic Graph.
 
 A DAG represents the dependencies within a “basic block”, a sequential code sequence with no branches except entry and exit. Each instruction is represented as a node, and the edges between them “serialization dependencies”.
 
-The DAG referenced in the paper has three types of dependencies: definition vs. definition (a register being overwritten), definition vs. uses (a value stored to a register, and loaded in a subsequent instruction) and uses vs. definition (a register used in an instruction, then being overwritten in a subsequent instruction).
+The DAG referenced in the paper has three types of dependencies: definition vs. definition (a register being overwritten, a potential WAW hazard), definition vs. uses (a value stored to a register, and loaded in a subsequent instruction a potential RAW hazard) and uses vs. definition (a register used in an instruction, then being overwritten in a subsequent instruction, a potential WAR hazard).
 
-Any edge $\vec{ab}$ asserts that instruction $a$ must be executed before $b$
+Any edge $\vec{ab}$ asserts that the two instructions $a$ and $b$ have a dependency and that the compiler must execute $a$ before $b$. Using the DAG, the compiler can  rearrange the execution order, while ensuring dependant instructions are executed sequentially.
+
+
+---
+
+Only hazards are register & memory based:
+1. Loading a register from memory followed by using _that_ register as a source
+2. Storing to any memory location followed by loading from any location
+3. Loading from memory followed by using _any_ register as the target of an ALU or load/store with address modification
+
+## NO3 Seems pretty common??
+
 
 ### D(ii)
+
 > Provide an appropriate example dependency DAG diagram and its associated code, showing and discussing at least two kinds of register hazard.
+
+CODE:
+```asm
+// Potential RAW (1, 2)
+1. IMUL R1, R1, R2
+2. LDR R2, R3 
+
+// Potential WAW (4, 5)
+4. IMUL R5, R5, R9
+5. IADD R6, R6, R9 
+```
+
+```mermaid
+graph TB;
+	subgraph .
+	ROOT_A[ ] --> 1
+	ROOT_B[ ] --> 4
+	end
+	
+	1 --> 2;
+	
+	4 --> 5;
+	
+	style . height:0px;
+	style ROOT_A height:0px;
+	style ROOT_B height:0px;
+```
 
 
 
 ### D(iii)
+
 > Draw instruction dependency DAG from test case:
 
 TEST CASE:
-```
+```asm
 1. LDR R1, R5
 2. LDR R5, R6
 3. IMUL R3, R6, R8
@@ -157,6 +195,32 @@ TEST CASE:
 7. IMUL R1, R4, R4
 8. IADD R4, R8, R7
 ```
+
+```mermaid
+graph TB;
+	subgraph .
+	ROOT_A[ ] --> 1
+	ROOT_B[ ] --> 4
+	end
+	
+	1 --> 2;
+	4 --> 7;
+
+	2 --> 3;
+	2 --> 5;
+
+	7 --> 8;
+
+	3 --> 6;
+
+	6 --> 8;
+
+	style . height:0px;
+	style ROOT_A height:0px;
+	style ROOT_B height:0px;
+```
+
+---
 
 ### Appendix Notes
 
