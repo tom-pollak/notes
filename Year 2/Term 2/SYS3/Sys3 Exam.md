@@ -1,13 +1,6 @@
 # Sys3 Open Assessment
----
-**REMOVE**
-
-A Data Hazard can occur when Instruction Fetch (IF) conflicts with a Data Fetch (DF), or data store (DS). This is due to the memory bus only being able to perform one code or data operation per clock cycle. A possible solution is to insert stalls to delay the second of the events and thus separate the conflicting operations into different clock cycles.
-
----
 
 ## Part A
-
 
 ### A(i)
 
@@ -50,11 +43,9 @@ A Data Hazard can occur when Instruction Fetch (IF) conflicts with a Data Fetch 
 - Is it memory or DATA
 - 2 Memory read ports?
 
-
 ## Part B
 
 ### B(i)
-
 
 | Instr. |     |     |     |      |      |      |      |      |      |      |      |                    |
 | ------ | --- | --- | --- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ------------------ |
