@@ -6,6 +6,17 @@ date updated: 2022-01-26 18:52
 
 # TODO
 
+## Exams
+
+- ENG1 24 hour 30th May
+- SYS3 24 hour 23rd May
+- SYS3 open assessment: Wednesday
+- INT2 open assessment: 11th May
+- ENG1 open assessment: 4th May
+
+- INT2 closed exam:
+- SOF3 closed exam: Sum Wk5 (16th – 23rd)
+
 ## SYS3
 
 ### Practical 7-9 more optimal solutions

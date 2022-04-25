@@ -123,7 +123,6 @@ Solution: Operand forwarding with Tomasulo algorithm, which uses register renami
 
 Rename the second write instruction register with a new register, and rename any occurrences of that register in instructions after the second write to the new register.
 
-
 ## Part D
 
 ### D(i)
@@ -132,10 +131,9 @@ Rename the second write instruction register with a new register, and rename any
 
 A DAG represents the dependencies within a “basic block”, a sequential code sequence with no branches except entry and exit. Each instruction is represented as a node, and the edges between them “serialization dependencies”.
 
-The DAG referenced in the paper has three types of dependencies: definition vs. definition (a register being overwritten, a potential WAW hazard), definition vs. uses (a value stored to a register, and loaded in a subsequent instruction a potential RAW hazard) and uses vs. definition (a register used in an instruction, then being overwritten in a subsequent instruction, a potential WAR hazard).
+The DAG referenced in the paper has three types of dependencies: _definition vs. definition_ (a register being overwritten, a potential WAW hazard), _definition vs. uses_ (a value stored to a register, and loaded in a subsequent instruction a potential RAW hazard) and _uses vs. definition_ (a register used in an instruction, then being overwritten in a subsequent instruction, a potential WAR hazard).
 
 Any edge $\vec{ab}$ asserts that the two instructions $a$ and $b$ have a dependency and that the compiler must execute $a$ before $b$. Using the DAG, the compiler can  rearrange the execution order, while ensuring dependant instructions are executed sequentially.
-
 
 ---
 
@@ -146,21 +144,22 @@ Only hazards are register & memory based:
 
 ## NO3 Seems pretty common??
 
-
 ### D(ii)
-
-> Provide an appropriate example dependency DAG diagram and its associated code, showing and discussing at least two kinds of register hazard.
 
 CODE:
 ```asm
-// Potential RAW (1, 2)
+// Potential WAW (1, 2)
 1. IMUL R1, R1, R2
-2. LDR R2, R3 
+2. IADD R3, R3, R2 
 
-// Potential WAW (4, 5)
-4. IMUL R5, R5, R9
-5. IADD R6, R6, R9 
+// Potential WAR (3, 4)
+3. LDR R9, R5
+4. IADD R9, R9, R6
 ```
+
+Instructions 1 & 2 give an example of a potential WAW hazard, where instruction 1 attempts to store a value to $R2$, followed by instruction 2 attempting to store a value in $R2$. This is referenced in the DAG as a _definition vs definition_ dependency.
+
+Instructions 3 & 4 give an example of a potential WAR hazard, where instruction 3 attempts to store a value in $R9$ followed by instruction 4 which attempt to use $R9$ as a source. This is referenced in the DAG as a _definition vs use_ dependency.
 
 ```mermaid
 graph TB;
@@ -178,11 +177,7 @@ graph TB;
 	style ROOT_B height:0px;
 ```
 
-
-
 ### D(iii)
-
-> Draw instruction dependency DAG from test case:
 
 TEST CASE:
 ```asm
