@@ -22,13 +22,6 @@
 | Structural  | (3, 8, WB.5)    | (4, 8, WB.2)    |                 |
 | WAR         | (1, 5, RR.3)    | (3, 5, WB.3)    |                 |
 
-- If a register reads and writes to the same register in the same cycle, is it a RAW / WAR?
-	- (1, 5, RR.3)    (3, 5, WB.3)
-- Which hazard???
-- **Simulate on practical.**
-- WAR Hazard ? --  RR.5(i4,c14)) WB.5,(i1,c14)
-- ???     Hazard ? -- RR.3(i1, c5)  WB.3(i3, c5)
-
 ### A(iii)
 
 | Hazard Type | 1st Instruction | 2nd Instruction | 3rd Instruction |
@@ -38,10 +31,6 @@
 | Structural  | (3, 6, FALU)    | (6, 6, FALU)    |                 |
 | Structural  | (2, 8, WB.4)    | (6, 8, WB.12)   |                 |
 | Memory      | (1, 7, DS)      | (2, 7, DF)      | (5, 7, OF)                |
-
-- Is final memory hazard valid???
-- Is it memory or DATA
-- 2 Memory read ports?
 
 ## Part B
 
@@ -55,20 +44,17 @@
 | 4      |     |     |     | ---  | ---  | IF   | ID   | RR.2 | IALU | ---  | WB.2 |                    |
 |        | 1   | 2   | 3   | 4    | 5    | 6    | 7    | 8    | 9    | 10   | 11   | $\leftarrow$ cycle |
 
-
 ### B(ii)
 
-| Instr. |     |     |     |      |      |      |      |      |      |      |      |                    |
-| ------ | --- | --- | --- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ------------------ |
-| 1      | IF  | ID  | OF  | RR.2 | RR.3 | IALU | IALU | DS   |      |      |      |                    |
-| 2      |     | NOP |     |      |      |      |      |      |      |      |      |                    |
-| 3      |     |     | NOP |      |      |      |      |      |      |      |      |                    |
-| 4      |     |     |     | IF   | ID   | OF   | WB.3 |      |      |      |      |                    |
-| 5      |     |     |     |      | IF   | ID   | RR.4 | IALU | IALU | WB.5 |      |                    |
-| 6      |     |     |     |      |      | NOP  |      |      |      |      |      |                    |
-| 7      |     |     |     |      |      |      | IF   | ID   | RR.2 | IALU | WB.2 |                    |
-|        | 1   | 2   | 3   | 4    | 5    | 6    | 7    | 8    | 9    | 10   | 11   | $\leftarrow$ cycle |
-
+| Instr. |     |     |     |      |      |      |      |      |      |      |                    |
+| ------ | --- | --- | --- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ------------------ |
+| 1      | IF  | ID  | OF  | RR.2 | RR.3 | IALU | IALU | DS   |      |      |                    |
+| 2      |     | NOP |     |      |      |      |      |      |      |      |                    |
+| 3      |     |     | IF  | ID   | OF   | WB.3 |      |      |      |      |                    |
+| 4      |     |     |     | IF   | ID   | RR.4 | IALU | IALU | WB.5 |      |                    |
+| 5      |     |     |     |      | NOP  |      |      |      |      |      |                    |
+| 6      |     |     |     |      |      | IF   | ID   | RR.2 | IALU | WB.2 |                    |
+|        | 1   | 2   | 3   | 4    | 5    | 6    | 7    | 8    | 9    | 10   | $\leftarrow$ cycle |
 
 ### B(iii)
 
@@ -82,7 +68,8 @@
 | 6      |     |     |      |      |       | IF    | ID   | WB.19 |       |      |      |                    |
 |        | 1   | 2   | 3    | 4    | 5     | 6     | 7    | 8     | 9     | 10   | 11   | $\leftarrow$ cycle           |
 
-- **Still has memory hazards:** (2,4,0F) (4,4,IF)
+- I am making the assumption that we can still have memory hazards
+- Current memory hazard: (2,4,0F) (4,4,IF)
 
 ## Part C
 
@@ -91,24 +78,20 @@
 | Test Case | Serial cycles | Pipelined cycles (hazards) | Pipelined cycles (hazards resolved) | Speedup (hazards) | Speedup (hazards resolved) |
 | --------- | ------------- | -------------------------- | ----------------------------------- | ----------------- | -------------------------- |
 | B(i)      | 23            | 8                          | 11                                  | 2.9               | 2.1                        |
-| B(ii)     | 23            | 8                          | 11                                  | 2.9               | 2.1                        |
-| B(iii)    | 35            | 11                         | 11                                  | 3.2               | 3.2                           |
-
-- Example gives the number of cycles without hazards $\lt$ number of cycles with hazards
-	- Resolving hazards should always take more cycles?
-	- Inserting stalls/NOP should increase number of cycles or stay the same.
+| B(ii)     | 23            | 8                          | 10                                  | 2.9               | 2.3                        |
+| B(iii)    | 35            | 11                         | 11                                  | 3.2               | 3.2                        |
 
 ### C(ii)
 
 **(a) RAW:** An instruction $I_1$ intends to write to a register $R$. However, before the W.B cycle is executed, a later pipelined instruction, $I_2$ reads $R$. This causes $I_2$ to have an outdated version of $R$, not the value that would be written from $I_1$.
 
-Solution: Insert stalls before the R.R cycle in $I_2$ until it is executed the cycle after the W.B.
+Solution: Insert stalls before the R.R cycle in $I_2$ until it is executed the cycle after the W.B in instruction $I_1$.
 
-**(b) WAR:** An instruction $I_1$ intends to read a register $R$. However, before the R.R cycle is executed, a later pipelined instruction $I_2$ writes a new value to $R$. This causes $I_1$ to read the new incorrect value of $R$, rather than the expected that $I_1$ would read the value in $R$ before either instruction was executed.
+**(b) WAR:** An instruction $I_1$ intends to read a register $R$. However, before the R.R cycle is executed, a later pipelined instruction $I_2$ writes a new value to $R$. This causes $I_1$ to read the new incorrect value of $R$, rather than the expected result that $I_1$ would read the value in $R$ present before either instruction was executed.
 
-Solution: Insert non-dependant instructions between the read and write instructions, such that the write instruction occurs at least a cycle after the read instruction. If no non-dependant instructions exist in this particular context, insert NOP instructions.
+Solution: Insert non-dependant instructions between the read and write instructions, such that the W.B cycle occurs at least a cycle after the R.B cycle. If no non-dependant instructions exist in this particular context, insert NOP instructions.
 
-**(c) WAW:** Instructions $I_{1}, I_{2}$ intend to write to register $R$, such that instruction $I_1$ is executed before $I_2$. A WAW hazard occurs when $I_2$ executes its W.B cycle before $I_1$, causing the value from $I_2$ to be overwritten by the outdated value from $I_1$, when $I_1$ executes its W.B cycle.
+**(c) WAW:** Instructions $I_{1}, I_{2}$ intend to write to register $R$, such that instruction $I_1$ is executed before $I_2$. A WAW hazard occurs when $I_2$ executes its W.B cycle before $I_1$, causing the value from $I_2$ to be overwritten by the value from $I_1$, once $I_1$ executes its W.B cycle.
 
 Solution: Operand forwarding with Tomasulo algorithm, which uses register renaming.
 
@@ -120,11 +103,11 @@ Rename the second write instruction register with a new register, and rename any
 
 > Explain the concept of dependency DAG, and how this dependency DAG graph representation relates to **dependencies** and **register hazards**.
 
-A DAG represents the dependencies within a “basic block”, a sequential code sequence with no branches except entry and exit. Each instruction is represented as a node, and the edges between them “serialization dependencies”.
+A DAG represents the dependencies within a “basic block”, a sequential code sequence with no branches except entry and exit. Each instruction is represented as a node, and the edges between them “serialization dependencies”. A dependency arises when an instruction must be executed before another instruction for the overall execution and result of the program to be the same. If instruction $I_2$ must be executed after $I_1$, then we say that $I_2$ is _dependent_ on $I_1$.
 
 The DAG referenced in the paper has three types of dependencies: _definition vs. definition_ (a register being overwritten, a potential WAW hazard), _definition vs. uses_ (a value stored to a register, and loaded in a subsequent instruction a potential RAW hazard) and _uses vs. definition_ (a register used in an instruction, then being overwritten in a subsequent instruction, a potential WAR hazard).
 
-Any edge $\vec{ab}$ asserts that the two instructions $a$ and $b$ have a dependency and that the compiler must execute $a$ before $b$. Using the DAG, the compiler can  rearrange the execution order, while ensuring dependant instructions are executed sequentially.
+Any edge $\vec{ab}$ asserts that the two instructions $a$ and $b$ have a dependency and that the compiler must execute $a$ before $b$. Using the DAG, the compiler can rearrange the execution order, while ensuring dependant instructions are executed sequentially. This can allow the compiler to use dynamic scheduling, while avoiding any register hazards that might occur.
 
 ---
 
@@ -148,9 +131,9 @@ CODE:
 4. IADD R9, R9, R6
 ```
 
-Instructions 1 & 2 give an example of a potential WAW hazard, where instruction 1 attempts to store a value to $R2$, followed by instruction 2 attempting to store a value in $R2$. This is referenced in the DAG as a _definition vs definition_ dependency.
+Instructions 1 & 2 give an example of a potential WAW hazard, where instruction 1 attempts to store a value to $R2$, followed by instruction 2 attempting to store a value in $R2$. This is referenced in the DAG as a _definition vs definition_ dependency. If instruction 1 were to take place after instruction 2, $R2$ would contain the result of instruction 1, not the desired result of instruction 2.
 
-Instructions 3 & 4 give an example of a potential WAR hazard, where instruction 3 attempts to store a value in $R9$ followed by instruction 4 which attempt to use $R9$ as a source. This is referenced in the DAG as a _definition vs use_ dependency.
+Instructions 3 & 4 give an example of a potential WAR hazard, where instruction 3 attempts to store a value in $R9$ followed by instruction 4 which attempt to use $R9$ as a source. This is referenced in the DAG as a _definition vs use_ dependency. If Instruction 4 were to take place before instruction 3, instruction 3 would use the value previously in $R9$, not the value loaded in in instruction 3.
 
 ```mermaid
 graph TB;
