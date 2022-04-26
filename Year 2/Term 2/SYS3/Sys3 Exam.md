@@ -1,5 +1,7 @@
 # Sys3 Open Assessment
 
+_Y3891128_
+
 ## Part A
 
 ### A(i)
@@ -101,22 +103,11 @@ Rename the second write instruction register with a new register, and rename any
 
 ### D(i)
 
-> Explain the concept of dependency DAG, and how this dependency DAG graph representation relates to **dependencies** and **register hazards**.
+A DAG represents the dependencies within a “basic block”, a sequential code sequence with no branches except entry and exit. Each instruction is represented as a node, and the edges between them as dependencies. A dependency arises when an instruction must be executed before another instruction for the execution and result of the program to be the same. If instruction $I_2$ must be executed after $I_1$, then we say that $I_2$ is _dependent_ on $I_1$.
 
-A DAG represents the dependencies within a “basic block”, a sequential code sequence with no branches except entry and exit. Each instruction is represented as a node, and the edges between them “serialization dependencies”. A dependency arises when an instruction must be executed before another instruction for the overall execution and result of the program to be the same. If instruction $I_2$ must be executed after $I_1$, then we say that $I_2$ is _dependent_ on $I_1$.
-
-The DAG referenced in the paper has three types of dependencies: _definition vs. definition_ (a register being overwritten, a potential WAW hazard), _definition vs. uses_ (a value stored to a register, and loaded in a subsequent instruction a potential RAW hazard) and _uses vs. definition_ (a register used in an instruction, then being overwritten in a subsequent instruction, a potential WAR hazard).
+The DAG referenced in the paper has three types of dependencies: _definition vs. definition_ (two instructions writing to the same register, a potential WAW hazard), _definition vs. uses_ (a value stored to a register, and loaded in a subsequent instruction, a potential RAW hazard) and _uses vs. definition_ (a register used in an instruction, then being overwritten in a subsequent instruction, a potential WAR hazard).
 
 Any edge $\vec{ab}$ asserts that the two instructions $a$ and $b$ have a dependency and that the compiler must execute $a$ before $b$. Using the DAG, the compiler can rearrange the execution order, while ensuring dependant instructions are executed sequentially. This can allow the compiler to use dynamic scheduling, while avoiding any register hazards that might occur.
-
----
-
-Only hazards are register & memory based:
-1. Loading a register from memory followed by using _that_ register as a source
-2. Storing to any memory location followed by loading from any location
-3. Loading from memory followed by using _any_ register as the target of an ALU or load/store with address modification
-
-## NO3 Seems pretty common??
 
 ### D(ii)
 
@@ -133,7 +124,7 @@ CODE:
 
 Instructions 1 & 2 give an example of a potential WAW hazard, where instruction 1 attempts to store a value to $R2$, followed by instruction 2 attempting to store a value in $R2$. This is referenced in the DAG as a _definition vs definition_ dependency. If instruction 1 were to take place after instruction 2, $R2$ would contain the result of instruction 1, not the desired result of instruction 2.
 
-Instructions 3 & 4 give an example of a potential WAR hazard, where instruction 3 attempts to store a value in $R9$ followed by instruction 4 which attempt to use $R9$ as a source. This is referenced in the DAG as a _definition vs use_ dependency. If Instruction 4 were to take place before instruction 3, instruction 3 would use the value previously in $R9$, not the value loaded in in instruction 3.
+Instructions 3 & 4 give an example of a potential WAR hazard, where instruction 3 attempts to store a value in $R9$ followed by instruction 4 which attempt to use $R9$ as a source. This is referenced in the DAG as a _definition vs use_ dependency. If Instruction 4 were to take place before instruction 3, instruction 4 would use the value previously in $R9$, not the new value loaded in instruction 3.
 
 ```mermaid
 graph TB;
@@ -188,54 +179,3 @@ graph TB;
 	style ROOT_A height:0px;
 	style ROOT_B height:0px;
 ```
-
----
-
-### Appendix Notes
-
-$O(n^{4}) \rightarrow O(n^{2})$
-
-Only hazards are register & memory based:
-1. Loading a register from memory followed by using _that_ register as a source
-2. Storing to any memory location followed by loading from any location
-3. Loading from memory followed by using _any_ register as the target of an ALU or load/store with address modification
-
-Approach
-1. Divide each procedure into basic blocks
-2. Construct dependency DAG expressing scheduling constraints within each basic block
-3. Schedule instructions in block, guided by applicable heuristics using no lookahead in the graph
-
-DAG
-Node: instructions
-Edge: Serialization dependencies between instructions
-
-Edge leading from instruction $a$ to instruction $b$ indicates $a$ must be executed before $b$
-
-DAG serializes
-- Definitions v definitions
-- Definitions v uses
-- Uses v definitions
-
-Scan backwards across basic block, noting each definition or use of resource and then later the definitions or uses which must precede it
-
-![[dag-code.png]]
-
-![[dag-dependance.png]]
-
-Result: (3, 2, 4, 5, 8, 1, 6, 7, 9)
-
-Heuristics to use instead of lookahead:
-1. Whether an instruction interlocks with any of its immediate successors in the DAG
-2. The number of immediate successors of the instruction
-3. The length of the longest path from the instruction to the leaves of the DAG
-
-These properties bias towards selecting properties which:
-1. May cause interlocks (need to be scheduled as early as possible, when there is most likely to be a wide choice of instructions to follow them)
-2. Uncover most potential successors
-3. Balance the progress along the various paths towards the leaves of the DAG (leave the largest number of choices available at all stages of the process)
-
-Scheduling algorithm
-1. Make a prepass backward over the basic block to construct scheduling DAG comparing each instruction to the nodes of scheduling DAG constructed so far
-2. Put roots of DAG into candidate set
-3. Select first instruction to be scheduled from the candidate set
-
