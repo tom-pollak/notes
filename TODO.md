@@ -6,6 +6,12 @@ date updated: 2022-01-26 18:52
 
 # TODO
 
+Monday - ENG1 PREZ
+INT2 - This Wednesday, write conclusion
+Haskell exam - Next Monday
+- Do practice exam
+- Do practicals!
+
 ## Exams
 
 - ENG1 24 hour 30th May
