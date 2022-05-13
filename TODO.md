@@ -43,13 +43,6 @@ Haskell exam - Next Monday
 
 ### Block 3
 
-#### Reasoning about programs
-- 1
-- 2
-- 3
-- 4
-- 5
-
 #### Type Classes
 - 1
 - 2
@@ -61,11 +54,6 @@ Haskell exam - Next Monday
 ### Block 4
 
 #### Effects through type class `Monad`
-- 1
-- 2
-- 3
-- 4
-- 5
 - 6
 - 7
 - 8
@@ -76,6 +64,31 @@ Haskell exam - Next Monday
 - Translate.hs
 
 #### Self study
+
+### Block 5
+
+#### Strictness
+- 1
+- 2
+- 3
+- 4
+- 5
+
+#### Exceptions
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+
+#### Property based testing
+- 1
+- 2
+- 3
+- 4
+- 5
 
 ## INT2
 ### Wk5
