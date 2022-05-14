@@ -52,28 +52,10 @@ Haskell exam - Next Monday
 
 ### Block 5
 
-#### Strictness
-- 1
-- 2
-- 3
-- 4
-- 5
+- QuickCheck lecture
+- Arbitary instance lecture
 
-#### Exceptions
-- 1
-- 2
-- 3
-- 4
-- 5
-- 6
-- 7
-
-#### Property based testing
-- 1
-- 2
-- 3
-- 4
-- 5
+- Practical
 
 ## INT2
 ### Wk5
