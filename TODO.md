@@ -41,17 +41,10 @@ Haskell exam - Next Monday
 
 ### Block 2
 - Extended Example
-- Practical
 
 ### Block 3
 
-#### Type Classes
-- 1
-- 2
-
 #### Extended example
-
-#### Practical
 
 ### Block 4
 
