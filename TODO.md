@@ -34,6 +34,8 @@ Haskell exam - Next Monday
 
 ## SOF3
 
+- Formative 2
+
 ### Block 1
 - Finish practical
 
@@ -52,16 +54,6 @@ Haskell exam - Next Monday
 #### Practical
 
 ### Block 4
-
-#### Effects through type class `Monad`
-- 6
-- 7
-- 8
-- 9
-
-#### Fresh identifier generation using monads
-- NAbsSyn.hs
-- Translate.hs
 
 #### Self study
 
