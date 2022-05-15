@@ -16,7 +16,6 @@ Haskell exam - Next Monday
 
 - ENG1 24 hour 30th May
 - SYS3 24 hour 23rd May
-- INT2 open assessment: 11th May
 - ENG1 open assessment: 4th May
 
 - INT2 closed exam:
