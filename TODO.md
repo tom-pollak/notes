@@ -24,6 +24,17 @@ date updated: 2022-01-26 18:52
 
 ### Ex3
 
+### Wk1
+- Block replacement & write strategy
+
+### Wk2
+- Cache optimization 1
+- Cache optimization 2
+
+### Wk3
+- TL4 cache memory
+
+
 ## INT2
 ### Wk5
 - Practical

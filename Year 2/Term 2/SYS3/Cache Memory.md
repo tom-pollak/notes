@@ -95,4 +95,43 @@ No formatting: index
 - **Block identification:** How is a block found if it is in the upper level
 - **Block replacement:** Which block should be replaced on miss?
 - **Write strategy:** What happens on a write?
- 
+
+### Block placement
+
+![[block-placement.png]]
+
+- **Direct mapped:** A unique location for every main memory block
+	- Can lead to situations where two memory blocks require the same cache location
+	- $\text{Block no \% Num blocks in cache}$
+	- Only 1 tag compare required to access
+	- $\text{Cache size} = \text{Block size} \times \text{S data bytes}$
+	- $E = 1$
+- **Set associative:** A block mapped to this location can use any location in the set
+	- $\text{Block no \% Num sets}$
+	- $E=2$
+- **Fully associative:** Block can be placed in any location
+
+### Block identification
+
+#### Accessing direct mapped 
+
+![[accessing-direct-mapped-cache.png]]
+
+#### Accessing set associative cache
+- Check tag bits in each cache line
+- If one of them matches, then cache hit
+
+#### Accessing fully associative cache
+- Must go through every cache line
+
+#### Complexity trying to locate one index
+
+Indexing time depends on decoder size ($s = 2^{s}$)
+smaller number of sets, less indexing time
+
+### Block replacement
+
+- Direct mapped is trivial
+
+#### Set associative cache
+
