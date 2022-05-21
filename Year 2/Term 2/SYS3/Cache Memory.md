@@ -31,6 +31,8 @@ Principles of a program:
 	- Hit rate + miss rate = 1
 - **Miss penalty:** Time to replace a block in cache with corresponding block from next level
 
+![[cache-access-time.png]]
+
 ## CPU-Cache Interaction
 
 ![[cpu-cache-interaction.png|300]]
@@ -145,13 +147,105 @@ smaller number of sets, less indexing time
 		- Add LRU bit
 		- Set/ clear on each access
 	- for $a>2$ LRU is expensive
-		- Record timestamp? how many bits?
+		- Record timestamp? How many bits?
 		- Must find min timestamp on each eviction
 		- Sorted list? re-sort on each access?
 		- Shift register implementation
 - Pseudo-LRU
-	- 
+	- Use binary tree
 - NRU
+	- Keep NRU state in 1 bit block
+		- reset to 0 when installed/ re-referenced
+		- set to 1 when it is not referenced and other block in same set is referenced
+			- Evictions favour NRU=1 blocks
+			- if all blocks are NRU=0/1 pick by random
 - LFU - least frequently used
-- Re-Reference Inverval Prediction (RRIP)
+	- Counter per block, incremented on reference
+	- Evictions on lowest count
+	- Logic not trivial ($a^{2}$ comparison/sort)
+	- Storage overhead
+		- 1 bit per block, same as NRU
+- Re-Reference Interval Prediction (RRIP)
+	Extends NRU to multiple bits
+	- Start in middle
+	- Promote on hit
+	- Demote over time
 - Optimal
+	- Evict block with the longest reuse distance
+	- Requires knowledge of the future!
+
+
+#### Pseudo LRU
+- 0: upper half older lower path newer
+- Updates nodes on each reference
+
+
+![[pseudo-LRU.png | 500]]
+
+
+### Look-aside cache
+
+> Request from processor goes to cache and main mem in parallel
+
+- Cache & main mem both see bus cycle
+1. Cache hit
+	1. Processor loaded from cache
+	2. Bus cycle terminates
+2. Cache miss
+	1. Processor & cache loader from main memory in parallel
+
+### Look through cache
+
+> Cache is checked first
+
+cache miss → cache loaded from main memory → processor loaded from cache
+
+
+## Write Strategy
+
+### Write hits
+
+> Writing a new value to memory
+
+#### Write through
+
+> Information is written to both the block in the cache and to the main memory
+
+- Read misses do not need to write back evicted line contents
+
+#### Write back
+
+> Information is written only to the block in the cache. Modified cache block written to main memory only when it is replaced.
+
+- Have to maintain whether block is clean or dirty.
+	- Clean – no update
+	- Dirty – cache has been updated, needs to overwrite memory on replacement
+- No extra work on repeated writes.
+	- Only latest value on eviction gets updated in main memory.
+
+### Write miss
+
+#### Write allocate
+
+> Block loaded into cache on write miss
+
+- Used with write back (dirty)
+
+#### No-write allocate
+
+> Block modified in main memory but **not** in cache!
+
+- Used with write-through cache (simple)
+
+## Type of cache miss
+
+- **Compulsory:** Very first access to block
+	- Will occur even on infinite cache
+- **Capacity:** Cannot contain all blocks needed
+	- Misses in fully associative cache (due to capacity)
+- **Conflict:** If too many blocks map to same set
+	- Occurs in associative or direct mapped
+
+
+
+

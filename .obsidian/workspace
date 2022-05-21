@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Year 2/Term 2/SYS3/Cache Memory.md",
+            "file": "Year 2/Term 2/SYS3/Cache Optimization.md",
             "mode": "source",
             "source": false
           }
@@ -78,7 +78,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Year 2/Term 2/SYS3/Cache Memory.md"
+                "file": "Year 2/Term 2/SYS3/Cache Optimization.md"
               }
             }
           },
@@ -88,7 +88,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Year 2/Term 2/SYS3/Cache Memory.md",
+                "file": "Year 2/Term 2/SYS3/Cache Optimization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Year 2/Term 2/SYS3/Cache Memory.md",
+                "file": "Year 2/Term 2/SYS3/Cache Optimization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,15 +128,15 @@
   },
   "active": "1fdc40b9df08dc0f",
   "lastOpenFiles": [
+    "Year 2/Term 2/SYS3/Cache Optimization.md",
     "Year 2/Term 2/SYS3/Cache Memory.md",
     "TODO.md",
-    "Casual TODO.md",
+    "Year 2/Term 2/SYS3/cache.png",
     "Year 2/Term 2/SYS3/Sys3 Exam.md",
+    "Year 2/Term 2/SYS3/Formatives/Formative Ex 1.md",
+    "Casual TODO.md",
     "Year 2/Term 2/SYS3/Dynamic Scheduling.md",
     "Year 2/Term 2/SYS3/Compiler Techniques.md",
-    "Year 2/Term 2/SYS3/Principles of Computer Design.md",
-    "Year 2/Term 1/SYS2/Scheduling.md",
-    "Year 2/Term 2/SYS3/Amdahl's Law.md",
-    "Year 2/Term 2/SYS3/Superscalar Processors.md"
+    "Year 2/Term 2/SYS3/Principles of Computer Design.md"
   ]
 }

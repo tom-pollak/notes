@@ -103,7 +103,13 @@
     "NOP",
     " WA",
     " NO",
-    "IALU"
+    "IALU",
+    "LFU",
+    "RRIP",
+    "re-referenced",
+    "mem",
+    "mem",
+    "AMAT"
   ],
   "foldHeading": false,
   "foldIndent": false,
