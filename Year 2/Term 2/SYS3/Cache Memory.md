@@ -135,3 +135,23 @@ smaller number of sets, less indexing time
 
 #### Set associative cache
 
+- Random
+	- Needs random number generator
+- FIFO
+- LIFO
+	- Both require queue $Q$ store references
+- Least recently used (LRU)
+	- $a=2$
+		- Add LRU bit
+		- Set/ clear on each access
+	- for $a>2$ LRU is expensive
+		- Record timestamp? how many bits?
+		- Must find min timestamp on each eviction
+		- Sorted list? re-sort on each access?
+		- Shift register implementation
+- Pseudo-LRU
+	- 
+- NRU
+- LFU - least frequently used
+- Re-Reference Inverval Prediction (RRIP)
+- Optimal

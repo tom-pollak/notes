@@ -118,5 +118,6 @@
   "fileSortOrder": "byModifiedTime",
   "legacyEditor": false,
   "livePreview": true,
-  "useTab": true
+  "useTab": true,
+  "strictLineBreaks": false
 }
