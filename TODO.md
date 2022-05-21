@@ -25,7 +25,6 @@ date updated: 2022-01-26 18:52
 ### Ex3
 
 ### Wk2
-- Cache optimization 1
 - Cache optimization 2
 
 ### Wk3
