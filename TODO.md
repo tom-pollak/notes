@@ -6,12 +6,6 @@ date updated: 2022-01-26 18:52
 
 # TODO
 
-Monday - ENG1 PREZ
-INT2 - This Wednesday, write conclusion
-Haskell exam - Next Monday
-- Do practice exam
-- Do practicals!
-
 ## Exams
 
 - ENG1 24 hour 30th May
@@ -19,7 +13,6 @@ Haskell exam - Next Monday
 - ENG1 open assessment: 4th May
 
 - INT2 closed exam:
-- SOF3 closed exam: Sum Wk5 (16th – 23rd)
 
 ## SYS3
 
@@ -30,31 +23,6 @@ Haskell exam - Next Monday
 ### Ex2
 
 ### Ex3
-
-## SOF3
-
-- Formative 2
-
-### Block 1
-- Finish practical
-
-### Block 2
-- Extended Example
-
-### Block 3
-
-#### Extended example
-
-### Block 4
-
-#### Self study
-
-### Block 5
-
-- QuickCheck lecture
-- Arbitary instance lecture
-
-- Practical
 
 ## INT2
 ### Wk5
