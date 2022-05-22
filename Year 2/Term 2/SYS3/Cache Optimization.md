@@ -99,8 +99,46 @@ If a read miss has to evict a dirty memory block, the normal sequence is to writ
 - Remember the MRU of a given set
 - Using prediction bits we can _power gating_, where we can temporarily keep units in low power mode
 
-### Victim caches
+## Victim caches
 
 > Reduce miss penalty
 
-Additional storage for MR
+- Additional storage near L1 for MR evicted blocks
+- Efficient for thrashing problem in L1 cache
+- Lookup in victim cache before L2
+
+- L1 and victim cache exclusive
+
+why not use a larger L1?
+
+## Pipelining cache
+
+>Split cache memory access into substages
+
+- Faster clock cycle time
+
+1. Indexing
+2. Tag read
+3. Hit/miss check
+4. Data transfer
+
+- Increases branch misprediction penalty
+- Easier to increase associativity
+
+## Multi-banked cache
+
+> Divide cache into independent banks that support simultaneous access
+
+- Increase cache bandwidth
+- Sequential interleaving
+- Spatial locality – accessing address 0 means high chance next address accessed will be 1
+
+![[multi-banked-cache.png]]
+
+## Hardware prefetching
+
+- Prefetching to reduce miss rate and miss penalty
+	- _Before_ processor requests them
+- Fetch more blocks on miss – include next sequential block
+- Requested block kept in I-cache and next in stream buffer
+- If missed block in stream buffer, cache miss is cancelled

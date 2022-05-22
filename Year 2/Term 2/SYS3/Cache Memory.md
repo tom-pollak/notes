@@ -83,12 +83,13 @@ $\large \# Sets = \frac{2^{19}}{2^{6} \times 2^{3}} =  2^{10} = 1024 \text{ sets
 
 1 word = 4B, Hence 64 byte block has 16 words, Tag = 16
 
-Index = 10, Offset = 6 (4 (word no) + 2 (which byte in word))
+lengths: Index = 10, Offset = 6 (4 (word no) + 2 (which byte in word))
 
 0xABC89984 = 1001 1001 10**00 01**_00_ → Set 614, word 1
+- Use LSB
 
 Bold: word no
-Italic: which byte in word
+Italic: which byte in word: as 4B word
 No formatting: index
 
 ## Memory design choices
