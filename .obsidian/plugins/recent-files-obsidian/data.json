@@ -1,16 +1,52 @@
 {
   "recentFiles": [
     {
+      "basename": "Cache Memory",
+      "path": "Year 2/Term 2/SYS3/Cache Memory.md"
+    },
+    {
+      "basename": "Cache Optimization",
+      "path": "Year 2/Term 2/SYS3/Cache Optimization.md"
+    },
+    {
+      "basename": "Page Replacement",
+      "path": "Year 2/Term 2/SYS3/Page Replacement.md"
+    },
+    {
+      "basename": "Speculative Execution",
+      "path": "Year 2/Term 2/SYS3/Speculative Execution.md"
+    },
+    {
+      "basename": "Concurrency",
+      "path": "Year 2/Term 1/SYS2/Concurrency.md"
+    },
+    {
+      "basename": "Superscalar Processors",
+      "path": "Year 2/Term 2/SYS3/Superscalar Processors.md"
+    },
+    {
+      "basename": "Dynamic Scheduling",
+      "path": "Year 2/Term 2/SYS3/Dynamic Scheduling.md"
+    },
+    {
+      "basename": "Tomasulo's Algorithm",
+      "path": "Year 2/Term 2/SYS3/Tomasulo's Algorithm.md"
+    },
+    {
+      "basename": "Control Hazards",
+      "path": "Year 2/Term 2/SYS3/Control Hazards.md"
+    },
+    {
+      "basename": "Sys3 Exam",
+      "path": "Year 2/Term 2/SYS3/Sys3 Exam.md"
+    },
+    {
       "basename": "Pipeline Hazards",
       "path": "Year 2/Term 2/SYS3/Pipeline Hazards.md"
     },
     {
       "basename": "Compiler Techniques",
       "path": "Year 2/Term 2/SYS3/Compiler Techniques.md"
-    },
-    {
-      "basename": "Control Hazards",
-      "path": "Year 2/Term 2/SYS3/Control Hazards.md"
     },
     {
       "basename": "Operating System",
@@ -23,10 +59,6 @@
     {
       "basename": "Scheduling",
       "path": "Year 2/Term 1/SYS2/Scheduling.md"
-    },
-    {
-      "basename": "Cache Optimization",
-      "path": "Year 2/Term 2/SYS3/Cache Optimization.md"
     },
     {
       "basename": "Sys3 Exam",

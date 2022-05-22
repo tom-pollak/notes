@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Year 2/Term 2/SYS3/Pipeline Hazards.md",
+            "file": "Year 2/Term 2/SYS3/Cache Memory.md",
             "mode": "source",
             "source": false
           }
@@ -40,8 +40,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
-                "matchingCase": true,
+                "query": "page fault",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -70,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 221,
+    "width": 332,
     "collapsed": true
   },
   "right": {
@@ -87,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Year 2/Term 2/SYS3/Pipeline Hazards.md"
+                "file": "Year 2/Term 2/SYS3/Cache Memory.md"
               }
             }
           },
@@ -97,7 +97,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Year 2/Term 2/SYS3/Pipeline Hazards.md",
+                "file": "Year 2/Term 2/SYS3/Cache Memory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Year 2/Term 2/SYS3/Pipeline Hazards.md",
+                "file": "Year 2/Term 2/SYS3/Cache Memory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,15 +137,15 @@
   },
   "active": "2e5854968262f9bc",
   "lastOpenFiles": [
-    "Year 2/Term 2/SYS3/Pipeline Hazards.md",
-    "Year 2/Term 2/SYS3/Compiler Techniques.md",
-    "Year 2/Term 2/SYS3/Control Hazards.md",
-    "Operating System.md",
-    "Year 2/Term 2/SYS3/Amdahl's Law.md",
-    "Year 2/Term 1/SYS2/Scheduling.md",
+    "Year 2/Term 2/SYS3/Cache Memory.md",
     "Year 2/Term 2/SYS3/Cache Optimization.md",
-    "Excalidraw/Drawing 2022-05-22 17.41.32.excalidraw.md",
-    "Sys3 Exam.pdf",
-    "Year 2/Term 2/SYS3/Cache Memory.md"
+    "Year 2/Term 2/SYS3/Page Replacement.md",
+    "Year 2/Term 2/SYS3/Speculative Execution.md",
+    "Year 2/Term 1/SYS2/Concurrency.md",
+    "Year 2/Term 2/SYS3/Superscalar Processors.md",
+    "Year 2/Term 2/SYS3/Dynamic Scheduling.md",
+    "Year 2/Term 2/SYS3/Tomasulo's Algorithm.md",
+    "Year 2/Term 2/SYS3/Control Hazards.md",
+    "Year 2/Term 2/SYS3/Sys3 Exam.md"
   ]
 }
