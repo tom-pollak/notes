@@ -75,6 +75,7 @@ $$\#Sets = \frac{\text{Cache Size}}{\text{Block size} \times E}$$
 3. Check line is _valid_
 4. Locate data in line based on _block offset_
 
+
 ### Question
 
 > A cache has 512 KB capacity, 4B word, 64B block size and 8-way set associative. The system is using 32-bit address. Given address 0xABC89984, which set of cache will be searched and specify which word of the selected block will be forwarded if it is a hit in cache?
@@ -115,6 +116,10 @@ No formatting: index
 - **Fully associative:** Block can be placed in any location
 
 ### Block identification
+
+- Tag and data array access can take place at the same time
+
+![[tag-data-array-access.png]]
 
 #### Accessing direct mapped 
 

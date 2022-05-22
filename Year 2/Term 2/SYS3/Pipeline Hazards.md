@@ -20,10 +20,10 @@ date updated: 2022-02-14 14:11
 Solutions:
 
 - Wait
-  - Must detect hazard
-  - Must have mechanism to stall
+	- Must detect hazard
+	- Must have mechanism to stall
 - Duplicate hardware
-  - Multiple units will help both instructions progress
+	- Multiple units will help both instructions progress
 
 ![[Different instruction and data cache.png]]
 
@@ -50,7 +50,7 @@ Solutions:
 ![[forwarding-data.png]]
 
 - In the above example, the sub instruction can be forwarded the result r2 + r3 instead of waiting for the previous instruction add to be completed
-  - Can be possibly forwarded from ALU
+	- Can be possibly forwarded from ALU
 
 ##### Resolving Load-ALU Hazard
 

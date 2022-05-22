@@ -125,5 +125,7 @@
   "legacyEditor": false,
   "livePreview": true,
   "useTab": true,
-  "strictLineBreaks": false
+  "strictLineBreaks": false,
+  "autoPairBrackets": false,
+  "autoPairMarkdown": false
 }

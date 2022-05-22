@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "1fdc40b9df08dc0f",
+        "id": "2e5854968262f9bc",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Year 2/Term 2/SYS3/Cache Memory.md",
+            "file": "Year 2/Term 2/SYS3/Pipeline Hazards.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "depen",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -56,8 +56,17 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "cd7b6087b21e9b15",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -78,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Year 2/Term 2/SYS3/Cache Memory.md"
+                "file": "Year 2/Term 2/SYS3/Pipeline Hazards.md"
               }
             }
           },
@@ -88,7 +97,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Year 2/Term 2/SYS3/Cache Memory.md",
+                "file": "Year 2/Term 2/SYS3/Pipeline Hazards.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Year 2/Term 2/SYS3/Cache Memory.md",
+                "file": "Year 2/Term 2/SYS3/Pipeline Hazards.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,17 +135,17 @@
     "width": 100,
     "collapsed": true
   },
-  "active": "1fdc40b9df08dc0f",
+  "active": "2e5854968262f9bc",
   "lastOpenFiles": [
-    "Year 2/Term 2/SYS3/Cache Memory.md",
-    "Year 2/Term 2/SYS3/Cache Optimization.md",
-    "TODO.md",
-    "Year 2/Term 2/SYS3/cache.png",
-    "Year 2/Term 2/SYS3/Sys3 Exam.md",
-    "Year 2/Term 2/SYS3/Formatives/Formative Ex 1.md",
-    "Casual TODO.md",
-    "Year 2/Term 2/SYS3/Dynamic Scheduling.md",
+    "Year 2/Term 2/SYS3/Pipeline Hazards.md",
     "Year 2/Term 2/SYS3/Compiler Techniques.md",
-    "Year 2/Term 2/SYS3/Principles of Computer Design.md"
+    "Year 2/Term 2/SYS3/Control Hazards.md",
+    "Operating System.md",
+    "Year 2/Term 2/SYS3/Amdahl's Law.md",
+    "Year 2/Term 1/SYS2/Scheduling.md",
+    "Year 2/Term 2/SYS3/Cache Optimization.md",
+    "Excalidraw/Drawing 2022-05-22 17.41.32.excalidraw.md",
+    "Sys3 Exam.pdf",
+    "Year 2/Term 2/SYS3/Cache Memory.md"
   ]
 }

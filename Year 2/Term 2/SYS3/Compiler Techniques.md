@@ -5,6 +5,8 @@ date updated: 2022-03-21 21:31
 
 # Compiler Techniques
 
+![[latency-fp-op.png]]
+
 ## Instruction level parallelism
 
 (ILP)
