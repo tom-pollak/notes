@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "2e5854968262f9bc",
+        "id": "215eb4b95ded2b2c",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "page fault",
+                "query": "speedup",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -133,17 +134,17 @@
     "width": 100,
     "collapsed": true
   },
-  "active": "2e5854968262f9bc",
+  "active": "215eb4b95ded2b2c",
   "lastOpenFiles": [
     "Year 2/Term 2/SYS3/Exam/SYS3 Exam.md",
+    "Year 2/Term 1/THE3/Chomsky hierarchy.md",
+    "Year 2/Term 2/SYS3/Principles of Computer Design.md",
+    "Year 2/Term 2/SYS3/RISC Pipeline.md",
+    "Year 2/Term 1/SYS2/Scheduling.md",
+    "Untitled.md",
+    "Untitled 1.md",
     "Year 2/Term 2/SYS3/Sys3 Exam - 1.md",
     "Year 2/Term 2/SYS3/Formatives/Formative Ex 1.md",
-    "Untitled.md",
-    "Year 2/Term 2/SYS3/Cache Memory.md",
-    "Year 2/Term 2/SYS3/Cache Optimization.md",
-    "Year 2/Term 2/SYS3/Page Replacement.md",
-    "Year 2/Term 2/SYS3/Speculative Execution.md",
-    "Year 2/Term 1/SYS2/Concurrency.md",
-    "Year 2/Term 2/SYS3/Superscalar Processors.md"
+    "Year 2/Term 2/SYS3/Cache Memory.md"
   ]
 }
