@@ -60,9 +60,9 @@ $\implies x = 0.2127\ (4.dp),\ (21\%)$
 
 ### 2.ii
 
-	$Speedup_{A} = \frac{1}{(1-0.2) + \frac{0.2}{20}} = 1.23\ (2.dp)$
-	$Speedup_{B} = \frac{1}{(1-0.2) + \frac{0.2}{30}} = 1.24\ (2.dp)$
-	$Speedup_{C} = \frac{1}{(1-0.6) + \frac{0.6}{25}} = 2.36\ (2.dp)$
+$Speedup_{A} = \frac{1}{(1-0.2) + \frac{0.2}{20}} = 1.23\ (2.dp)$
+$Speedup_{B} = \frac{1}{(1-0.2) + \frac{0.2}{30}} = 1.24\ (2.dp)$
+$Speedup_{C} = \frac{1}{(1-0.6) + \frac{0.6}{25}} = 2.36\ (2.dp)$
 
 #### 2.ii.a
 
@@ -82,6 +82,8 @@ We implement the two enhancements with the highest speedups, $B$ (1.24) and $C$ 
 ## Part 3
 
 ### 3.i
+
+##### REDO - Practicals have destination as last bit!!!!!!
 
 |       | Instruction sequences                                       | Dependencies                                                                                        |
 | ----- | ----------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
@@ -105,6 +107,8 @@ We implement the two enhancements with the highest speedups, $B$ (1.24) and $C$ 
 ## Part 4
 
 ### 4.i
+
+##### TODO 16 rows
 
 | No.    | Last Outcome | BHT N/T | Prediction | Outcome |
 | ------ | ------------ | ------- | ---------- | ------- |
@@ -155,20 +159,40 @@ $\text{Cache size} = \# sets \times $
 ### 6.i
 
 $\text{Cache size (C)} = \text{Block size} \times \text{Lines per set} \times \# sets$
-$\# sets = 2^{index\ bits}$
+- $\# sets = 2^{index\ bits}$
+- Lines per set: the set-associativity
 
 **A:** $C = 1 \times 1 \times 2^{10} = 1024 \text{ bytes}$
 **B:** $C = 4 \times 2 \times 2^{7}= 1024 \text{ bytes}$
 
+- Fully associative, so only has a single set, with 256 blocks
 
-
-**C:** $C = $
+**C:** $C = 4 \times 256 \times 1 = 1024 \text{ bytes}$
 
 ### 6.ii
 
+$\text{Size of tags} = \frac{\text{Num of tag bits} \times \# sets}{8}$ 
+
+**A:** $\frac{6 \times 2^{10}}{8} = 768 \text{ bytes}$
+**B:** $\frac{7 \times 2^{7}}{8} = 112 \text{ bytes}$
+
+
+- Number of sets = 1, however any block can be put in this set, so we need to store the tag from each block
+- $\text{Size of tags} = \frac{\text{Num of tag bits} \times \text{Num of blocks}}{8}$ 
+
+**C:** $\frac{256 \times 2^{14}}{8} = 524,288 \text{ bytes}$
+
 ### 6.iii
 
+Fully associative cache will have zero conflict misses by definition: mapping of a main memory can be done with any cache block, so there will never be a conflict miss, only capacity and compulsory misses.
+
+A directly mapped cache will have the highest number of conflict misses. It can only store one block in a set, so it will have more conflict misses when multiple blocks are mapped to the same set than a set associative cache.
+
 ### 6.iv
+
+**A:** $\text{Service time} = 0.4 \times 1 + (1 - 0.4) \times 20 = 12.4$
+**B:** $\text{Service time} = 0.6 \times 2 + (1 - 0.6) \times 20 = 9.2$
+**C:** $\text{Service time} = 0.8 \times 5 + (1 - 0.8) \times 20 = 8$
 
 ## Part 7
 

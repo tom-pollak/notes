@@ -5,12 +5,12 @@
       "path": "Year 2/Term 2/SYS3/Exam/SYS3 Exam.md"
     },
     {
-      "basename": "Cache Optimization",
-      "path": "Year 2/Term 2/SYS3/Cache Optimization.md"
-    },
-    {
       "basename": "Cache Memory",
       "path": "Year 2/Term 2/SYS3/Cache Memory.md"
+    },
+    {
+      "basename": "Cache Optimization",
+      "path": "Year 2/Term 2/SYS3/Cache Optimization.md"
     },
     {
       "basename": "Page Replacement",
