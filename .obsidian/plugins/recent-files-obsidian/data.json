@@ -5,6 +5,14 @@
       "path": "Year 2/Term 2/SYS3/Exam/SYS3 Exam.md"
     },
     {
+      "basename": "Pipeline Hazards",
+      "path": "Year 2/Term 2/SYS3/Pipeline Hazards.md"
+    },
+    {
+      "basename": "Control Hazards",
+      "path": "Year 2/Term 2/SYS3/Control Hazards.md"
+    },
+    {
       "basename": "Chomsky hierarchy",
       "path": "Year 2/Term 1/THE3/Chomsky hierarchy.md"
     },
@@ -59,14 +67,6 @@
     {
       "basename": "Tomasulo's Algorithm",
       "path": "Year 2/Term 2/SYS3/Tomasulo's Algorithm.md"
-    },
-    {
-      "basename": "Control Hazards",
-      "path": "Year 2/Term 2/SYS3/Control Hazards.md"
-    },
-    {
-      "basename": "Pipeline Hazards",
-      "path": "Year 2/Term 2/SYS3/Pipeline Hazards.md"
     },
     {
       "basename": "Compiler Techniques",

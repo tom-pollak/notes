@@ -83,20 +83,44 @@ We implement the two enhancements with the highest speedups, $B$ (1.24) and $C$ 
 
 ### 3.i
 
-##### TODO: clean-up dependencies
-
-|       | Instruction sequences                                       | Dependencies                                                                             |
-| ----- | ----------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
-| **A** | 1. LW R1, 40(R6)<br>2. Add R6, R2, R2<br>3. SW R6,50(R1)    | RAW on R1 from Instruction 1 to Instruction 2<br>RAW on R1 from Instruction 1 to Instruction 3 |
-| **B** | 1. LW R5, -16(R5)<br>2. SW R5, -16(R5)<br>3. ADD R5, R5, R5 | RAW on R5 from Instruction 1 to 1nstruction 2<br>RAW on R5 from Instruction
+|       | Instruction sequences                                       | Dependencies                                                                                        |
+| ----- | ----------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| **A** | 1. LW R1, 40(R6)<br>2. Add R6, R2, R2<br>3. SW R6,50(R1)    | RAW on R1 from Instruction 1 to Instruction 2<br>RAW on R1 from Instruction 1 to Instruction 3      |
+| **B** | 1. LW R5, -16(R5)<br>2. SW R5, -16(R5)<br>3. ADD R5, R5, R5 | RAW on R5 from Instruction 1 (c4) to Instruction 2 (c3 & c4)<br>RAW on R5 from Instruction 1 to Instruction 3 | 
 
 ### 3.ii
 
+|       | Instruction sequence                                                     | Dependencies |
+| ----- | ---------------------------------------------------------------------------- | ---------------- |
+| **A** | 1. LW R1, 40(R6)<br>2. NOP<br>3. NOP<br>4. Add R6, R2, R2<br>5. SW R6,50(R1) |                  |
+| **B** | 1. LW R5, -16(R5)<br>2. NOP<br>3. NOP<br>4. SW R5, -16(R5)<br>5. ADD R5, R5, R5 |                                                                              |                  |
+
 ### 3.iii
+
+|       | Instruction sequence                                               | Dependencies |
+| ----- | ------------------------------------------------------------------ | ------------ |
+| **A** | 1. LW R1, 40(R6)<br>2. NOP<br>3. Add R6, R2, R2<br>4. SW R6,50(R1) |              |
+| **B** |  1. LW R5, -16(R5)<br>2. NOP<br>3. SW R5, -16(R5)<br>4. ADD R5, R5, R5                                                                  |              |
 
 ## Part 4
 
 ### 4.i
+
+| No.    | Last Outcome | BHT N/T | Prediction | Outcome |
+| ------ | ------------ | ------- | ---------- | ------- |
+| **1**  | N (initial)  | 00 / 11 | N          | T       |
+| **2**  | T            | 01 / 11 | T          | T       |
+| **3**  | T            | 01 / 11 | T          | N       |
+| **4**  | N            | 01 / 10 | N          | N       |
+| **5**  | N            | 00 / 10 | N          | T       |
+| **6**  | T            | 01 / 10 | T          | N       |
+| **7**  | N            |         |            | T       |
+| **8**  | T            |         |            | T       |
+| **9**  | T            |         |            | T       |
+| **10** | T            |         |            | N       |
+| **11** | N            |         |            | T       |
+| **12** | T            |         |            | N       |
+| **13** | N            |         |            | T       |
 
 ### 4.ii
 

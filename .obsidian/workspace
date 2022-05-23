@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "speedup",
+                "query": "forwarding",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -137,14 +137,14 @@
   "active": "215eb4b95ded2b2c",
   "lastOpenFiles": [
     "Year 2/Term 2/SYS3/Exam/SYS3 Exam.md",
+    "Year 2/Term 2/SYS3/Pipeline Hazards.md",
+    "Year 2/Term 2/SYS3/Control Hazards.md",
     "Year 2/Term 1/THE3/Chomsky hierarchy.md",
     "Year 2/Term 2/SYS3/Principles of Computer Design.md",
     "Year 2/Term 2/SYS3/RISC Pipeline.md",
     "Year 2/Term 1/SYS2/Scheduling.md",
     "Untitled.md",
     "Untitled 1.md",
-    "Year 2/Term 2/SYS3/Sys3 Exam - 1.md",
-    "Year 2/Term 2/SYS3/Formatives/Formative Ex 1.md",
-    "Year 2/Term 2/SYS3/Cache Memory.md"
+    "Year 2/Term 2/SYS3/Sys3 Exam - 1.md"
   ]
 }
