@@ -24,7 +24,6 @@ reference string: string of pages referenced
 - Optimal (OPT): Given complete reference string, we can look into the future
 	- Replace page not used for longest period of time
 	- Only theoretical, used mainly as upper-bound comparative evaluation 
-	
 - LRU: least recently used
 
 Approximation algorithms

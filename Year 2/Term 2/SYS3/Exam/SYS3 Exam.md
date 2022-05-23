@@ -114,27 +114,55 @@ We implement the two enhancements with the highest speedups, $B$ (1.24) and $C$ 
 | **4**  | N            | 01 / 10 | N          | N       |
 | **5**  | N            | 00 / 10 | N          | T       |
 | **6**  | T            | 01 / 10 | T          | N       |
-| **7**  | N            |         |            | T       |
-| **8**  | T            |         |            | T       |
-| **9**  | T            |         |            | T       |
-| **10** | T            |         |            | N       |
-| **11** | N            |         |            | T       |
-| **12** | T            |         |            | N       |
-| **13** | N            |         |            | T       |
+| **7**  | N            | 01 / 00 | F          | T       |
+| **8**  | T            | 11 / 00 | F          | T       |
+| **9**  | T            | 11 / 01 | F          | T       |
+| **10** | T            | 11 / 11 | T          | N       |
+| **11** | N            | 11 / 10 | T          | T       |
+| **12** | T            | 11 / 10 | T          | N       |
+| **13** | N            | 11 / 00 | T          | T       |
 
 ### 4.ii
+
+Branches mispredicted: 1, 3, 5, 6, 7, 8, 9, 10, 12
+
+- $9/13$ incorrect, misprediction rate of 69%
 
 ## Part 5
 
 ### 5.i
 
+**The number of bits in each entry increases by 1 bit** – Doubling physical memory means there are now twice as many physical pages, so the physical page number needs to expand by 1 bit.
+
 ### 5.ii
+
+**The number of entries will be doubled** – Doubling virtual memory size means there are twice as many virtual pages, so twice as many entries.
 
 ### 5.iii
 
+**The number of entries will be halved** – Doubling page size means there will be half as many virtual pages, which means there will be half as many entries.
+
 ## Part 6
 
+$\text{Cache capacity} = 2^{(\text{offset} + \text{index})} \times \# sets$
+$\text{Cache capacity} = \text{Block size (B)} \times \text{Blocks per set} \times \# sets$
+$\text{Index bits} = log_{2}(\text{Blocks per set})$
+$\text{Offset bits} = log_2(\text{Block size (B)})$
+$\text{Tag bits} = \text{Address bits} - \text{Index bits} - \text{Offset bits}$
+$\# sets = \frac{}{}$
+$\text{Cache size} = \# sets \times $
+
 ### 6.i
+
+$\text{Cache size (C)} = \text{Block size} \times \text{Lines per set} \times \# sets$
+$\# sets = 2^{index\ bits}$
+
+**A:** $C = 1 \times 1 \times 2^{10} = 1024 \text{ bytes}$
+**B:** $C = 4 \times 2 \times 2^{7}= 1024 \text{ bytes}$
+
+
+
+**C:** $C = $
 
 ### 6.ii
 
