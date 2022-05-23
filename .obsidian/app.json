@@ -110,7 +110,8 @@
     "mem",
     "mem",
     "AMAT",
-    "speedups"
+    "speedups",
+    "Scoreboarding"
   ],
   "foldHeading": false,
   "foldIndent": false,

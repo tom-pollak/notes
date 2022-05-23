@@ -13,7 +13,7 @@ Address bus is unidirectional – processor addressing a specific memory locatio
 
 ### 1.ii
 
-##### TODO
+##### TODO - Jude put false - data bus interacts with the memory
 
 **True**
 
@@ -38,7 +38,6 @@ Register renaming is used to resolve WAR & WAW hazards
 ## Part 2
 
 ### 2.i
-##### TODO: Check equation correct
 
 **Assumption:** The usability of $A$, $B$, and $C$ are mutually exclusive.
 
@@ -77,18 +76,18 @@ We implement the two enhancements with the highest speedups, $B$ (1.24) and $C$ 
 
 ### 2.iii
 
+Pipeline scheduling & dynamic scheduling
+
 ##### TODO
 
 ## Part 3
 
 ### 3.i
 
-##### REDO - Practicals have destination as last bit!!!!!!
-
 |       | Instruction sequences                                       | Dependencies                                                                                        |
 | ----- | ----------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| **A** | 1. LW R1, 40(R6)<br>2. Add R6, R2, R2<br>3. SW R6,50(R1)    | RAW on R1 from Instruction 1 to Instruction 2<br>RAW on R1 from Instruction 1 to Instruction 3      |
-| **B** | 1. LW R5, -16(R5)<br>2. SW R5, -16(R5)<br>3. ADD R5, R5, R5 | RAW on R5 from Instruction 1 (c4) to Instruction 2 (c3 & c4)<br>RAW on R5 from Instruction 1 to Instruction 3 | 
+| **A** | 1. LW R1, 40(R6)<br>2. Add R6, R2, R2<br>3. SW R6,50(R1)    | RAW on R1 from Instruction 1 to Instruction 3<br>RAW on R6 from Instruction 2 to Instruction 3      |
+| **B** | 1. LW R5, -16(R5)<br>2. SW R5, -16(R5)<br>3. ADD R5, R5, R5 | RAW on R5 from Instruction 1 (cycle 4) to Instruction 2 (cycle 3 & 4)<br>RAW on R5 from Instruction 1 to Instruction 3 | 
 
 ### 3.ii
 
@@ -110,21 +109,21 @@ We implement the two enhancements with the highest speedups, $B$ (1.24) and $C$ 
 
 ##### TODO 16 rows
 
-| No.    | Last Outcome | BHT N/T | Prediction | Outcome |
-| ------ | ------------ | ------- | ---------- | ------- |
-| **1**  | N (initial)  | 00 / 11 | N          | T       |
-| **2**  | T            | 01 / 11 | T          | T       |
-| **3**  | T            | 01 / 11 | T          | N       |
-| **4**  | N            | 01 / 10 | N          | N       |
-| **5**  | N            | 00 / 10 | N          | T       |
-| **6**  | T            | 01 / 10 | T          | N       |
-| **7**  | N            | 01 / 00 | F          | T       |
-| **8**  | T            | 11 / 00 | F          | T       |
-| **9**  | T            | 11 / 01 | F          | T       |
-| **10** | T            | 11 / 11 | T          | N       |
-| **11** | N            | 11 / 10 | T          | T       |
-| **12** | T            | 11 / 10 | T          | N       |
-| **13** | N            | 11 / 00 | T          | T       |
+| No.    | Last Outcome        | BHT N/T | Prediction | Outcome |
+| ------ | ------------------- | ------- | ---------- | ------- |
+| **1**  | N (initial)         | 00 / 11 | N          | T       |
+| **2**  | T                   | 01 / 11 | T          | T       |
+| **3**  | T                   | 01 / 11 | T          | N       |
+| **4**  | N                   | 01 / 10 | N          | N       |
+| **5**  | N                   | 00 / 10 | N          | T       |
+| **6**  | T                   | 01 / 10 | T          | N       |
+| **7**  | N                   | 01 / 00 | F          | T       |
+| **8**  | T - used wrong ono! | 11 / 00 | F          | T       |
+| **9**  | T                   | 11 / 01 | F          | T       |
+| **10** | T                   | 11 / 11 | T          | N       |
+| **11** | N                   | 11 / 10 | T          | T       |
+| **12** | T                   | 11 / 10 | T          | N       |
+| **13** | N                   | 11 / 00 | T          | T       |
 
 ### 4.ii
 
@@ -147,15 +146,6 @@ Branches mispredicted: 1, 3, 5, 6, 7, 8, 9, 10, 12
 **The number of entries will be halved** – Doubling page size means there will be half as many virtual pages, which means there will be half as many entries.
 
 ## Part 6
-
-$\text{Cache capacity} = 2^{(\text{offset} + \text{index})} \times \# sets$
-$\text{Cache capacity} = \text{Block size (B)} \times \text{Blocks per set} \times \# sets$
-$\text{Index bits} = log_{2}(\text{Blocks per set})$
-$\text{Offset bits} = log_2(\text{Block size (B)})$
-$\text{Tag bits} = \text{Address bits} - \text{Index bits} - \text{Offset bits}$
-$\# sets = \frac{}{}$
-$\text{Cache size} = \# sets \times $
-
 ### 6.i
 
 $\text{Cache size (C)} = \text{Block size} \times \text{Lines per set} \times \# sets$
@@ -180,7 +170,7 @@ $\text{Size of tags} = \frac{\text{Num of tag bits} \times \# sets}{8}$
 - Number of sets = 1, however any block can be put in this set, so we need to store the tag from each block
 - $\text{Size of tags} = \frac{\text{Num of tag bits} \times \text{Num of blocks}}{8}$ 
 
-**C:** $\frac{256 \times 2^{14}}{8} = 524,288 \text{ bytes}$
+**C:** $\frac{256 \times 14}{8} = 448 \text{ bytes}$
 
 ### 6.iii
 
@@ -198,6 +188,14 @@ A directly mapped cache will have the highest number of conflict misses. It can 
 
 ### 7.i
 
+Scoreboarding prevents WAW WAR hazards
+- Insert pipeline stalls on name dependence
+
+Tomasulo – prevent early register write from overwriting value of later register, enforcing name dependence
+
+
 ### 7.ii
 
 ### 7.iii
+
+Holds instructions instructions between completions and commit
