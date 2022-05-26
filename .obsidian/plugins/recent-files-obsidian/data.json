@@ -5,6 +5,14 @@
       "path": "Year 2/Term 2/SYS3/Exam/SYS3 Exam.md"
     },
     {
+      "basename": "Control Hazards",
+      "path": "Year 2/Term 2/SYS3/Control Hazards.md"
+    },
+    {
+      "basename": "Principles of Computer Design",
+      "path": "Year 2/Term 2/SYS3/Principles of Computer Design.md"
+    },
+    {
       "basename": "Cache Optimization",
       "path": "Year 2/Term 2/SYS3/Cache Optimization.md"
     },
@@ -17,10 +25,6 @@
       "path": "Year 2/Term 2/SYS3/Page Replacement.md"
     },
     {
-      "basename": "Control Hazards",
-      "path": "Year 2/Term 2/SYS3/Control Hazards.md"
-    },
-    {
       "basename": "Compiler Techniques",
       "path": "Year 2/Term 2/SYS3/Compiler Techniques.md"
     },
@@ -31,10 +35,6 @@
     {
       "basename": "Chomsky hierarchy",
       "path": "Year 2/Term 1/THE3/Chomsky hierarchy.md"
-    },
-    {
-      "basename": "Principles of Computer Design",
-      "path": "Year 2/Term 2/SYS3/Principles of Computer Design.md"
     },
     {
       "basename": "RISC Pipeline",

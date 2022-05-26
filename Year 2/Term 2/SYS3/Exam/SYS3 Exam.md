@@ -6,34 +6,23 @@ _Y3891128_
 ### 1.i
 
 **False**
-
 - Data bus is bidirectional – the processor can read and write data to and from memory.
 - Address bus is unidirectional – processor addressing a specific memory location, no device can write to the microprocessor.
 
 ### 1.ii
 
-**True**
-
-The MAR is responsible for holding the memory address of data being transferred, while the MDR stores the actual data transferred to and from the memory, from the location specified by the MAR, acting as a buffer between memory and CPU. 
+**True:** The MAR is responsible for holding the memory address of data being transferred, while the MDR stores the actual data transferred to and from the memory, from the location specified by the MAR, acting as a buffer between memory and CPU. 
 
 ### 1.iii
 
-**False**
-
-In a Load-Store Architecture, ALU operations only occur between registers.
-
-![Load-Store Architecture - an overview | ScienceDirect Topics](https://ars.els-cdn.com/content/image/1-s2.0-B9780124202320000015-f01-18-9780124202320.jpg)
+**False:** In a Load-Store Architecture, ALU operations only occur between registers.
 
 ### 1.iv
 
-**False**
-
-Register renaming is used to resolve WAR & WAW hazards
+**False:** Register renaming is used to resolve WAR & WAW hazards
 
 ## Part 2
 ### 2.i
-
-**Assumption:** The usability of $A$, $B$, and $C$ are mutually exclusive.
 
 $$\small Speedup =
 \frac{1}{ (1 - \text{Fraction}_{A} - \text{Fraction}_{B} - \text{Fraction}_{C})
@@ -49,7 +38,6 @@ $$8 =
 	+ \frac{x}{25} }
 $$
 $\implies x = 0.2127\ (4.dp),\ (21\%)$
-
 
 ### 2.ii
 
@@ -67,13 +55,11 @@ Therefore, we implement enhancement $C$, with a speedup of $2.36$.
 
 We implement the two enhancements with the highest speedups, $B$ (1.24) and $C$ (2.36)
 
-
 ### 2.iii
 
-##### TODO
+A processor could use pipeline scheduling by simultaneously execute stages from multiple instructions in one cycle. This can dramatically increase performance compared to serial execution by reducing the number of cycles required to execute a set of instructions.
 
-Pipeline scheduling & dynamic scheduling
-
+Implementing a cache can lead to a large speedup in memory operations, such as load and store, by having a small memory component close to the processor that is very fast and can be queried by the CPU with less overhead than querying main memory.
 
 ## Part 3
 
@@ -81,22 +67,22 @@ Pipeline scheduling & dynamic scheduling
 
 |       | Instruction sequences                                       | Dependencies                                                                                                                                                    |
 | ----- | ----------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **A** | 1. LW R1, 40(R6)<br>2. Add R6, R2, R2<br>3. SW R6,50(R1)    | RAW on R1 from Instruction 1 to Instruction 3<br>RAW on R6 from Instruction 2 to Instruction 3                                                                  |
-| **B** | 1. LW R5, -16(R5)<br>2. SW R5, -16(R5)<br>3. ADD R5, R5, R5 | RAW on R5 from Instruction 1 (cycle 4) to Instruction 2 (cycle 3 & 4)<br>RAW on R5 from Instruction 1 to Instruction 3<br>WAW on R5 Instruction 1 to Instruction 3<br>WAR on R5 on Instruction 2 to 3 |
+| **A** | 1. LW R1, 40(R6)<br>2. Add R6, R2, R2<br>3. SW R6,50(R1)    | RAW on R1, instruction 1 to 3<br>RAW on R6, instruction 2 to 3                                                                  |
+| **B** | 1. LW R5, -16(R5)<br>2. SW R5, -16(R5)<br>3. ADD R5, R5, R5 | 2 RAWs on R5, instructions 1 (cycle 4) to instruction 2 (cycle 3 & 4)<br>RAW on R5, instruction 1 to 3<br>Potiential WAW on R5, instruction 1 to 3<br>Potiential WAR on R5, Instruction 2 to 3 |
 
 ### 3.ii
 
 |       | Instruction sequence                                                            | Dependencies                                                                |    
 | ----- | ------------------------------------------------------------------------------- | --------------------------------------------------------------------------- | 
 | **A** | 1. LW R1, 40(R6)<br>2. Add R6, R2, R2<br>3. NOP<br>4. NOP<br>5. SW R6,50(R1)    | Eliminated RAW on instruction 1 to 5 using NOP stalls <br>Eliminated RAW on instruction 2 to 5 using NOP stalls | 
-| **B** | 1. LW R5, -16(R5)<br>2. NOP<br>3. NOP<br>4. SW R5, -16(R5)<br>5. ADD R5, R5, R5 | Eliminated 2 RAW on instructions on 1 (cycle 4) to 4 (cycle 3 & 4) using NOP stalls <br>Eliminated RAW on instruction 1 to 5 using NOP stalls                                                                            |     
+| **B** | 1. LW R5, -16(R5)<br>2. NOP<br>3. NOP<br>4. SW R5, -16(R5)<br>5. ADD R5, R5, R5 | Eliminated 2 RAW on instructions on 1 (cycle 4) to 4 (cycle 3 & 4) using NOP stalls <br>Eliminated RAW on instruction 1 to 5 using NOP stalls<br>Potiential WAW on R5 Instruction 1 to Instruction 5<br>Potiential WAR on R5 on Instruction 4 to 5                                                                            |     
 
 ### 3.iii
 
-|       | Instruction sequence                                                  | Dependencies                                                                                                                                                |
-| ----- | --------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **A** | 1. LW R1, 40(R6)<br>2. Add R6, R2, R2<br>3. NOP<br>4. SW R6,50(R1)    | Operand forwards R6, eliminating RAW hazard on instruction 2 to 4<br>Eliminated RAW on instruction 1 to 4 using NOP stalls                                  |
-| **B** | 1. LW R5, -16(R5)<br>2. NOP<br>3. SW R5, -16(R5)<br>4. ADD R5, R5, R5 | Operand forwards R5, eliminating RAW hazard on instruction 1 to 3 and another through NOP stalls<br>Eliminates RAW on instruction 1 to 4 through NOP stalls |
+|       | Instruction sequence                                                  | Dependencies                                                                                                                                                                                                                                                     |
+| ----- | --------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **A** | 1. LW R1, 40(R6)<br>2. Add R6, R2, R2<br>3. NOP<br>4. SW R6,50(R1)    | Eliminated RAW hazard R6 using operand forwards, on instruction 2 to 4<br>Eliminated RAW on instruction 1 to 4 using NOP stalls                                                                                                                                  |
+| **B** | 1. LW R5, -16(R5)<br>2. NOP<br>3. SW R5, -16(R5)<br>4. ADD R5, R5, R5 | Eliminated RAW hazard on R5 using operand forwards, instruction 1 to 3<br>Eliminated another RAW hazard on R5 using NOP stalls, instruction 1 to 3 <br>Eliminates RAW on R5 using NOP stalls, instruction 1 to 4<br>Potiential WAW on R5 Instruction 1 to Instruction 4<br>Potiential WAR on R5 on Instruction 3 to 4 |
 
 ## Part 4
 
@@ -181,31 +167,29 @@ A directly mapped cache will have the highest number of conflict misses. It can 
 
 ## Part 7
 
-##### TODO
-
 ### 7.i
 
-Scoreboarding prevents WAW WAR hazards
-- Insert pipeline stalls on name dependence
+Tomasulo's algorithm uses register renaming, using reservation stations, to prevent an earlier register from overwriting the value of a later register. This removes the potential of name dependence on a register and therefore eliminates the possibility of WAR and WAW hazards. 
 
-Tomasulo – prevent early register write from overwriting value of later register, enforcing name dependence
-
+Scoreboarding is where there is a central location about all active instructions. We can use this table to avoid WAR and WAW hazards that may occur due to name dependence. When we encounter a name dependence, we must stall and wait for the hazard to clear.
 
 ### 7.ii
 
-3 ADD/SUB - 2 cycles
-3 LOAD - 2 cycles
-2 MULT/DIV - MULT 10, DIV 40
+| #   | Instruction        | Issue | Src_Op1              | Src_Op2                   | EX  | WB  | Commit |
+| --- | ------------------ | ----- | -------------------- | ------------------------- | --- | --- | ------ |
+| 1   | L.D F0, 24(R1)     | 1     | IMM                  | RF                        | 2   | 4   | 5      |
+| 2   | L.D F4, 24(R2)     | 2     | IMM                  | RF                        | 3   | 5   | 6      |
+| 3   | MULT.D F2, F4, F10 | 3     | CDB                  | RF                        | 6   | 16  | 17     |
+| 4   | SUB.D F6, F0, F4   | 4     | ROB/CDB (same cycle) | CDB                       | 5   | 7   | 18     |
+| 5   | DIV.D F8, F2, F0   | 5     | CDB                  | ROB                       | 17  | 57  | 58     |
+| 6   | ADD.D F0, F6, F4   | 6     | CDB                  | ROB/RF (commited cycle 6) | 8   | 10  | 59     |
 
-| #   | Instruction        | Issue | Src_Op1 | Src_Op2 | EX  | WB  | Commit |
-| --- | ------------------ | ----- | ------- | ------- | --- | --- | ------ |
-| 1   | L.D F0, 24(R1)     | 1     | RF      | RF      | 2   | 4   | 5      |
-| 2   | L.D F4, 24 (R2)    | 2     | RF      | RF      | 3   | 5   | 6      |
-| 3   | MULT.D F2, F4, F10 | 3     | CDB     | RF      | 6   | 16  | 17     |
-| 4   | SUB.D F6, F0, F4   | 4     | CDB/RF  | CDB        |     |     |        |
-| 5   | F8, F2, F0         |       |         |         |     |     |        |
-| 6   | ADD.D F0, F6, F4   |       |         |         |     |     |        |
+**(a)** Writes back at cycle 5, commits at 6
+**(b)** Writes back at cycle 16, commits at 17
+**(c)** Writes back at cycle 10, commits at 59
 
 ### 7.iii
 
-Holds instructions instructions between completions and commit
+The reorder buffer is used in the Tomasulo algorithm and allows for out-of-order execution, while being committed in the in-order, ensuring correctness. It does this by holding instructions between their completion and commit in the re-order buffer, only committing the instruction after the previous instruction has been committed. Subsequent instructions can query the re-order buffer for uncommitted data to continue the speculative execution.
+
+The re-order buffer also enables branch predictions. Until the branch direction is clear, subsequent instructions are added to the re-order buffer but not committed. If the branch is correct, we commit the changes, else flush the re-order buffer back to the branch instruction.
