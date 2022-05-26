@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Year 2/Term 2/INT2/Perceptron.md",
+            "file": "Year 2/Term 2/INT2/Regression.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "branch",
+                "query": "error",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -87,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Year 2/Term 2/INT2/Perceptron.md"
+                "file": "Year 2/Term 2/INT2/Regression.md"
               }
             }
           },
@@ -97,7 +97,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Year 2/Term 2/INT2/Perceptron.md",
+                "file": "Year 2/Term 2/INT2/Regression.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Year 2/Term 2/INT2/Perceptron.md",
+                "file": "Year 2/Term 2/INT2/Regression.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,15 +137,15 @@
   },
   "active": "7f09b89faef48547",
   "lastOpenFiles": [
+    "Year 2/Term 2/INT2/Regression.md",
+    "Year 2/Term 1/DAT2/Supervised Learning.md",
+    "Year 2/Term 2/INT2/Supervised Learning.md",
+    "Year 2/Term 1/INT1/Gradient Descent.md",
     "Year 2/Term 2/INT2/Perceptron.md",
     "Year 2/Term 2/SYS3/Exam/SYS3 Exam.md",
     "Year 2/Term 2/SYS3/Control Hazards.md",
     "Year 2/Term 2/SYS3/Principles of Computer Design.md",
     "Year 2/Term 2/SYS3/Cache Optimization.md",
-    "Year 2/Term 2/SYS3/Cache Memory.md",
-    "Year 2/Term 2/SYS3/Page Replacement.md",
-    "Year 2/Term 2/SYS3/Compiler Techniques.md",
-    "Year 2/Term 2/SYS3/Pipeline Hazards.md",
-    "Year 2/Term 1/THE3/Chomsky hierarchy.md"
+    "Year 2/Term 2/SYS3/Cache Memory.md"
   ]
 }
