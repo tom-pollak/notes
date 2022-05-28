@@ -1,12 +1,40 @@
 {
   "recentFiles": [
     {
-      "basename": "Regression",
-      "path": "Year 2/Term 2/INT2/Regression.md"
+      "basename": "Perceptron",
+      "path": "Year 2/Term 2/INT2/Perceptron.md"
+    },
+    {
+      "basename": "Optimisation",
+      "path": "Year 2/Term 2/INT2/Optimisation.md"
+    },
+    {
+      "basename": "Feature Representation",
+      "path": "Year 2/Term 2/INT2/Feature Representation.md"
     },
     {
       "basename": "Neural Networks",
       "path": "Year 2/Term 2/INT2/Neural Networks.md"
+    },
+    {
+      "basename": "Supervised Learning",
+      "path": "Year 2/Term 2/INT2/Supervised Learning.md"
+    },
+    {
+      "basename": "Gradient Descent in Multiple Dimensions",
+      "path": "Year 2/Term 2/INT2/Gradient Descent in Multiple Dimensions.md"
+    },
+    {
+      "basename": "Stochastic-gradient-descent",
+      "path": "Year 2/Term 2/INT2/Stochastic-gradient-descent.png"
+    },
+    {
+      "basename": "Regression",
+      "path": "Year 2/Term 2/INT2/Regression.md"
+    },
+    {
+      "basename": "margin",
+      "path": "Year 2/Term 2/INT2/margin.png"
     },
     {
       "basename": "First-Order Logic",
@@ -17,28 +45,8 @@
       "path": "Year 2/Term 1/INT1/Gradient Descent.md"
     },
     {
-      "basename": "Gradient Descent in Multiple Dimensions",
-      "path": "Year 2/Term 2/INT2/Gradient Descent in Multiple Dimensions.md"
-    },
-    {
-      "basename": "Feature Representation",
-      "path": "Year 2/Term 2/INT2/Feature Representation.md"
-    },
-    {
-      "basename": "Optimisation",
-      "path": "Year 2/Term 2/INT2/Optimisation.md"
-    },
-    {
-      "basename": "Supervised Learning",
-      "path": "Year 2/Term 2/INT2/Supervised Learning.md"
-    },
-    {
       "basename": "Supervised Learning",
       "path": "Year 2/Term 1/DAT2/Supervised Learning.md"
-    },
-    {
-      "basename": "Perceptron",
-      "path": "Year 2/Term 2/INT2/Perceptron.md"
     },
     {
       "basename": "SYS3 Exam",
