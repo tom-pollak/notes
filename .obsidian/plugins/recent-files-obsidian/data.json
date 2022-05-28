@@ -5,16 +5,28 @@
       "path": "Year 2/Term 2/INT2/Regression.md"
     },
     {
+      "basename": "Gradient Descent in Multiple Dimensions",
+      "path": "Year 2/Term 2/INT2/Gradient Descent in Multiple Dimensions.md"
+    },
+    {
+      "basename": "Neural Networks",
+      "path": "Year 2/Term 2/INT2/Neural Networks.md"
+    },
+    {
       "basename": "Feature Representation",
       "path": "Year 2/Term 2/INT2/Feature Representation.md"
     },
     {
-      "basename": "Supervised Learning",
-      "path": "Year 2/Term 1/DAT2/Supervised Learning.md"
+      "basename": "Optimisation",
+      "path": "Year 2/Term 2/INT2/Optimisation.md"
     },
     {
       "basename": "Supervised Learning",
       "path": "Year 2/Term 2/INT2/Supervised Learning.md"
+    },
+    {
+      "basename": "Supervised Learning",
+      "path": "Year 2/Term 1/DAT2/Supervised Learning.md"
     },
     {
       "basename": "Gradient Descent",
