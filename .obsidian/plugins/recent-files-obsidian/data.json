@@ -1,5 +1,22 @@
 {
-  "recentFiles": [],
+  "recentFiles": [
+    {
+      "basename": "Regression",
+      "path": "Term 2/INT2/Regression.md"
+    },
+    {
+      "basename": "Perceptron",
+      "path": "Term 2/INT2/Perceptron.md"
+    },
+    {
+      "basename": "backpropagation",
+      "path": "Term 2/INT2/backpropagation.png"
+    },
+    {
+      "basename": "Feature Representation",
+      "path": "Term 2/INT2/Feature Representation.md"
+    }
+  ],
   "omittedPaths": [],
   "maxLength": null
 }

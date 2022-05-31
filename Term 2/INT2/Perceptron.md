@@ -12,7 +12,6 @@ date updated: 2022-02-07 12:58
 
 ## Perceptron through origin
 
-> (Then write in haskell) :laughing:
 
 ```pseudocode
 func perceptron(D, T)
@@ -39,7 +38,7 @@ func perceptron(D, T)
   - $x_j$ is a $d$-dimensional vector
     - $x_j = [x_1, \ldots, x_d ]$
 - We show values of features as
-  - $x_{j, i}$: is value of $i$-th _feature_ of $j$-th training _input vector_ 
+- $x_{j, i}$: is value of $i$-th _feature_ of $j$-th training _input vector_ 
   - $x_{j, 0} = 1$
 - Weights
   - $\theta_i$ is the $i$-th value in the **weight vector**, to be multiplied with the $i$-th feature of the input feature

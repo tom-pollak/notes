@@ -7,8 +7,12 @@
         "id": "78b958a0664edc64",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Term 2/INT2/Regression.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -36,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "margin",
+                "query": "ordinary",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,11 +65,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 332
+    "width": 332,
+    "collapsed": true
   },
   "right": {
     "id": "956d08eff0b9ff22",
@@ -80,7 +86,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Term 2/INT2/Regression.md"
+              }
             }
           },
           {
@@ -89,6 +97,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Term 2/INT2/Regression.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,6 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Term 2/INT2/Regression.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,15 +137,15 @@
   },
   "active": "78b958a0664edc64",
   "lastOpenFiles": [
+    "Term 2/INT2/Regression.md",
+    "Term 2/INT2/Perceptron.md",
+    "Term 2/INT2/backpropagation.png",
+    "Term 2/INT2/Feature Representation.md",
     "Year 2/Term 2/INT2/Perceptron.md",
     "Year 2/Term 2/INT2/Optimisation.md",
     "Year 2/Term 2/INT2/Feature Representation.md",
     "Year 2/Term 2/INT2/Neural Networks.md",
     "Year 2/Term 2/INT2/Supervised Learning.md",
-    "Year 2/Term 2/INT2/Gradient Descent in Multiple Dimensions.md",
-    "Year 2/Term 2/INT2/Stochastic-gradient-descent.png",
-    "Year 2/Term 2/INT2/Regression.md",
-    "Year 2/Term 2/INT2/margin.png",
-    "Year 2/Term 1/INT1/First-Order Logic.md"
+    "Year 2/Term 2/INT2/Gradient Descent in Multiple Dimensions.md"
   ]
 }
