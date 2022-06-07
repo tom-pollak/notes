@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "78b958a0664edc64",
+        "id": "a6dab388466bc5af",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Term 2/INT2/Regression.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -86,9 +82,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Term 2/INT2/Regression.md"
-              }
+              "state": {}
             }
           },
           {
@@ -97,7 +91,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Term 2/INT2/Regression.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +110,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Term 2/INT2/Regression.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +127,7 @@
     "width": 100,
     "collapsed": true
   },
-  "active": "78b958a0664edc64",
+  "active": "a6dab388466bc5af",
   "lastOpenFiles": [
     "Term 2/INT2/Regression.md",
     "Term 2/INT2/Perceptron.md",
